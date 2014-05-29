@@ -1,0 +1,16 @@
+{
+  "name": "hexo-site",
+  "version": "2.6.0",
+  "private": true,
+  "dependencies": {
+    "hexo-generator-feed": "^0.1.1",
+    "hexo-generator-minify": "^0.1.0",
+    "hexo-generator-sitemap": "^0.1.3",
+    "hexo-math": "^1.0.3",
+    "hexo-qiniu-sync": "0.0.1",
+    "hexo-renderer-ejs": "*",
+    "hexo-renderer-marked": "*",
+    "hexo-renderer-stylus": "*",
+    "hexo-tag-flickr": "^0.1.1"
+  }
+}
