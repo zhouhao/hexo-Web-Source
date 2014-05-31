@@ -108,4 +108,4 @@ deploy:
   type: github
   repo: https://github.com/zhouhao/zhouhao.github.io.git
   branch: master
-  message: Syc blog from my own server
+  message: Sync blog from my own server
