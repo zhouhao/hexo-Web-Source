@@ -1,0 +1,49 @@
+menu:
+  Home: /
+  Archives: /archives
+
+widgets:
+- search
+- about_me
+- category
+- tag
+- recent_posts
+- link
+
+excerpt_link: Read More
+
+twitter:
+  username: sbzhouhao
+  show_replies: false
+  tweet_count: 5
+
+addthis:
+  enable: true
+  pubid: ra-5381610928f9a751
+  facebook: true
+  twitter: true
+  google: true
+  pinterest: true
+
+fancybox: true
+
+google_analytics: UA-39886095-1
+rss:
+
+comment_provider: disqus
+# Facebook comment
+facebook:
+  appid: 737433472988132
+  comment_count: 5
+  comment_width: 840
+  comment_colorscheme: light
+
+links:
+- name: CrazyEgg's Blog
+  link: http://sbzhouhao.net
+
+about_me:
+  title: About Hao Zhou
+  avatar: royhzhou@gmail.com
+  texts:
+  - Weibo：<a href="http://weibo.com/sbzhouhao" target="_blank">@疯狂de咸蛋</a>
