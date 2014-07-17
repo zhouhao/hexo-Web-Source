@@ -87,13 +87,9 @@ plugins:
   - hexo-tag-flickr
   - hexo-math
   - hexo-generator-robotstxt
-#  - hexo-qiniu-sync
+
 # Flickr API key
 flickr_api_key: bed44a7a354536725e3299b4b32108bb
-
-#hexo-qiniu-sync plugin config
-#qiniu:
-#  bucket: zhouhao
 
 sitemap:
     path: sitemap.xml
