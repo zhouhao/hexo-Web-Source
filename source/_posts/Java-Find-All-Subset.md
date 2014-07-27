@@ -1,7 +1,7 @@
 title: "Java: Find All Subset"
 date: 2014-07-20 13:06:25
 tags:
- - programming
+ - Programming
  - DFS
 ---
 Get all the subsets of a list, for example, the subsets for [1,2,3] are:
