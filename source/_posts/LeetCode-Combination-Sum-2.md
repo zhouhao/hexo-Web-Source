@@ -22,7 +22,7 @@ Each number in C may only be used once in the combination.
  	[1, 1, 6]
 ```
 
-###The logic is almost the same as [combination sum 1](LeetCode-Combination-Sum-1/):
+###The logic is almost the same as [combination sum 1](../LeetCode-Combination-Sum-1/):
 ```
 1. Do not count the same number
 2. Convert List to linkedHashSet to remove duplicated element, then return as list again
