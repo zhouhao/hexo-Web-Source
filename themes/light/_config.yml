@@ -9,6 +9,7 @@ widgets:
 - tag
 - recent_posts
 - link
+- donate
 
 excerpt_link: Read More
 
@@ -43,6 +44,12 @@ links:
   link: http://sbzhouhao.net
 - name: WPILIFE (WPI CSSA)
   link: http://wpilife.org
+- name: iOS emulator
+  link: http://ios-emulator.hzhou.me
+
+donate:
+  title: Buy Me A Coffee
+  paypal_merchant_ID: G7W4WVY32HXYS
 
 about_me:
   title: About Me

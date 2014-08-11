@@ -1,0 +1,15 @@
+<% if (theme.donate){ %>
+<div class="widget donate">
+  <h3 class="title"><%= theme.donate.title || __('donate') %> </h3> 
+  <ul class="entry">
+  	<li>
+	  <script async src="/js/paypal-button.min.js?merchant=<%= theme.donate.paypal_merchant_ID %>"
+	    data-button="donate"
+	    data-type="form"
+	    data-name="My donation"
+	    data-amount="1.00"
+	></script>
+	</li>
+  </ul>		
+</div>
+<% } %>
