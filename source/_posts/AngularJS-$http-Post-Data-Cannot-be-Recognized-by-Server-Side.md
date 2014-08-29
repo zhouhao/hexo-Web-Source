@@ -26,7 +26,13 @@ My server side can never recognize the parameters.
 ```
 // These line are from the link above directly, thanks for zeke(author) contribution
 
-The difference is in how jQuery and AngularJS serialize and transmit the data. Fundamentally, the problem lies with your server language of choice being unable to understand AngularJS’s transmission natively—that’s a darn shame because AngularJS is certainly not doing anything wrong. By default, jQuery transmits data using Content-Type: x-www-form-urlencoded and the familiar foo=bar&baz=moe serialization. AngularJS, however, transmits data using Content-Type: application/json and { "foo": "bar", "baz": "moe" } JSON serialization, which unfortunately some Web server languages—notably PHP—do not unserialize natively.
+The difference is in how jQuery and AngularJS serialize and transmit the data. Fundamentally, 
+the problem lies with your server language of choice being unable to understand AngularJS’s 
+transmission natively—that’s a darn shame because AngularJS is certainly not doing anything wrong. 
+By default, jQuery transmits data using Content-Type: x-www-form-urlencoded and the familiar 
+foo=bar&baz=moe serialization. AngularJS, however, transmits data using Content-Type: application/json 
+and { "foo": "bar", "baz": "moe" } JSON serialization, which unfortunately some Web server 
+languages—notably PHP—do not unserialize natively.
 ```
 
 <h3>Solution: Just initialize you App as below:</h3> 
