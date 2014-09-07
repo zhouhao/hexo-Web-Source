@@ -1,6 +1,7 @@
 menu:
   Home: /
   Archives: /archives
+  Work Samples: /work-samples.html
 
 widgets:
 - search
