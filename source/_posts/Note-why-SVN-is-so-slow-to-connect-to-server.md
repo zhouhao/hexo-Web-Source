@@ -1,4 +1,4 @@
-title: "Note: why SVN is so slow to connection to server"
+title: "Note: why SVN is so slow to connect to server"
 date: 2014-12-05 17:33:24
 tags:
  - SVN
