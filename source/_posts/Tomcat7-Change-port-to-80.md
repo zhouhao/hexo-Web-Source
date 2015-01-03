@@ -1,7 +1,7 @@
 title: 'Tomcat7: Change Port to 80'
 date: 2014-07-14 21:27:08
 tags:
-  - Tomcat7
+  - Tomcat 7
   - Ubuntu
 ---
 I have many servers, which run Java Web applications. For development, I like Jetty, but for production, I prefer Tomcat7 now.
