@@ -32,7 +32,7 @@ remotes {
 
 task showPlatformVersion << {
     ssh.run {
-        session(remotes.localhost) {
+        session(remotes.codeashobby) {
             execute('uname -a')
             execute('cat /etc/*-release || true')
         }
