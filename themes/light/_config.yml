@@ -1,7 +1,6 @@
 menu:
   Home: /
   Archives: /archives
-  Work Samples: /work-samples.html
 
 widgets:
 - search
@@ -45,8 +44,6 @@ links:
   link: http://sbzhouhao.net
 - name: WPILIFE (WPI CSSA)
   link: http://wpilife.org
-- name: iOS emulator
-  link: http://ios-emulator.hzhou.me
 
 donate:
   title: Buy Me A Coffee
