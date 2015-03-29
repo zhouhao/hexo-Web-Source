@@ -9,7 +9,7 @@ widgets:
 - tag
 - recent_posts
 - link
-- donate
+#- donate
 
 excerpt_link: Read More
 

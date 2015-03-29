@@ -102,7 +102,7 @@ feed:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
-  repo: https://github.com/zhouhao/zhouhao.github.io.git
-  branch: master
-  message: Sync blog from my own server
+  type: git
+  message: Sync blog from my local machine
+  repo: 
+    github: https://github.com/zhouhao/zhouhao.github.io.git
