@@ -9,9 +9,8 @@ widgets:
 - tag
 - recent_posts
 - link
-#- donate
 
-excerpt_link: Read More
+excerpt_link: "Read More"
 
 twitter:
   username: sbzhouhao
@@ -40,9 +39,9 @@ facebook:
   comment_colorscheme: light
 
 links:
-- name: CrazyEgg's Blog
+- name: "CrazyEgg's Blog"
   link: http://sbzhouhao.net
-- name: WPILIFE (WPI CSSA)
+- name: "WPILIFE (WPI CSSA)"
   link: http://wpilife.org
 
 donate:
@@ -50,7 +49,7 @@ donate:
   paypal_merchant_ID: G7W4WVY32HXYS
 
 about_me:
-  title: About Me
+  title: "About Me"
   avatar: royhzhou@gmail.com
   texts:
   - GitHub：<a href="https://github.com/zhouhao" target="_blank">zhouhao</a>

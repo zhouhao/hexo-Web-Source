@@ -4,9 +4,9 @@
 
 # Site
 title: CrazyEgg
-subtitle: Laugh, you should try. Cry, you should try!
-description: 
-author: Hao Zhou
+subtitle: "Laugh, you should try. Cry, you should try!"
+description: "Enjoy life, enjoy codeing"
+author: "Hao Zhou"
 email: royhzhou@gmail.com
 language: en
 
@@ -42,8 +42,8 @@ highlight:
 
 # Category & Tag
 default_category: uncategorized
-category_map:
-tag_map:
+#category_map:
+#tag_map:
 
 # Archives
 ## 2: Enable pagination
@@ -60,13 +60,13 @@ tag: 2
 port: 4000
 server_ip: 0.0.0.0
 logger: false
-logger_format:
+#logger_format:
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: MMM D YYYY
+date_format: "MMM D YYYY"
 time_format: H:mm:ss
 
 # Pagination
@@ -81,7 +81,7 @@ disqus_shortname: zhouhao
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
 theme: light
-exclude_generator:
+#exclude_generator: 
 
 plugins:
   - hexo-tag-flickr
@@ -103,6 +103,6 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  message: Sync blog from my local machine
+  message: "Sync blog from my local machine"
   repo: 
     github: https://github.com/zhouhao/zhouhao.github.io.git
