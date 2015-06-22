@@ -5,6 +5,7 @@ menu:
 widgets:
 - search
 - about_me
+- adsense
 - category
 - tag
 - recent_posts
@@ -39,8 +40,8 @@ facebook:
   comment_colorscheme: light
 
 links:
-- name: "CrazyEgg's Blog"
-  link: http://sbzhouhao.net
+- name: "MIT-CHIEF"
+  link: http://mitchief.org
 - name: "WPILIFE (WPI CSSA)"
   link: http://wpilife.org
 
