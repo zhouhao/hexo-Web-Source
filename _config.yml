@@ -5,7 +5,7 @@
 # Site
 title: CrazyEgg
 subtitle: "Laugh, you should try. Cry, you should try!"
-description: "Enjoy life, enjoy codeing"
+description: "Enjoy life, enjoy coding"
 author: "Hao Zhou"
 email: royhzhou@gmail.com
 language: en
@@ -98,6 +98,16 @@ feed:
     type: atom
     path: atom.xml
     limit: 20
+
+
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: true
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

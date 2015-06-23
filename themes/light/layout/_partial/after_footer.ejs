@@ -1,6 +1,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="<%- config.root %>js/jquery.imagesloaded.min.js"></script>
 <script src="<%- config.root %>js/gallery.js"></script>
+<script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
 
 <% if (config.disqus_shortname){ %>
 <script type="text/javascript">
@@ -22,6 +23,7 @@ var disqus_shortname = '<%= config.disqus_shortname %>';
 <script type="text/javascript">
 (function($){
   $('.fancybox').fancybox();
+  $('.datatable').DataTable();
 })(jQuery);
 </script>
 <% } %>
