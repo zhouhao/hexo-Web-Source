@@ -85,19 +85,17 @@ theme: light
 
 plugins:
   - hexo-tag-flickr
-  - hexo-math
-  - hexo-generator-robotstxt
 
 # Flickr API key
 flickr_api_key: bed44a7a354536725e3299b4b32108bb
 
 sitemap:
-    path: sitemap.xml
+  path: sitemap.xml
 
 feed:
-    type: atom
-    path: atom.xml
-    limit: 20
+  type: atom
+  path: atom.xml
+  limit: 20
 
 
 marked:
