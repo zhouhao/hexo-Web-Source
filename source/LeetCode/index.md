@@ -20,22 +20,23 @@ date: 2015-06-23 09:41:14
 		<tr><td>221</td><td>[Maximal Square](LeetCode-Maximal-Square.html)</td><td>Medium</td></tr>
 		<tr><td>220</td><td>[Contains Duplicate III](LeetCode-Contains-Duplicate-III.html)</td><td>Medium</td></tr>
 		<tr><td>219</td><td>[Contains Duplicate II](LeetCode-Contains-Duplicate-II.html)</td><td>Easy</td></tr>
-		<tr><td>218</td><td>[The Skyline Problem](#)</td><td>Hard</td></tr>
+		<tr><td>218</td><td>[The Skyline Problem](LeetCode-The-Skyline-Problem.html)</td><td>Hard</td></tr>
 		<tr><td>217</td><td>[Contains Duplicate](LeetCode-Contains-Duplicate.html)</td><td>Easy</td></tr>
-		<tr><td>216</td><td>[Combination Sum III](#)</td><td>Medium</td></tr>
-		<tr><td>215</td><td>[Kth Largest Element in an Array](#)</td><td>Medium</td></tr>
-		<tr><td>214</td><td>[Shortest Palindrome](#)</td><td>Hard</td></tr>
-		<tr><td>213</td><td>[House Robber II](#)</td><td>Medium</td></tr>
-		<tr><td>212</td><td>[Word Search II](#)</td><td>Hard</td></tr>
-		<tr><td>211</td><td>[Add and Search Word - Data structure design](#)</td><td>Medium</td></tr>
-		<tr><td>210</td><td>[Course Schedule II](#)</td><td>Medium</td></tr>
-		<tr><td>209</td><td>[Minimum Size Subarray Sum](#)</td><td>Medium</td></tr>
-		<tr><td>208</td><td>[Implement Trie (Prefix Tree)](#)</td><td>Medium</td></tr>
-		<tr><td>207</td><td>[Course Schedule](#)</td><td>Medium</td></tr>
-		<tr><td>206</td><td>[Reverse Linked List](#)</td><td>Easy</td></tr>
-		<tr><td>205</td><td>[Isomorphic Strings](#)</td><td>Easy</td></tr>
-		<tr><td>204</td><td>[Count Primes](#)</td><td>Easy</td></tr>
-		<tr><td>203</td><td>[Remove Linked List Elements](#)</td><td>Easy</td></tr>
+		<tr><td>216</td><td>[Combination Sum III](LeetCode-Combination-Sum-III.html)</td><td>Medium</td></tr>
+		<tr><td>215</td><td>[Kth Largest Element in an Array](LeetCode-Kth-Largest-Element-in-an-Array.html)</td><td>Medium</td></tr>
+		<tr><td>214</td><td>[Shortest Palindrome](LeetCode-Shortest-Palindrome.html)</td><td>Hard</td></tr>
+		<tr><td>213</td><td>[House Robber II](LeetCode-House-Robber-II.html)</td><td>Medium</td></tr>
+		<tr><td>212</td><td>[Word Search II](LeetCode-Word-Search-II.html)</td><td>Hard</td></tr>
+		<tr><td>211</td><td>[Add and Search Word - Data structure design](LeetCode-Add-and-Search-Word-Data-structure-design.html)</td><td>Medium</td></tr>
+		<tr><td>210</td><td>[Course Schedule II](LeetCode-Course-Schedule-II.html)</td><td>Medium</td></tr>
+		<tr><td>209</td><td>[Minimum Size Subarray Sum](LeetCode-Minimum-Size-Subarray-Sum.html)</td><td>Medium</td></tr>
+		<tr><td>208</td><td>[Implement Trie (Prefix Tree)](LeetCode-Implement-Trie-Prefix-Tree.html)</td><td>Medium</td></tr>
+		<tr><td>207</td><td>[Course Schedule](LeetCode-Course-Schedule.html)</td><td>Medium</td></tr>
+		<tr><td>206</td><td>[Reverse Linked List](LeetCode-Reverse-Linked-List.html)</td><td>Easy</td></tr>
+		<tr><td>205</td><td>[Isomorphic Strings](LeetCode-Isomorphic-Strings.html)</td><td>Easy</td></tr>
+		<tr><td>204</td><td>[Count Primes](LeetCode-Count-Primes.html)</td><td>Easy</td></tr>
+		<tr><td>203</td><td>[Remove Linked List Elements](LeetCode-Remove-Linked-List-Elements.html)</td><td>Easy</td></tr>
+		<!--
 		<tr><td>202</td><td>[Happy Number](#)</td><td>Easy</td></tr>
 		<tr><td>201</td><td>[Bitwise AND of Numbers Range](#)</td><td>Medium</td></tr>
 		<tr><td>200</td><td>[Number of Islands](#)</td><td>Medium</td></tr>
@@ -137,8 +138,10 @@ date: 2015-06-23 09:41:14
 		<tr><td>88</td><td>[Merge Sorted Array](#)</td><td>Easy</td></tr>
 		<tr><td>87</td><td>[Scramble String](#)</td><td>Hard</td></tr>
 		<tr><td>86</td><td>[Partition List](#)</td><td>Medium</td></tr>
+		-->
 		<tr><td>85</td><td>[Maximal Rectangle](LeetCode-Maximal-Rectangle.html)</td><td>Hard</td></tr>
 		<tr><td>84</td><td>[Largest Rectangle in Histogram](LeetCode-Largest-Rectangle-in-Histogram.html)</td><td>Hard</td></tr>
+		<!--
 		<tr><td>83</td><td>[Remove Duplicates from Sorted List](#)</td><td>Easy</td></tr>
 		<tr><td>82</td><td>[Remove Duplicates from Sorted List II](#)</td><td>Medium</td></tr>
 		<tr><td>81</td><td>[Search in Rotated Sorted Array II](#)</td><td>Medium</td></tr>
@@ -182,8 +185,10 @@ date: 2015-06-23 09:41:14
 		<tr><td>43</td><td>[Multiply Strings](#)</td><td>Medium</td></tr>
 		<tr><td>42</td><td>[Trapping Rain Water](#)</td><td>Hard</td></tr>
 		<tr><td>41</td><td>[First Missing Positive](#)</td><td>Hard</td></tr>
-		<tr><td>40</td><td>[Combination Sum II](#)</td><td>Medium</td></tr>
-		<tr><td>39</td><td>[Combination Sum](#)</td><td>Medium</td></tr>
+		-->
+		<tr><td>40</td><td>[Combination Sum II](LeetCode-Combination-Sum-2.html)</td><td>Medium</td></tr>
+		<tr><td>39</td><td>[Combination Sum](LeetCode-Combination-Sum-1.html)</td><td>Medium</td></tr>
+		<!--
 		<tr><td>38</td><td>[Count and Say](#)</td><td>Easy</td></tr>
 		<tr><td>37</td><td>[Sudoku Solver](#)</td><td>Hard</td></tr>
 		<tr><td>36</td><td>[Valid Sudoku](#)</td><td>Easy</td></tr>
@@ -222,5 +227,6 @@ date: 2015-06-23 09:41:14
 		<tr><td>3</td><td>[Longest Substring Without Repeating Characters](#)</td><td>Medium</td></tr>
 		<tr><td>2</td><td>[Add Two Numbers](#)</td><td>Medium</td></tr>
 		<tr><td>1</td><td>[Two Sum](#)</td><td>Medium</td></tr>
+		-->
     </tbody>
 </table>
