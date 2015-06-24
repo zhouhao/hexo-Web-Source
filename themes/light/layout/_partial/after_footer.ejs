@@ -23,7 +23,11 @@ var disqus_shortname = '<%= config.disqus_shortname %>';
 <script type="text/javascript">
 (function($){
   $('.fancybox').fancybox();
-  $('.datatable').DataTable();
+  $('.datatable').dataTable( {
+  		"order": [[ 0, "desc" ]],
+  		"iDisplayLength": 25,
+        "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]]
+    } );
 })(jQuery);
 </script>
 <% } %>
