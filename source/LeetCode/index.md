@@ -1,4 +1,4 @@
-title: "LeetCode"
+title: "LeetCode Answers"
 date: 2015-06-23 09:41:14
 ---
 <hr/>
@@ -52,10 +52,10 @@ date: 2015-06-23 09:41:14
 		<tr><td>173</td><td>[Binary Search Tree Iterator](LeetCode-BST-Iterator.html)</td><td>Medium</td></tr>
 		<tr><td>172</td><td>[Factorial Trailing Zeroes](LeetCode-Factorial-Trailing-Zeroes.html)</td><td>Easy</td></tr>
 		<tr><td>171</td><td>[Excel Sheet Column Number](LeetCode-Excel-Sheet-Column-Number.html)</td><td>Easy</td></tr>
-		<!-- tr><td>170</td><td>[Two Sum III - Data structure design](#)</td><td>Easy</td></tr -->
+		<tr><td>170</td><td>[Two Sum III - Data structure design](LeetCode-Two-Sum-III---Data-structure-design.html)</td><td>Easy</td></tr>
 		<tr><td>169</td><td>[Majority Element](LeetCode-Majority-Element.html)</td><td>Easy</td></tr>
 		<tr><td>168</td><td>[Excel Sheet Column Title](LeetCode-Excel-Sheet-Column-Title.html)</td><td>Easy</td></tr>
-		<!-- tr><td>167</td><td>[Two Sum II - Input array is sorted](#)</td><td>Medium</td></tr -->
+		<tr><td>167</td><td>[Two Sum II - Input array is sorted](LeetCode-Two-Sum-II---Input-array-is-sorted.html)</td><td>Medium</td></tr>
 		<tr><td>166</td><td>[Fraction to Recurring Decimal](LeetCode-Fraction-to-Recurring-Decimal.html)</td><td>Medium</td></tr>
 		<tr><td>165</td><td>[Compare Version Numbers](LeetCode-Compare-Version-Numbers.html)</td><td>Easy</td></tr>
 		<tr><td>164</td><td>[Maximum Gap](LeetCode-Maximum-Gap.html)</td><td>Hard</td></tr>
@@ -64,10 +64,8 @@ date: 2015-06-23 09:41:14
 		<tr><td>161</td><td>[One Edit Distance](LeetCode-One-Edit-Distance.html)</td><td>Medium</td></tr>
 		<tr><td>160</td><td>[Intersection of Two Linked Lists](LeetCode-Intersection-of-Two-Linked-Lists.html)</td><td>Easy</td></tr>
 		<tr><td>159</td><td>[Longest Substring with At Most Two Distinct Characters](LeetCode-Longest-Substring-with-At-Most-Two-Distinct-Characters.html)</td><td>Hard</td></tr>
-		<!--
-		<tr><td>158</td><td>[Read N Characters Given Read4 II - Call multiple times](#)</td><td>Hard</td></tr>
-		<tr><td>157</td><td>[Read N Characters Given Read4](#)</td><td>Easy</td></tr>
-		-->
+		<tr><td>158</td><td>[Read N Characters Given Read4 II - Call multiple times](LeetCode-Read-N-Characters-Given-Read4-II---Call-multiple-times.html)</td><td>Hard</td></tr>
+		<tr><td>157</td><td>[Read N Characters Given Read4](LeetCode-Read-N-Characters-Given-Read4.html)</td><td>Easy</td></tr>
 		<tr><td>156</td><td>[Binary Tree Upside Down](LeetCode-Binary-Tree-Upside-Down.html)</td><td>Medium</td></tr>
 		<tr><td>155</td><td>[Min Stack](LeetCode-Min-Stack.html)</td><td>Easy</td></tr>
 		<tr><td>154</td><td>[Find Minimum in Rotated Sorted Array II](LeetCode-Find-Minimum-in-Rotated-Sorted-Array-II.html)</td><td>Hard</td></tr>
@@ -105,10 +103,8 @@ date: 2015-06-23 09:41:14
 		<tr><td>122</td><td>[Best Time to Buy and Sell Stock II](LeetCode-Best-Time-to-Buy-and-Sell-Stock-II.html)</td><td>Medium</td></tr>
 		<tr><td>121</td><td>[Best Time to Buy and Sell Stock](LeetCode-Best-Time-to-Buy-and-Sell-Stock.html)</td><td>Medium</td></tr>
 		<tr><td>120</td><td>[Triangle](LeetCode-Triangle.html)</td><td>Medium</td></tr>
-		<!--
-		<tr><td>119</td><td>[Pascal's Triangle II](#)</td><td>Easy</td></tr>
-		<tr><td>118</td><td>[Pascal's Triangle](#)</td><td>Easy</td></tr>
-		-->
+		<tr><td>119</td><td>[Pascal's Triangle II](LeetCode-Pascals-Triangle-II.html)</td><td>Easy</td></tr>
+		<tr><td>118</td><td>[Pascal's Triangle](LeetCode-Pascals-Triangle.html)</td><td>Easy</td></tr>
 		<tr><td>117</td><td>[Populating Next Right Pointers in Each Node II](LeetCode-Populating-Next-Right-Pointers-in-Each-Node-II.html)</td><td>Hard</td></tr>
 		<tr><td>116</td><td>[Populating Next Right Pointers in Each Node](LeetCode-Populating-Next-Right-Pointers-in-Each-Node.html)</td><td>Medium</td></tr>
 		<tr><td>115</td><td>[Distinct Subsequences](LeetCode-Distinct-Subsequences.html)</td><td>Hard</td></tr>
@@ -117,10 +113,8 @@ date: 2015-06-23 09:41:14
 		<tr><td>112</td><td>[Path Sum](LeetCode-Path-Sum.html)</td><td>Easy</td></tr>
 		<tr><td>111</td><td>[Minimum Depth of Binary Tree](LeetCode-Minimum-Depth-of-Binary-Tree.html)</td><td>Easy</td></tr>
 		<tr><td>110</td><td>[Balanced Binary Tree](LeetCode-Balanced-Binary-Tree.html)</td><td>Easy</td></tr>
-		<!--
-		<tr><td>109</td><td>[Convert Sorted List to Binary Search Tree](#)</td><td>Medium</td></tr>
-		<tr><td>108</td><td>[Convert Sorted Array to Binary Search Tree](#)</td><td>Medium</td></tr>
-		-->
+		<tr><td>109</td><td>[Convert Sorted List to Binary Search Tree](LeetCode-Convert-Sorted-List-to-Binary-Search-Tree.html)</td><td>Medium</td></tr>
+		<tr><td>108</td><td>[Convert Sorted Array to Binary Search Tree](LeetCode-Convert-Sorted-Array-to-Binary-Search-Tree.html)</td><td>Medium</td></tr>
 		<tr><td>107</td><td>[Binary Tree Level Order Traversal II](LeetCode-Binary-Tree-Level-Order-Traversal-II.html)</td><td>Easy</td></tr>
 		<tr><td>106</td><td>[Construct Binary Tree from Inorder and Postorder Traversal](LeetCode-Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.html)</td><td>Medium</td></tr>
 		<tr><td>105</td><td>[Construct Binary Tree from Preorder and Inorder Traversal](LeetCode-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.html)</td><td>Medium</td></tr>
@@ -159,7 +153,7 @@ date: 2015-06-23 09:41:14
 		<tr><td>72</td><td>[Edit Distance](LeetCode-Edit-Distance.html)</td><td>Hard</td></tr>
 		<tr><td>71</td><td>[Simplify Path](LeetCode-Simplify-Path.html)</td><td>Medium</td></tr>
 		<tr><td>70</td><td>[Climbing Stairs](LeetCode-Climbing-Stairs.html)</td><td>Easy</td></tr>
-		<!-- tr><td>69</td><td>[Sqrt(x)](#)</td><td>Medium</td></tr -->
+		<tr><td>69</td><td>[Sqrt(x)](LeetCode-Sqrtx.html)</td><td>Medium</td></tr>
 		<tr><td>68</td><td>[Text Justification](LeetCode-Text-Justification.html)</td><td>Hard</td></tr>
 		<tr><td>67</td><td>[Add Binary](LeetCode-Add-Binary.html)</td><td>Easy</td></tr>
 		<tr><td>66</td><td>[Plus One](LeetCode-Plus-One.html)</td><td>Easy</td></tr>
@@ -169,18 +163,16 @@ date: 2015-06-23 09:41:14
 		<tr><td>62</td><td>[Unique Paths](LeetCode-Unique-Paths.html)</td><td>Medium</td></tr>
 		<tr><td>61</td><td>[Rotate List](LeetCode-Rotate-List.html)</td><td>Medium</td></tr>
 		<tr><td>60</td><td>[Permutation Sequence](LeetCode-Permutation-Sequence.html)</td><td>Medium</td></tr>
-		<tr><td>59</td><td>[Spiral Matrix II](#)</td><td>Medium</td></tr>
+		<tr><td>59</td><td>[Spiral Matrix II](LeetCode-Spiral-Matrix-II.html)</td><td>Medium</td></tr>
 		<tr><td>58</td><td>[Length of Last Word](LeetCode-Length-of-Last-Word.html)</td><td>Easy</td></tr>
 		<tr><td>57</td><td>[Insert Interval](LeetCode-Insert-Interval.html)</td><td>Hard</td></tr>
 		<tr><td>56</td><td>[Merge Intervals](LeetCode-Merge-Intervals.html)</td><td>Hard</td></tr>
 		<tr><td>55</td><td>[Jump Game](LeetCode-Jump-Game.html)</td><td>Medium</td></tr>
 		<tr><td>54</td><td>[Spiral Matrix](LeetCode-Spiral-Matrix.html)</td><td>Medium</td></tr>
 		<tr><td>53</td><td>[Maximum Subarray](LeetCode-Maximum-Subarray.html)</td><td>Medium</td></tr>
-		<!--
-		<tr><td>52</td><td>[N-Queens II](#)</td><td>Hard</td></tr>[
-		<tr><td>51</td><td>[N-Queens](#)</td><td>Hard</td></tr>
-		<tr><td>50</td><td>[Pow(x, n)](#)</td><td>Medium</td></tr>
-		-->
+		<tr><td>52</td><td>[N-Queens II](LeetCode-N-Queens-II.html)</td><td>Hard</td></tr>
+		<tr><td>51</td><td>[N-Queens](LeetCode-N-Queens.html)</td><td>Hard</td></tr>
+		<tr><td>50</td><td>[Pow(x, n)](LeetCode-Pow.html)</td><td>Medium</td></tr>
 		<tr><td>49</td><td>[Anagrams](LeetCode-Anagrams.html)</td><td>Medium</td></tr>
 		<tr><td>48</td><td>[Rotate Image](LeetCode-Rotate-Image.html)</td><td>Medium</td></tr>
 		<tr><td>47</td><td>[Permutations II](LeetCode-Permutations-II.html)</td><td>Hard</td></tr>
@@ -202,31 +194,27 @@ date: 2015-06-23 09:41:14
 		<tr><td>31</td><td>[Next Permutation](LeetCode-Next-Permutation.html)</td><td>Medium</td></tr>
 		<tr><td>30</td><td>[Substring with Concatenation of All Words](LeetCode-Substring-with-Concatenation-of-All-Words.html)</td><td>Hard</td></tr>
 		<tr><td>29</td><td>[Divide Two Integers](LeetCode-Divide-Two-Integers.html)</td><td>Medium</td></tr>
-		<!-- tr><td>28</td><td>[Implement strStr()](#)</td><td>Easy</td></tr -->
+		<tr><td>28</td><td>[Implement strStr()](LeetCode-Implement-strStr.html)</td><td>Easy</td></tr>
 		<tr><td>27</td><td>[Remove Element](LeetCode-Remove-Element.html)</td><td>Easy</td></tr>
 		<tr><td>26</td><td>[Remove Duplicates from Sorted Array](LeetCode-Remove-Duplicates-from-Sorted-Array.html)</td><td>Easy</td></tr>
-		<!-- tr><td>25</td><td>[Reverse Nodes in k-Group](#)</td><td>Hard</td></tr -->
+		<tr><td>25</td><td>[Reverse Nodes in k-Group](LeetCode-Reverse-Nodes-in-k-Group.html)</td><td>Hard</td></tr>
 		<tr><td>24</td><td>[Swap Nodes in Pairs](LeetCode-Swap-Nodes-in-Pairs.html)</td><td>Medium</td></tr>
 		<tr><td>23</td><td>[Merge k Sorted Lists](LeetCode-Merge-k-Sorted-Lists.html)</td><td>Hard</td></tr>
 		<tr><td>22</td><td>[Generate Parentheses](LeetCode-Generate-Parentheses.html)</td><td>Medium</td></tr>
 		<tr><td>21</td><td>[Merge Two Sorted Lists](LeetCode-Merge-Two-Sorted-Lists.html)</td><td>Easy</td></tr>
 		<tr><td>20</td><td>[Valid Parentheses](LeetCode-Valid-Parentheses.html)</td><td>Easy</td></tr>
 		<tr><td>19</td><td>[Remove Nth Node From End of List](LeetCode-Remove-Nth-Node-From-End-of-List.html)</td><td>Easy</td></tr>
-		<!-- tr><td>18</td><td>[4Sum](#)</td><td>Medium</td></tr -->
+		<tr><td>18</td><td>[4Sum](LeetCode-4Sum.html)</td><td>Medium</td></tr>
 		<tr><td>17</td><td>[Letter Combinations of a Phone Number](LeetCode-Letter-Combinations-of-a-Phone-Number.html)</td><td>Medium</td></tr>
-		<!--
-		<tr><td>16</td><td>[3Sum Closest](#)</td><td>Medium</td></tr>
-		<tr><td>15</td><td>[3Sum](#)</td><td>Medium</td></tr>
-		-->
+		<tr><td>16</td><td>[3Sum Closest](LeetCode-3Sum-Closest.html)</td><td>Medium</td></tr>
+		<tr><td>15</td><td>[3Sum](LeetCode-3Sum.html)</td><td>Medium</td></tr>
 		<tr><td>14</td><td>[Longest Common Prefix](LeetCode-Longest-Common-Prefix.html)</td><td>Easy</td></tr>
-		<!--
-		<tr><td>13</td><td>[Roman to Integer](#)</td><td>Easy</td></tr>
-		<tr><td>12</td><td>[Integer to Roman](#)</td><td>Medium</td></tr>
-		-->
+		<tr><td>13</td><td>[Roman to Integer](LeetCode-Roman-to-Integer.html)</td><td>Easy</td></tr>
+		<tr><td>12</td><td>[Integer to Roman](LeetCode-Integer-to-Roman.html)</td><td>Medium</td></tr>
 		<tr><td>11</td><td>[Container With Most Water](LeetCode-Container-With-Most-Water.html)</td><td>Medium</td></tr>
 		<tr><td>10</td><td>[Regular Expression Matching](LeetCode-Regular-Expression-Matching.html)</td><td>Hard</td></tr>
 		<tr><td>9</td><td>[Palindrome Number](LeetCode-Palindrome-Number.html)</td><td>Easy</td></tr>
-		<!-- tr><td>8</td><td>[String to Integer (atoi)](#)</td><td>Easy</td></tr -->
+		<tr><td>8</td><td>[String to Integer (atoi)](LeetCode-String-to-Integer.html)</td><td>Easy</td></tr>
 		<tr><td>7</td><td>[Reverse Integer](LeetCode-Reverse-Integer.html)</td><td>Easy</td></tr>
 		<tr><td>6</td><td>[ZigZag Conversion](LeetCode-ZigZag-Conversion.html)</td><td>Easy</td></tr>
 		<tr><td>5</td><td>[Longest Palindromic Substring](LeetCode-Longest-Palindromic-Substring.html)</td><td>Medium</td></tr>
