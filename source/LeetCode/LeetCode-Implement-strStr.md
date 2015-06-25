@@ -4,19 +4,21 @@ tags:
  - LeetCode
 ---
 <hr/>    
+Implement `strStr()`.   
+
+Returns the index of the first occurrence of `needle` in `haystack`, or -1 if `needle` is not part of `haystack`.
 
 ```java
-
 /**
  * Created by hzhou on 5/1/15. codeashobby@gmail.com
  */
 public class StrStr {
 	public int strStr(String haystack, String needle) {
-		if ((haystack == null && needle != null) || needle.length() > haystack.length()) {
-			return -1;
-		}
-		if (haystack == needle || haystack.equals(needle) || needle == null || needle.isEmpty()) {
+		if (needle == null || needle.length() == 0) {
 			return 0;
+		}
+		if (haystack == null || haystack.length() == 0) {
+			return -1;
 		}
 		for (int i = 0; i < haystack.length(); i++) {
 			char c = haystack.charAt(i);
