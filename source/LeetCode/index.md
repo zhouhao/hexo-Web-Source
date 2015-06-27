@@ -1,14 +1,11 @@
 title: "LeetCode Answers"
 date: 2015-06-23 09:41:14
 ---
+### [Code Example in GitHub](https://github.com/CodeasHobby/Code-Practice/tree/master/src/main/java/com/codeashobby/leetcode)
 <hr/>
 <table class="display datatable" cellspacing="0" width="100%">
     <thead>
-        <tr>
-            <th>#</th>
-            <th>Question</th>
-            <th>Difficulty</th>
-        </tr>
+        <tr><th>#</th><th>Question</th><th>Difficulty</th></tr>
     </thead>
     <tbody>
         <tr><td>228</td><td>[Summary Ranges](LeetCode-Summary-Ranges.html)</td><td>Easy</td></tr>
