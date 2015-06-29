@@ -1,38 +1,31 @@
 title: 'LeetCode: Two Sum'
 date: 2015-06-24 00:03:22
-tags:
- - LeetCode
 ---
-<hr/>    
+Given an array of integers, find two numbers such that they add up to a specific target number.
+
+The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.
+
+You may assume that each input would have exactly one solution.
+
+Input: `numbers={2, 7, 11, 15}, target=9`
+
+Output: `index1=1, index2=2`
 
 ```java
-
-/**
- * Created by hzhou on 4/23/15. codeashobby@gmail.com
- */
 public class TwoSum {
 	public int[] twoSum(int[] nums, int target) {
-		assert nums.length > 0;
-		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-		int[] result = new int[2];
-		for (int i = 0; i < nums.length; i++) {
-			if (map.containsKey(nums[i]) && 2 * nums[i] == target) {
-				result[0] = map.get(nums[i]) + 1;
-				result[1] = i + 1;
-				return result;
-			} else {
-				map.put(nums[i], i);
-			}
-		}
-		for (int i = 0; i < nums.length; i++) {
-			int left = target - nums[i];
-			if (map.containsKey(left) && i != map.get(left)) {
-				result[0] = i + 1;
-				result[1] = map.get(left) + 1;
-				break;
-			}
-		}
-		return result;
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+       int[] result = new int[2];
+       for(int i = 0; i < nums.length;i++){
+           int x = target - nums[i];
+           if(map.containsKey(x)) {
+               result[0] = map.get(x);
+               result[1] = i+1;
+               return result;
+           }
+           map.put(nums[i], i+1);
+       }
+       return result;
 	}
 }
 ```
