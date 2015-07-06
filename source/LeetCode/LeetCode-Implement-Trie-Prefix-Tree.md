@@ -1,8 +1,6 @@
 title: 'LeetCode: Implement Trie (Prefix Tree)'
 date: 2015-06-23 21:38:57
-tags:
 ---
-<hr/>
 Implement a trie with insert, search, and startsWith methods.
 
 ```java
