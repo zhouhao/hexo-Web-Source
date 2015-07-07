@@ -1,7 +1,5 @@
 title: "LeetCode: Interleaving String in Recursion"
 date: 2014-08-27 19:58:42
-tags:
- - LeetCode
 ---
 
 ```
@@ -49,7 +47,7 @@ public class IsInterleave {
 }
 ```
 
-### I will use Dynamic Programming(DP) to rewrite this! 
+### I will use Dynamic Programming(DP) to rewrite this!
 
 ```
 public class Solution {
@@ -63,7 +61,7 @@ public class Solution {
         // an array for DP
         boolean[][] map = new boolean[l2+1][l1+1];
         map[0][0] = true;
-        
+
         // init first line
         for(int i = 0; i < l1; i++) {
             if(s1.charAt(i) == s3.charAt(i)){
@@ -73,7 +71,7 @@ public class Solution {
                 break;
             }
         }
-        
+
         // init first row
         for(int i = 0; i < l2; i++) {
             if(s2.charAt(i) == s3.charAt(i)){
@@ -90,9 +88,9 @@ public class Solution {
                          || (map[i-1][j] && (s2.charAt(i-1) == s3.charAt(j+i-1)));
             }
         }
-        
+
         return map[l2][l1];
-        
+
     }
 }
 ```
