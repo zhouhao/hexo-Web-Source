@@ -1,10 +1,6 @@
 title: 'LeetCode: Combinations'
 date: 2015-06-24 00:03:22
-tags:
- - LeetCode
 ---
-<hr/>    
-
 ```java
 
 /**
@@ -27,28 +23,24 @@ tags:
  * @author hzhou
  */
 public class Combinations {
-	public List<List<Integer>> combine(int n, int k) {
-		List<List<Integer>> result = new ArrayList<List<Integer>>();
-		if (n < 1 || k > n) {
-			return result;
-		}
-		helper(0, 1, k, n, result, new ArrayList<Integer>());
-		return result;
-	}
-	private void helper(int count, int start, int k, int n, List<List<Integer>> result, List<Integer> crt) {
-		if (count == k) {
-			result.add(new ArrayList<Integer>(crt));
-			return;
-		}
-		for (int i = start; i <= n; i++) {
-			crt.add(i);
-			helper(count + 1, i + 1, k, n, result, crt);
-			crt.remove(crt.size() - 1);
-		}
-	}
-	@Test
-	public void test() {
-		List<List<Integer>> result = combine(4, 2);
-	}
+    public List<List<Integer>> combine(int n, int k) {
+        List<List<Integer>> result = new ArrayList<List<Integer>>();
+        if (n < 1 || k > n) {
+            return result;
+        }
+        helper(0, 1, k, n, result, new ArrayList<Integer>());
+        return result;
+    }
+    private void helper(int count, int start, int k, int n, List<List<Integer>> result, List<Integer> crt) {
+        if (count == k) {
+            result.add(new ArrayList<Integer>(crt));
+            return;
+        }
+        for (int i = start; i <= n; i++) {
+            crt.add(i);
+            helper(count + 1, i + 1, k, n, result, crt);
+            crt.remove(crt.size() - 1);
+        }
+    }
 }
 ```
