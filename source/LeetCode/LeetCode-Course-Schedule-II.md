@@ -1,8 +1,6 @@
 title: 'LeetCode: Course Schedule II'
 date: 2015-06-23 21:38:34
-tags:
 ---
-<hr/>   
 ```java
 public class CourseScheduleII {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
@@ -48,12 +46,6 @@ public class CourseScheduleII {
         }
 
         return (courseCanTake == numCourses) ? result : new int[0];
-    }
-
-    @Test
-    public void test() {
-        int[][] arr = new int[][]{{1, 0}};
-        int[] result = findOrder(2, arr);
     }
 }
 ```
