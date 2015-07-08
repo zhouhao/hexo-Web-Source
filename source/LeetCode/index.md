@@ -9,6 +9,7 @@ date: 2015-06-23 09:41:14
     </thead>
     <tbody>
         <tr><td>231</td><td>[Power of Two](LeetCode-Power-Of-Two.html)</td><td>Easy</td></tr>
+        <tr><td>230</td><td>[Kth Smallest Element in a BST](LeetCode-Kth-Smallest-Element-in-a-BST.html)</td><td>Medium</td></tr>
         <tr><td>229</td><td>[Majority Element II](LeetCode-MajorityElementII.html)</td><td>Medium</td></tr>
         <tr><td>228</td><td>[Summary Ranges](LeetCode-Summary-Ranges.html)</td><td>Easy</td></tr>
         <tr><td>227</td><td>[Basic Calculator II](LeetCode-Basic-Calculator-II.html)</td><td>Medium</td></tr>
