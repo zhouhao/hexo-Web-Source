@@ -16,7 +16,7 @@ I am a software developer, and during my daily work time I use a DELL laptop wit
 2. PHPStorm: for PHP
 
 ### Text Editor
-1. [Sublime Text 3](http://www.sublimetext.com/3): fast than Atom
+1. [Sublime Text 3](http://www.sublimetext.com/3): faster than Atom
 2. [Atom](https://atom.io/)
 3. [Text Editor Anywhere](http://www.listary.com/text-editor-anywhere): Edit Text Anywhere with Your Favorite Editor
 4. [MarkdownPad 2](http://markdownpad.com/): bought before, but not used so much
