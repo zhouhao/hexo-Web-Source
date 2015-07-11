@@ -4,7 +4,7 @@ tags:
  - Resposive
  - Web
 ---
-This post is related to how to make a responsive table into a List view when the browser width is pretty small.   
+This post is related to how to make a responsive table into a List view when the browser width is pretty small.
 Table collapses into a "list" on small screens. Headers are pulled from data attributes.
 
 **You can find the origin post here: http://codepen.io/geoffyuen/pen/FCBEg. And you can download the ZIP package with this link: http://codepen.io/geoffyuen/share/zip/FCBEg/**
@@ -12,7 +12,8 @@ Table collapses into a "list" on small screens. Headers are pulled from data att
 
 <!-- more -->
 
-Core Code: 
+Core Code:
+
 ```css
 .rwd-table td:before {
     content: attr(data-th)": ";
@@ -21,8 +22,8 @@ Core Code:
     display: inline-block;
 }
 ```
-![Table View](/img/responsiveTable/1.png "Table View")    
-![List View](/img/responsiveTable/2.png "List View")    
+![Table View](/img/responsiveTable/1.png "Table View")
+![List View](/img/responsiveTable/2.png "List View")
 
 ###The full code is below:
 

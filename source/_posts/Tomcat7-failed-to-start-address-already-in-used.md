@@ -14,12 +14,12 @@ In this case, you can do some check as below:
 
 ###Please check whether the shut down port 8005 is occupied or not, and this may happen if tomcat7 crashes!
 
-```
+```bash
 # find the pid of 8005
 fuser 8005/tcp
 
 # kill the pid
-kill -9 number_of_pid
+kill -9 ${number_of_pid}
 ```
 
 ###Now, you can restart your tomcat 7!

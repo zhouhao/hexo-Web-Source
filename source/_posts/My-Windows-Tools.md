@@ -44,3 +44,8 @@ I am a software developer, and during my daily work time I use a DELL laptop wit
 2. [MyBatis plugin](https://plugins.jetbrains.com/plugin/7293): Useful for MyBatis related operations, not free
 3. [VisualVM Launcher](https://plugins.jetbrains.com/plugin/7115): Launches [VisualVM](https://visualvm.java.net/) from within IDEA
 4. [JRebel]: [myJRebel](https://my.jrebel.com/), a free version for personal usage
+
+### Music
+1. [网易云音乐](http://music.163.com/)
+
+### 
