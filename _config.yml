@@ -38,7 +38,7 @@ post_asset_folder: false
 highlight:
   enable: true
   line_number: true
-  tab_replace:
+  tab_replace: true
 
 # Category & Tag
 default_category: uncategorized
@@ -81,7 +81,7 @@ disqus_shortname: zhouhao
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
 theme: light
-#exclude_generator: 
+#exclude_generator:
 
 plugins:
   - hexo-tag-flickr
@@ -112,5 +112,5 @@ marked:
 deploy:
   type: git
   message: "Sync blog from my local machine"
-  repo: 
+  repo:
     github: https://github.com/zhouhao/zhouhao.github.io.git
