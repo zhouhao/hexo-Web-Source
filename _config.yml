@@ -113,4 +113,5 @@ deploy:
   type: git
   message: "Sync blog from my local machine"
   repo:
-    github: https://github.com/zhouhao/zhouhao.github.io.git
+    #github: https://github.com/zhouhao/zhouhao.github.io.git
+    git: ssh://55b7e9de4382ecce1b000085@php-codeashobby.rhcloud.com/~/git/php.git/
