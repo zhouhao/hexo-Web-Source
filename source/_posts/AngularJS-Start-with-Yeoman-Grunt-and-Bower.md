@@ -20,7 +20,7 @@ npm install -g generator-angular
 ```
 
 ###After you run `grunt serve`, you will see the page as below:   
-![Yeoman Page](/img/angularJS/yo.png "Yeoman Page")  
+![Yeoman Page](https://dn-myblog.qbox.me/img/angularJS/yo.png "Yeoman Page")  
 
 ###Now, I am going to add the todo list from [official AngularJS page](https://angularjs.org/#add-some-control) to this demo.
 
@@ -146,4 +146,4 @@ angular
 
 Now, we are all set.
 
-![Final Demo Page](/img/angularJS/final_demo.png "Final Demo Page")  
+![Final Demo Page](https://dn-myblog.qbox.me/img/angularJS/final_demo.png "Final Demo Page")  

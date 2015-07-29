@@ -8,7 +8,7 @@ tags:
 
 其实解决这个问题的方法很简单----添加`UTF-8`支持。因为中文只是我其中要支持的一种，觉得直接使用`GBK`是个stupid的想法。
 
-![Java Mail charset](/img/blog/java-mail.png "Java Mail charset")
+![Java Mail charset](https://dn-myblog.qbox.me/img/blog/java-mail.png "Java Mail charset")
 
 I18N还是蛮坑的，那些页面的文字，以及操作的提示目前都得我一个个的添加----好多条目。或者应该尝试将i18n直接应用在View的模板上，不同的locale调用对应locale的view。
 

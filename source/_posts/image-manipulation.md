@@ -30,12 +30,12 @@ Key 'S': Display image with Spherical Transformation
 ##If you have any question, you can contact me: <a href="mailto:royhzhou@gmail.com">royhzhou@gmail.com</a>      
 
 ##Screen Shots:        
-![keyboard 'a' event](/img/blog/OpenGL/hw5/1.PNG "original img")            
-![keyboard 'l' event](/img/blog/OpenGL/hw5/2.PNG "Luminance effect")           
-![keyboard 'n' event](/img/blog/OpenGL/hw5/3.PNG "negative effect")            
-![keyboard 'd' event](/img/blog/OpenGL/hw5/4.PNG "edge detection effect")           
-![keyboard 'e' event](/img/blog/OpenGL/hw5/5.PNG "embossing effect")           
-![keyboard 't' event](/img/blog/OpenGL/hw5/6.PNG "Toon rendering")     
-![keyboard 'w' event](/img/blog/OpenGL/hw5/7.PNG "Twirl Transformation")           
-![keyboard 'p' event](/img/blog/OpenGL/hw5/8.PNG "Ripple Transformation")           
-![keyboard 's' event](/img/blog/OpenGL/hw5/9.PNG "Spherical Transformation")     
+![keyboard 'a' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/1.PNG "original img")            
+![keyboard 'l' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/2.PNG "Luminance effect")           
+![keyboard 'n' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/3.PNG "negative effect")            
+![keyboard 'd' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/4.PNG "edge detection effect")           
+![keyboard 'e' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/5.PNG "embossing effect")           
+![keyboard 't' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/6.PNG "Toon rendering")     
+![keyboard 'w' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/7.PNG "Twirl Transformation")           
+![keyboard 'p' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/8.PNG "Ripple Transformation")           
+![keyboard 's' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/9.PNG "Spherical Transformation")     

@@ -19,7 +19,7 @@ $http.post('test.php', { name: 'John', time: '2pm' }).success(function(response)
 My server side can never recognize the parameters.
 
 <h3>I can see the Form Data in my http header, but anyway, the server cannot recognize it:</h3>
-![Http Header Demo](/img/angularJS/angularPost.png "Http Header Demo")  
+![Http Header Demo](https://dn-myblog.qbox.me/img/angularJS/angularPost.png "Http Header Demo")  
 
 <h2>Finally, I find the solution here: <a href="http://victorblog.com/2012/12/20/make-angularjs-http-service-behave-like-jquery-ajax/">http://victorblog.com/2012/12/20/make-angularjs-http-service-behave-like-jquery-ajax/</a></h2>
 <h3>Reason:</h3> 

@@ -22,8 +22,8 @@ Core Code:
     display: inline-block;
 }
 ```
-![Table View](/img/responsiveTable/1.png "Table View")
-![List View](/img/responsiveTable/2.png "List View")
+![Table View](https://dn-myblog.qbox.me/img/responsiveTable/1.png "Table View")
+![List View](https://dn-myblog.qbox.me/img/responsiveTable/2.png "List View")
 
 ###The full code is below:
 

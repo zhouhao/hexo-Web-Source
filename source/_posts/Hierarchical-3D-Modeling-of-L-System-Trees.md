@@ -20,5 +20,5 @@ The very first thing you need to do is determine if your video card can support 
 6). If you have any question, you can contact me: <a href="mailto:hzhou@wpi.edu">hzhou@wpi.edu</a>        
 
 ##Screen Shots:        
-![Tree](/img/blog/OpenGL/hw3/1.PNG "Tree")            
-![Forest](/img/blog/OpenGL/hw3/2.PNG "Forest")            
+![Tree](https://dn-myblog.qbox.me/img/blog/OpenGL/hw3/1.PNG "Tree")            
+![Forest](https://dn-myblog.qbox.me/img/blog/OpenGL/hw3/2.PNG "Forest")            

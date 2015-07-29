@@ -16,8 +16,8 @@ I searched Google a lot, then I find "one" potential solution for [StackOverflow
 
 1. Go to the registration page: https://developer.authorize.net/sandbox/
 2. Please select your **Account Type** as `Card Not Present`.
-![Account Type](/img/payment/account_type.png "Account Type")    
+![Account Type](https://dn-myblog.qbox.me/img/payment/account_type.png "Account Type")    
 
 Now, use the new apiLoginId and transactionKey, you can pass the test successfully.
 
-![Transaction List](/img/payment/transaction.png "Transaction List")    
+![Transaction List](https://dn-myblog.qbox.me/img/payment/transaction.png "Transaction List")    
