@@ -7,8 +7,8 @@ tags:
 ---
 之前博客一直以纯静态的方式托管在GitHub Page里面（是基于[Hexo](https://hexo.io/)的），遗憾的是
 
-1. 百度蜘蛛频繁乱爬，导致GitHub对它才取了屏蔽。（参考：[解决 Github Pages 禁止百度爬虫的方法与可行性分析](http://jerryzou.com/posts/feasibility-of-allowing-baiduSpider-for-Github-Pages/)）另外这篇文章末尾给出了一个解决该问题的可行方法，但是我个人没有试。
-2. GitHub Page虽然支持自定义域名，但是对`https`支持的不好（这个一个次要的理由）。
+1. 百度蜘蛛频繁乱爬，导致GitHub对它采取了屏蔽。（参考：[解决 Github Pages 禁止百度爬虫的方法与可行性分析](http://jerryzou.com/posts/feasibility-of-allowing-baiduSpider-for-Github-Pages/)）另外这篇文章末尾给出了一个解决该问题的可行方法，但是我个人没有试。
+2. GitHub Page虽然支持自定义域名，但是对`https`支持的不好（这是一个次要的理由）。
 
 <!-- more -->
 ## Solutions
