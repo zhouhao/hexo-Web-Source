@@ -18,9 +18,9 @@ tags:
 ## 如何在`OpenShift`上部署？
 1. 注册一个OpenShift帐号（最左边的就行）： https://www.openshift.com/
 2. 建一个`PHP5.X`的Application（注意：里面有直接的hexo应用，我不是很建议，因为是`node`驱动的，我用了之后发现**如果url中出现中文，会导致404的问题**。反正最终生成的是静态文件，我就决定Apache来托管）
-    1). 因为没有采用直接的`hexo`应用，所以`hexo-openshift`插件我也没用，而是直接通过`git`的方式直接上传到OpenShift远程服务器上
+    1). 因为没有采用直接的`hexo`应用，所以[`hexo-openshift`](https://github.com/hexojs/hexo-deployer-openshift)插件我也没用，而是直接通过`git`的方式直接上传到OpenShift远程服务器上
     2). 这里需要配置ssh的key文件，考虑不同系统的差异，暂时先不介绍了
-3. 配置hexo配置文件（虽然这个`hexo-git`插件的文档说可以支持多个repo，但是我实际发现会出一个git的`index,lock`的问题，所以这里把`github`的先注释了）
+3. 配置hexo配置文件（虽然这个[`hexo-git`](https://github.com/hexojs/hexo-deployer-git)插件的文档说可以支持多个repo，但是我实际发现会出一个git的`index.lock`的问题，所以这里把`github`的先注释了）
 ```yml
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
