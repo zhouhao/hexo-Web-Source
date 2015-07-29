@@ -5,11 +5,11 @@ tags:
   - OpenGL
 ---
  
-###Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](/demo/ComputerGraphics/GLinfo2.zip)           
+###Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](https://dn-myblog.qbox.me/demo/ComputerGraphics/GLinfo2.zip)           
 The very first thing you need to do is determine if your video card can support GPU programming. Specifically, you are looking to see if your graphic card supports OpenGL version **4.1** or later.            
           
 [See the Source Code](https://github.com/zhouhao/CS543-Computer-Graphics-Course-Project/tree/master/HW3)               
-[Download the Executive program](/demo/ComputerGraphics/Hierarchical_3D_Modeling_of_L_System_Trees.zip)           
+[Download the Executive program](https://dn-myblog.qbox.me/demo/ComputerGraphics/Hierarchical_3D_Modeling_of_L_System_Trees.zip)           
 <!-- more -->      
 ##How my program works:
 1). When you start it, it will display the first tree in the screen[a small bug: the tree will be displayed, then clear, then be displayed again.]      
