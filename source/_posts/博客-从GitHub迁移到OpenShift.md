@@ -12,7 +12,7 @@ tags:
 
 <!-- more -->
 ## Solutions
-1. 针对`问题1`，可以把网站部署在`OpenShift`（）
+1. 针对`问题1`，可以把网站部署在`OpenShift`
 2. 针对`问题2`，可以使用`cloudflare`的**免费**服务来实现
 
 ## 如何在`OpenShift`上部署？
@@ -39,3 +39,13 @@ deploy:
 这4个服务都是我需要的，而且这一切都可以是免费的。具体细节可以自己体验一下，前提是需要有自己的域名。
 
 点击试一下：[https://sbzhouhao.net/](https://sbzhouhao.net/)
+
+## 注意
+OpenShift的免费版本有24小时的[APPLICATION IDLING](https://www.openshift.com/products/pricing/plan-comparison)限制，换句话说如果你的网站24小时内连续没人访问，你的网站会被自动停止。
+
+## 国内测速(http比https明显快很多)
+1. http://sbzhouhao.net
+![CloudFare非https测速](https://dn-myblog.qbox.me/img/blog/openshift/1.png "CloudFare非https测速")
+
+2. https://sbzhouhao.net
+![CloudFare https测速](https://dn-myblog.qbox.me/img/blog/openshift/2.png "CloudFare https测速")
