@@ -8,8 +8,7 @@ widgets:
 - google_translate
 - about_me
 - category
-- tag
-- recent_posts
+- tagcloud
 - link
 
 excerpt_link: "Read More"

@@ -1,8 +1,7 @@
 title: "LeetCode Answers"
 date: 2015-06-23 09:41:14
 ---
-### [Code Example in GitHub](https://github.com/CodeasHobby/Code-Practice/tree/master/src/main/java/com/codeashobby/leetcode)
-<hr/>
+<br/>
 <table class="display datatable" cellspacing="0" width="100%">
     <thead>
         <tr><th>#</th><th>Question</th><th>Difficulty</th></tr>
@@ -225,3 +224,5 @@ date: 2015-06-23 09:41:14
         <tr><td>1</td><td>[Two Sum](LeetCode-Two-Sum.html)</td><td>Medium</td></tr>
     </tbody>
 </table>
+
+### [Code Example in GitHub](https://github.com/CodeasHobby/Code-Practice/tree/master/src/main/java/com/codeashobby/leetcode)

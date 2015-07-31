@@ -25,7 +25,7 @@ var disqus_shortname = '<%= config.disqus_shortname %>';
   $('.fancybox').fancybox();
   $('.datatable').dataTable( {
   		"order": [[ 0, "desc" ]],
-  		"iDisplayLength": 25,
+  		"iDisplayLength": -1,
         "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]]
     } );
 })(jQuery);
