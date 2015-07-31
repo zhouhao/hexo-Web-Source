@@ -5,6 +5,7 @@ menu:
 
 widgets:
 - search
+- google_translate
 - about_me
 - category
 - tag
