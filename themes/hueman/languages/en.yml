@@ -1,6 +1,7 @@
 index:
   home: 'Home'
   about: 'About'
+  leetcode: 'LeetCode Answers'
   search: 'Search'
   archive: 'archive'
   category: 'category : '

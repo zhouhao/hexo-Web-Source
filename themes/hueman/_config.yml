@@ -1,16 +1,17 @@
 # Logo Url
 # Please enter the absolute path to your logo file
 # or remove the following line with replacing logo-header.png with your own logo
-logo: http://ppoffice.github.io/hexo-theme-hueman/css/images/logo-header.png
+logo: https://dn-myblog.qbox.me/logo-header.png
 
 # Header
 menu:
   Home: /
   # Delete this row if you don't want categories in your header nav bar
   Categories:
-  About: /about/index.html
+  LeetCode: /LeetCode/
+  About: /about/
 
-# Article list grouped by year 
+# Article list grouped by year
 groupByYear: true
 
 # Content
@@ -23,19 +24,18 @@ thumbnail: true
 scrollLoading: true
 
 # Sidebar
-sidebar: left // sidebar's position (left or right)
+sidebar: right // sidebar's position (left or right)
 social_links:
   twitter:
   facebook:
   google_plus:
-  github: https://github.com/ppoffice/hexo-theme-hueman
+  github: https://github.com/zhouhao
   weibo:
-  rss:
+  rss: /atom.xml
 widgets:
 - recent_posts
 - category
 - archive
-- tag
 - tagcloud
 - links
 
@@ -47,7 +47,7 @@ links:
 use_google_apis: false
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-39886095-1
 favicon: /favicon.png
 fb_admins:
 fb_app_id:
