@@ -3,6 +3,9 @@ date: 2014-08-07 09:41:39
 tags:
  - AngularJS
  - Ajax
+categories:
+   - 计算机那些事
+   - Website
 ---
 ###For JavaScript, I believe the most powerful function is ***Ajax***. So I made a very very simple demo for AngularJS as learner.
 
@@ -25,7 +28,7 @@ tags:
     </div>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
 <script>
-    
+
     angular.module('httpExample', [])
     .controller('SimpleController', ['$scope', '$http',
       function($scope, $http) {

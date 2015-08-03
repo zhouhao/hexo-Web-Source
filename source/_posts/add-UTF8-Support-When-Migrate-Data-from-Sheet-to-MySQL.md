@@ -4,7 +4,8 @@ tags:
   - Perl
   - MySQL
 categories:
-  - Database
+  - 计算机那些事
+  - 数据库
 ---
 
 In recent life, I always need to migrate data from excel sheets into MySQL. But in sometimes, I do some mess-up. For example, **αβγ**...These are not **ASCII** symbols. So when I do the migration, they will be **Unrecognizable Code**.  
