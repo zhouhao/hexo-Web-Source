@@ -79,8 +79,14 @@
     $('.fancybox').fancybox();
   }
 
+  $('.datatable').dataTable( {
+          "order": [[ 0, "desc" ]],
+          "iDisplayLength": -1,
+        "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]]
+    } );
+
   //Back to top
-  $("#back-to-top").on('click', function(){  
+  $("#back-to-top").on('click', function(){
     $('body,html').animate({scrollTop:0}, 600);
-  }); 
+  });
 })(jQuery);

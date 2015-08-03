@@ -1,7 +1,6 @@
 title: "LeetCode Answers | LeetCode答案"
 date: 2015-06-23 09:41:14
 ---
-<br/>
 <table class="display datatable" cellspacing="0" width="100%">
     <thead>
         <tr><th>#</th><th>Question</th><th>Difficulty</th></tr>
