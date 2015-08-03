@@ -24,13 +24,12 @@ thumbnail: true
 scrollLoading: true
 
 # Sidebar
-sidebar: right // sidebar's position (left or right)
+sidebar: left // sidebar's position (left or right)
+email: i@hzhou.me
 social_links:
-  twitter:
-  facebook:
-  google_plus:
+  linkedin: http://www.linkedin.com/in/sbzhouhao/
   github: https://github.com/zhouhao
-  weibo:
+  weibo: www.weibo.com/sbzhouhao/
   rss: /atom.xml
 widgets:
 - recent_posts
