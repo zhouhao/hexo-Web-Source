@@ -1,8 +1,10 @@
 title: Add UTF8 Support When Migrating Data from Sheet to MySQL [Perl]
 date: 2013-10-31 18:07:41
-tags: 
+tags:
   - Perl
   - MySQL
+categories:
+  - Database
 ---
 
 In recent life, I always need to migrate data from excel sheets into MySQL. But in sometimes, I do some mess-up. For example, **αβγ**...These are not **ASCII** symbols. So when I do the migration, they will be **Unrecognizable Code**.  
@@ -24,22 +26,22 @@ use Spreadsheet::WriteExcel;
 
 my $parser = Spreadsheet::ParseExcel->new();  
 my $products_workbook = $parser->Parse('test.xls');  
-my $products_worksheet = $products_workbook->worksheet('Products_2'); 
+my $products_worksheet = $products_workbook->worksheet('Products_2');
 my ( $row_min, $row_max ) = $products_worksheet->row_range();  
 my @sheetArray;
 
 my $count = 1;
 
-my $dbh = DBI->connect( 'DBI:mysql:zencart', 
-                        'user-name', 
-                        'pass-word', 
+my $dbh = DBI->connect( 'DBI:mysql:zencart',
+                        'user-name',
+                        'pass-word',
                         {RaiseError=>1,AutoCommit=>0}
-                      ) 
-          || die "Database connection not made: $DBI::errstr"; 
+                      )
+          || die "Database connection not made: $DBI::errstr";
 
 my $sth;
 
-for my $row ( $row_min .. $row_max) 
+for my $row ( $row_min .. $row_max)
 {  
     my $catalog = $products_worksheet->get_cell( $row, 0 );
     my $name = $products_worksheet->get_cell( $row, 1 );
@@ -55,10 +57,10 @@ for my $row ( $row_min .. $row_max)
     $sth->bind_param(2, $catalog);
     $sth->bind_param(1, $name);
 
-    $sth->execute(); 
+    $sth->execute();
 }
- 
-$dbh->disconnect(); 
+
+$dbh->disconnect();
 
 ```
 
@@ -67,15 +69,15 @@ $dbh->disconnect();
 ```perl
 # more code here
 $dbh->{'mysql_enable_utf8'} = 1;
-$dbh->do('SET NAMES utf8'); 
+$dbh->do('SET NAMES utf8');
 
 my $sth;
 
-for my $row ( $row_min .. $row_max) 
+for my $row ( $row_min .. $row_max)
 {  
-    my $catalog = $products_worksheet->{Cells}[$row][0]->Value; 
+    my $catalog = $products_worksheet->{Cells}[$row][0]->Value;
     my $name = $products_worksheet->{Cells}[$row][1]->Value;
-    
+
 	# more code here
 }
 ```
