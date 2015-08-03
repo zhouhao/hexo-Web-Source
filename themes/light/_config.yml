@@ -19,7 +19,7 @@ twitter:
   tweet_count: 5
 
 addthis:
-  enable: true
+  enable: false
   pubid: ra-5381610928f9a751
   facebook: true
   twitter: true
