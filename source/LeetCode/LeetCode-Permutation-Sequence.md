@@ -1,9 +1,6 @@
 title: 'LeetCode: Permutation Sequence'
 date: 2015-06-24 00:03:22
-tags:
- - LeetCode
 ---
-<hr/>    
 
 ```java
 
@@ -26,29 +23,29 @@ tags:
  * @author hzhou
  */
 public class PermutationSequence {
-	public String getPermutation(int n, int k) {
-		int t = 1;
-		List<Integer> numbers = new ArrayList<Integer>(n);
-		for (int i = 1; i <= n; i++) {
-			t = t * i;
-			numbers.add(i);
-		}
-		t /= n;
-		k--;
-		StringBuilder sb = new StringBuilder();
-		for (int i = n - 1; i >= 1; i--) {
-			int p = k / t;
-			int np = numbers.get(p);
-			sb.append(np);
-			numbers.remove(p);
-			k %= t;
-			t /= i;
-		}
-		sb.append(numbers.get(0));
-		return sb.toString();
-	}
-	@Test
-	public void test() {
-	}
+    public String getPermutation(int n, int k) {
+        int t = 1;
+        List<Integer> numbers = new ArrayList<Integer>(n);
+        for (int i = 1; i <= n; i++) {
+            t = t * i;
+            numbers.add(i);
+        }
+        t /= n;
+        k--;
+        StringBuilder sb = new StringBuilder();
+        for (int i = n - 1; i >= 1; i--) {
+            int p = k / t;
+            int np = numbers.get(p);
+            sb.append(np);
+            numbers.remove(p);
+            k %= t;
+            t /= i;
+        }
+        sb.append(numbers.get(0));
+        return sb.toString();
+    }
+    @Test
+    public void test() {
+    }
 }
 ```

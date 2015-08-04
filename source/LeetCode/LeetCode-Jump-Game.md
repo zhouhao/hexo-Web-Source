@@ -1,9 +1,6 @@
 title: 'LeetCode: Jump Game'
 date: 2015-06-24 00:03:22
-tags:
- - LeetCode
 ---
-<hr/>    
 
 ```java
 
@@ -21,21 +18,21 @@ tags:
  * @author hzhou
  */
 public class JumpGame {
-	public boolean canJump(int[] nums) {
-		if (nums == null || nums.length < 2) {
-			return true;
-		}
-		int max = nums[0];
-		for (int i = 0; i < nums.length; i++) {
-			if (max <= i && nums[i] == 0) {
-				return false;
-			}
-			max = Math.max(max, i + nums[i]);
-			if (max >= nums.length - 1) {
-				return true;
-			}
-		}
-		return true;
-	}
+    public boolean canJump(int[] nums) {
+        if (nums == null || nums.length < 2) {
+            return true;
+        }
+        int max = nums[0];
+        for (int i = 0; i < nums.length; i++) {
+            if (max <= i && nums[i] == 0) {
+                return false;
+            }
+            max = Math.max(max, i + nums[i]);
+            if (max >= nums.length - 1) {
+                return true;
+            }
+        }
+        return true;
+    }
 }
 ```

@@ -1,9 +1,6 @@
 title: 'LeetCode: Maximal Square'
 date: 2015-06-23 21:03:42
-tags:
- - LeetCode
 ---
-<hr/>   
 Given a 2D binary matrix filled with 0's and 1's, find the largest square containing all 1's and return its area.
 
 For example, given the following matrix:
@@ -27,7 +24,7 @@ public class MaximalSquare {
         int h = matrix.length;
         int w = matrix[0].length;
         int[][] map = new int[h][w + 1];
-
+        
         for (int i = 0; i < h; i++) {
             for (int j = 0; j < w; j++) {
                 if (i == 0) {

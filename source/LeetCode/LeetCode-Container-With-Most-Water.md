@@ -1,9 +1,6 @@
 title: 'LeetCode: Container With Most Water'
 date: 2015-06-24 00:03:22
-tags:
- - LeetCode
 ---
-<hr/>    
 
 ```java
 
@@ -17,22 +14,22 @@ tags:
  * Note: You may not slant the container.
  */
 public class ContainerWithMostWater {
-	public int maxArea(int[] height) {
-		if (height == null || height.length < 2) {
-			return 0;
-		}
-		int left = 0;
-		int right = height.length - 1;
-		int max = 0;
-		while (left < right) {
-			max = Math.max(max, (right - left) * Math.min(height[right], height[left]));
-			if (height[left] > height[right]) {
-				right--;
-			} else {
-				left++;
-			}
-		}
-		return max;
-	}
+    public int maxArea(int[] height) {
+        if (height == null || height.length < 2) {
+            return 0;
+        }
+        int left = 0;
+        int right = height.length - 1;
+        int max = 0;
+        while (left < right) {
+            max = Math.max(max, (right - left) * Math.min(height[right], height[left]));
+            if (height[left] > height[right]) {
+                right--;
+            } else {
+                left++;
+            }
+        }
+        return max;
+    }
 }
 ```

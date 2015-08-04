@@ -1,9 +1,6 @@
 title: 'LeetCode: Pascals Triangle'
 date: 2015-06-25 20:03:22
-tags:
- - LeetCode
 ---
-<hr/>
 Given `numRows`, generate the first `numRows` of Pascal's triangle.
 
 For example, given `numRows = 5`,

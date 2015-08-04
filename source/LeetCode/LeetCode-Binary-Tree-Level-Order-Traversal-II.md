@@ -1,7 +1,6 @@
 title: 'LeetCode: Binary Tree Level Order Traversal II'
 date: 2015-06-24 00:03:22
 ---
-<hr/>
 
 ```java
  public class BinaryTreeLevelOrderTraversalII {

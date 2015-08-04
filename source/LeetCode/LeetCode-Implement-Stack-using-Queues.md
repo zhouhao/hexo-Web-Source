@@ -1,7 +1,5 @@
 title: 'LeetCode: Implement Stack using Queues'
 date: 2015-06-23 20:31:09
-tags:
- - LeetCode
 ---
 Implement the following operations of a stack using queues.
 ```

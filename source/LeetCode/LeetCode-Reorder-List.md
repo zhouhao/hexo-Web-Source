@@ -1,9 +1,6 @@
 title: 'LeetCode: Reorder List'
 date: 2015-06-24 00:03:22
-tags:
- - LeetCode
 ---
-<hr/>    
 
 ```java
 
@@ -17,24 +14,24 @@ tags:
  * @author hzhou
  */
 public class ReorderList {
-	public void reorderList(ListNode head) {
-		if (head == null || head.next == null || head.next.next == null) {
-			return;
-		}
-		List<ListNode> list = new ArrayList<ListNode>();
-		list.add(head);
-		ListNode cursor = head.next;
-		int count = 1;
-		while (cursor != null) {
-			list.add(cursor);
-			cursor = cursor.next;
-			count++;
-		}
-		for (int i = 0; i < count / 2; i++) {
-			list.get(i).next = list.get(count - i - 1);
-			list.get(count - i - 1).next = list.get(i + 1);
-		}
-		list.get(count / 2).next = null;
-	}
+    public void reorderList(ListNode head) {
+        if (head == null || head.next == null || head.next.next == null) {
+            return;
+        }
+        List<ListNode> list = new ArrayList<ListNode>();
+        list.add(head);
+        ListNode cursor = head.next;
+        int count = 1;
+        while (cursor != null) {
+            list.add(cursor);
+            cursor = cursor.next;
+            count++;
+        }
+        for (int i = 0; i < count / 2; i++) {
+            list.get(i).next = list.get(count - i - 1);
+            list.get(count - i - 1).next = list.get(i + 1);
+        }
+        list.get(count / 2).next = null;
+    }
 }
 ```

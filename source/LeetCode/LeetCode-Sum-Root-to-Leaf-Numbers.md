@@ -1,9 +1,6 @@
 title: 'LeetCode: Sum Root to Leaf Numbers'
 date: 2015-06-24 00:03:22
-tags:
- - LeetCode
 ---
-<hr/>    
 
 ```java
 
@@ -27,36 +24,36 @@ tags:
  * @author hzhou
  */
 public class SumRootToLeafNumbers {
-	public int sumNumbers(TreeNode root) {
-		if (root == null) {
-			return 0;
-		}
-		if (root.left == null && root.right == null) {
-			return root.val;
-		}
-		List<Integer> result = new ArrayList<Integer>();
-		helper(0, result, root);
-		int sum = 0;
-		for (int i : result) {
-			sum += i;
-		}
-		return sum;
-	}
-	private void helper(int crt, List<Integer> container, TreeNode root) {
-		if (root == null) {
-			return;
-		}
-		crt = crt * 10 + root.val;
-		if (root.left == null && root.right == null) {
-			container.add(crt);
-			return;
-		}
-		if (root.left != null) {
-			helper(crt, container, root.left);
-		}
-		if (root.right != null) {
-			helper(crt, container, root.right);
-		}
-	}
+    public int sumNumbers(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        if (root.left == null && root.right == null) {
+            return root.val;
+        }
+        List<Integer> result = new ArrayList<Integer>();
+        helper(0, result, root);
+        int sum = 0;
+        for (int i : result) {
+            sum += i;
+        }
+        return sum;
+    }
+    private void helper(int crt, List<Integer> container, TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        crt = crt * 10 + root.val;
+        if (root.left == null && root.right == null) {
+            container.add(crt);
+            return;
+        }
+        if (root.left != null) {
+            helper(crt, container, root.left);
+        }
+        if (root.right != null) {
+            helper(crt, container, root.right);
+        }
+    }
 }
 ```

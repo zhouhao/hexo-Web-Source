@@ -2,7 +2,6 @@ title: 'LeetCode: The Skyline Problem'
 date: 2015-06-23 21:37:04
 tags:
 ---
-<hr/>   
 A city's skyline is the outer contour of the silhouette formed by all the buildings in that city when viewed from a distance. Now suppose you are ***given the locations and height*** of all the buildings as shown on a cityscape photo (Figure A), write a program to `output the skyline` formed by these buildings collectively (Figure B).
 
 ![Buildings  Skyline Contour](https://dn-myblog.qbox.me/img/leetcode/skyline1.jpg)

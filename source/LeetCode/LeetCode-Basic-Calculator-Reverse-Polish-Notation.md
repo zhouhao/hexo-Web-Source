@@ -1,7 +1,5 @@
 title: 'LeetCode: Basic Calculator - Reverse Polish Notation'
 date: 2015-06-23 20:32:26
-tags:
- - LeetCode
 ---
 
 ### Solution:

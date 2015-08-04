@@ -1,9 +1,6 @@
 title: 'LeetCode: Single Number II'
 date: 2015-06-24 00:03:22
-tags:
- - LeetCode
 ---
-<hr/>    
 
 ```java
 
@@ -15,16 +12,16 @@ tags:
  * http://www.acmerblog.com/leetcode-single-number-ii-5394.html
  */
 public class SingleNumberII {
-	public int singleNumber(int[] nums) {
-		int ones = 0, twos = 0, threes = 0;
-		for (int num : nums) {
-			twos |= ones & num;
-			ones ^= num;
-			threes = ones & twos;
-			ones &= ~threes;
-			twos &= ~threes;
-		}
-		return ones;
-	}
+    public int singleNumber(int[] nums) {
+        int ones = 0, twos = 0, threes = 0;
+        for (int num : nums) {
+            twos |= ones & num;
+            ones ^= num;
+            threes = ones & twos;
+            ones &= ~threes;
+            twos &= ~threes;
+        }
+        return ones;
+    }
 }
 ```

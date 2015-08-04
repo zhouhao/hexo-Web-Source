@@ -30,9 +30,9 @@ import java.util.Arrays;
 public class CombinationSum {
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-    	// handle special error cases
-    	if(candidates == null || candidates.length == 0 || target < 0) return null;
-    	// store the result 
+        // handle special error cases
+        if(candidates == null || candidates.length == 0 || target < 0) return null;
+        // store the result 
         List<List<Integer>> result = new ArrayList<List<Integer>>(); 
         Arrays.sort(candidates);
 
@@ -44,34 +44,34 @@ public class CombinationSum {
     }
 
     public void findSum(int currentCursor, int target, List<Integer> currentList, List<List<Integer>> result, int[] candidates) {
-    	if(target == 0) {
-    		List<Integer> tmp = new ArrayList<Integer>(currentList); 
-    		result.add(tmp);
-    		return;
-    	} 
+        if(target == 0) {
+            List<Integer> tmp = new ArrayList<Integer>(currentList); 
+            result.add(tmp);
+            return;
+        } 
 
-    	for(int i = currentCursor; i < candidates.length; i++) {
-    		int offset = target - candidates[i];
-    		if(offset < 0) {
-    			return;
-    		}
-    		currentList.add(candidates[i]);
-    		findSum(i, offset , currentList, result, candidates);
-    		currentList.remove(currentList.size() - 1);
-    	}
+        for(int i = currentCursor; i < candidates.length; i++) {
+            int offset = target - candidates[i];
+            if(offset < 0) {
+                return;
+            }
+            currentList.add(candidates[i]);
+            findSum(i, offset , currentList, result, candidates);
+            currentList.remove(currentList.size() - 1);
+        }
 
     }
     
     public static void main(String[] args) {
-    	CombinationSum cs = new CombinationSum();
-    	int[] list = new int[]{2,3,6,7};
-    	List<List<Integer>> result = cs.combinationSum(list, 7);
-    	for(List<Integer> i : result) {
-    		for(int j : i) {
-    			System.out.print(j + " ");
-    		}
-    		System.out.println();
-    	}
+        CombinationSum cs = new CombinationSum();
+        int[] list = new int[]{2,3,6,7};
+        List<List<Integer>> result = cs.combinationSum(list, 7);
+        for(List<Integer> i : result) {
+            for(int j : i) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
     }
 }
 ```

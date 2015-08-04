@@ -1,9 +1,6 @@
 title: 'LeetCode: Reverse Nodes in k-Group'
 date: 2015-06-25 20:03:22
-tags:
- - LeetCode
 ---
-<hr/>    
 
 ```java
 

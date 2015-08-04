@@ -1,9 +1,6 @@
 title: 'LeetCode: Longest Substring with At Most Two Distinct Characters'
 date: 2015-06-24 00:03:22
-tags:
- - LeetCode
 ---
-<hr/>    
 
 ```java
 

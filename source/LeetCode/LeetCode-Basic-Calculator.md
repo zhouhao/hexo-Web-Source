@@ -1,9 +1,6 @@
 title: 'LeetCode: Basic Calculator'
 date: 2015-06-23 20:31:27
-tags:
- - LeetCode
 ---
-<hr/>    
 Implement a basic calculator to evaluate a simple expression string.    
 The expression string may contain open ( and closing parentheses ), the plus + or minus sign -, non-negative integers and empty spaces.   
 You may assume that the given expression is always valid.    
@@ -22,7 +19,7 @@ Refer: http://www.programcreek.com/2014/06/leetcode-basic-calculator-java/
 ```java
 public class BasicCalculatorr {
 
-	public int calculate(String s) {
+    public int calculate(String s) {
         // delete white spaces
         s = s.replaceAll(" ", "");
 

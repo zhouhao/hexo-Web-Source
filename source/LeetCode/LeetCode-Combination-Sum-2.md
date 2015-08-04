@@ -16,10 +16,10 @@ Each number in C may only be used once in the combination.
  The solution set must not contain duplicate combinations.
  For example, given candidate set 10,1,2,7,6,1,5 and target 8,
  A solution set is:
- 	[1, 7]
- 	[1, 2, 5]
- 	[2, 6]
- 	[1, 1, 6]
+     [1, 7]
+     [1, 2, 5]
+     [2, 6]
+     [1, 1, 6]
 ```
 
 ###The logic is almost the same as [combination sum 1](../LeetCode-Combination-Sum-1/):

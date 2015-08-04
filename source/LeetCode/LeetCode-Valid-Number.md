@@ -1,9 +1,6 @@
 title: 'LeetCode: Valid Sudoku'
 date: 2015-06-24 00:03:22
-tags:
- - LeetCode
 ---
-<hr/>    
 Validate if a given string is numeric.
 ### Some examples:
 ```
@@ -20,7 +17,7 @@ Validate if a given string is numeric.
  * Created by hzhou on 5/11/15. codeashobby@gmail.com
  */
 public class ValidNumber  {
-	public boolean isNumber(String s) {  
+    public boolean isNumber(String s) {  
         if(s.trim().isEmpty()){  
             return false;  
         }  

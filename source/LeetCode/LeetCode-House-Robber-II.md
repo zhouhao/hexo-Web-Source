@@ -2,7 +2,6 @@ title: 'LeetCode: House Robber II'
 date: 2015-06-23 21:37:53
 tags:
 ---
-<hr/>
 
 ```java
 public class HouseRobberII {

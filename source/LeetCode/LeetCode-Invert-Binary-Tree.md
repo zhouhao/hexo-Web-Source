@@ -1,7 +1,5 @@
 title: "Leetcode: Invert Binary Tree"
 date: 2015-05-04 23:24:42
-tags:
- - LeetCode
 ---
 Invert a binary tree.
 ```

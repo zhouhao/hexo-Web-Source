@@ -1,7 +1,5 @@
 title: "LeetCode: Unique Binary Search Trees"
 date: 2014-09-01 17:09:19
-tags:
- - LeetCode
 ---
 Given n, how many structurally unique BST's (binary search trees) that store values 1...n?
 
@@ -25,7 +23,7 @@ k. If count is n, and we take an element m as root. Assume there are `x` element
 ```
 public class Solution {
     public int numTrees(int n) {
-    	// handle special case
+        // handle special case
         if(n < 0) return -1;
         
         int[] tmp = new int[n+2]; 

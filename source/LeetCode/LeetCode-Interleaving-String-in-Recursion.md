@@ -23,7 +23,7 @@ I write this answer in Recursion way, which I think is very easy to understand, 
  */
 public class IsInterleave {
     public static boolean isInterleave(String s1, String s2, String s3) {
-    	// Termination case
+        // Termination case
         if(s1 == null || s1.length() == 0) return s2.equals(s3);
         if(s2 == null || s2.length() == 0) return s1.equals(s3);
 
