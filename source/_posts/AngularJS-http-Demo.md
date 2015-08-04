@@ -5,13 +5,13 @@ tags:
  - Ajax
 categories:
    - 计算机那些事
-   - Website
+   - 网站
 ---
 ###For JavaScript, I believe the most powerful function is ***Ajax***. So I made a very very simple demo for AngularJS as learner.
 
 <!-- more -->
 
-```
+```html
 <!DOCTYPE html>
 <html lang="" ng-app="httpExample">
 <head>
@@ -52,7 +52,7 @@ categories:
 ```
 
 ###JSON data source file `data.json`
-```
+```json
 [{"name": "Hao Zhou", "page": "Home Pgae"},{"name": "Shan Zhou", "page": "Search Pgae"}]
 ```
 
