@@ -6,6 +6,7 @@ date: 2015-06-23 09:41:14
         <tr><th>#</th><th>Question</th><th>Difficulty</th></tr>
     </thead>
     <tbody>
+        <tr><td>232</td><td>[Implement Queue using Stacks](LeetCode-Implement-Queue-Using-Stacks.html)</td><td>Easy</td></tr>
         <tr><td>231</td><td>[Power of Two](LeetCode-Power-Of-Two.html)</td><td>Easy</td></tr>
         <tr><td>230</td><td>[Kth Smallest Element in a BST](LeetCode-Kth-Smallest-Element-in-a-BST.html)</td><td>Medium</td></tr>
         <tr><td>229</td><td>[Majority Element II](LeetCode-MajorityElementII.html)</td><td>Medium</td></tr>
