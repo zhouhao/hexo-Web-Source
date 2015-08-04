@@ -3,6 +3,9 @@ date: 2014-08-25 13:54:18
 tags:
  - AngularJS
  - Ajax
+categories:
+  - 计算机那些事
+  - 网站
 ---
 As a newcomer, I find a lot of problems when I am using AngularJS. One problem is related to Ajax request. 
 In jQuery, the server side can easy get the parameters, such as name: "John".
