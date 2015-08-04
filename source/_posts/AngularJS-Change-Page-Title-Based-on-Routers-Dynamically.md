@@ -3,28 +3,28 @@ date: 2014-08-07 12:37:21
 tags:
  - AngularJS
 ---
-Ohhh... I find a problem that the pages do not have titles(just display as URL), when I play the demo in [AngularJS Start with Yeoman, Grunt and Bower](http://sbzhouhao.net/2014/08/06/AngularJS-Start-with-Yeoman-Grunt-and-Bower/).     
+Ohhh... I find a problem that the pages do not have titles(just display as URL), when I play the demo in [AngularJS Start with Yeoman, Grunt and Bower](http://sbzhouhao.net/2014/08/06/AngularJS-Start-with-Yeoman-Grunt-and-Bower/).
 ###Intuitively, the page title should be changed dynamically with routers' changing.
 
 <!-- more -->
 
-I get my solution in this [stackoverflow](http://stackoverflow.com/questions/12506329/how-to-dynamically-change-header-based-on-angularjs-partial-view) page.   
+I get my solution in this [stackoverflow](http://stackoverflow.com/questions/12506329/how-to-dynamically-change-header-based-on-angularjs-partial-view) page.
 
-You can find my repository in GitHub: [AngularJS-Demo-Code](https://github.com/webiseverything/AngularJS-Demo-Code/tree/canChangeTitle/app) 
+You can find my repository in GitHub: [AngularJS-Demo-Code](https://github.com/webiseverything/AngularJS-Demo-Code/tree/canChangeTitle/app)
 
-###1. Open `app/index.html`:
-```
+### 1. Open `app/index.html`:
+```html
 <title ng-bind="title"></title>
 ```
 *Note: why use `ng-bind`?*
 ```
 // from https://coderwall.com/p/vcfo4q
-It is preferrable to use ngBind instead of {{ expression }} when a template is 
+It is preferrable to use ngBind instead of {{ expression }} when a template is
 momentarily displayed by the browser in its raw state before Angular compiles it.
 ```
 
-###2. Change `app.js` as below:
-```
+### 2. Change `app.js` as below:
+```javascript
 'use strict';
 
 /**
@@ -75,6 +75,4 @@ myApp.run(['$location', '$rootScope', function($location, $rootScope) {
 }]);
 ```
 
-That's all! :-)
-
-
+### That's all! :-)
