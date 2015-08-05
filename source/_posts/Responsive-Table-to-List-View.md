@@ -12,7 +12,7 @@ Table collapses into a "list" on small screens. Headers are pulled from data att
 
 <!-- more -->
 
-Core Code:
+### Core Code:
 
 ```css
 .rwd-table td:before {
@@ -25,7 +25,7 @@ Core Code:
 ![Table View](https://dn-myblog.qbox.me/img/responsiveTable/1.png "Table View")
 ![List View](https://dn-myblog.qbox.me/img/responsiveTable/2.png "List View")
 
-###The full code is below:
+### The full code is below:
 
 ```html
 <!DOCTYPE html>

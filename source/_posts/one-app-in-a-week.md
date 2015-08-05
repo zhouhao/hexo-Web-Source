@@ -1,10 +1,10 @@
 title: 'One App in A Week'
 date: 2014-05-28 18:43:41
-tags: 
+tags:
   - Mobile App
   - RESTful Server
 ---
-##The reason why I want to do this:
+## The reason why I want to do this:
 I was feed up with the ***todolist*** app in Apple Store.
 	1. Most of them cannot send email reminder
 	2. Most of them have functions I don't need
@@ -15,10 +15,10 @@ I want to prove to other that there is **no limitation** for web, and I believe 
 
 <!-- more -->
 
-##What I will do:
+## What I will do:
 	1. Build mobile apps for iPhone and android phone
 	2. Build desktop apps for Windows, Linux and Mac OS
 	3. All these will be done in less than 10 days, just before June
 
-###The system architecture I designed for my TODO list App
+### The system architecture I designed for my TODO list App
 ![System Architecture](http://zhouhao.u.qiniudn.com/arch.jpg)

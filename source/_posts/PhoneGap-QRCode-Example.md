@@ -4,26 +4,32 @@ tags:
  - PhoneGap
  - QRCode
  - Mobile
+categories:
+  - 计算机那些事
+  - 手机开发
 ---
-With PhoneGap, we can use HTML+CSS+JS to build the mobile apps. With it, I can easly wrap [this website](http://ios-emulator.hzhou.me/) into a iOS app.   
-But how could we call hardware of iPhone, such as camera, in our code with PhoneGap?    
-###Good news is that there are many plugins already existed, with which we can interact with hardware.    
+With PhoneGap, we can use HTML+CSS+JS to build the mobile apps. With it, I can easly wrap [this website](http://ios-emulator.hzhou.me/) into a iOS app.
+But how could we call hardware of iPhone, such as camera, in our code with PhoneGap?
+### Good news is that there are many plugins already existed, with which we can interact with hardware.
 Now let's do a app for QRCode sanner:
 <!-- more -->
- 
-###1. You should install [Node](http://nodejs.org/) in your computer.
-###2. Install [**phoneGap**](http://phonegap.com/install/) with `npm`:
-```
-npm install -g phonegap
-```     
 
-###3. Create an app with the CMD below:
+### 1. You should install [Node](http://nodejs.org/) in your computer.
+### 2. Install [**phoneGap**](http://phonegap.com/install/) with `npm`:
+
+```bash
+npm install -g phonegap
 ```
+
+### 3. Create an app with the CMD below:
+
+```bash
 phonegap create qrcode
 cd qrcode
 ```
 
-###4. Modify `index.html` in `www` folder as below [[refer](https://github.com/cfjedimaster/Cordova-Examples/tree/master/barcode)]
+### 4. Modify `index.html` in `www` folder as below [[refer](https://github.com/cfjedimaster/Cordova-Examples/tree/master/barcode)]
+
 ```html
 <html>
     <head>
@@ -47,7 +53,8 @@ cd qrcode
 </html>
 ```
 
-###5. Modify `index.js` in `www/js` folder as below [[refer](https://github.com/cfjedimaster/Cordova-Examples/tree/master/barcode)]
+### 5. Modify `index.js` in `www/js` folder as below [[refer](https://github.com/cfjedimaster/Cordova-Examples/tree/master/barcode)]
+
 ```js
 var resultDiv;
 
@@ -65,7 +72,7 @@ function startScan() {
             "Format: " + result.format + "<br/>" +
             "Cancelled: " + result.cancelled;
             resultDiv.innerHTML = s;
-        }, 
+        },
         function (error) {
             alert("Scanning failed: " + error);
         }
@@ -74,17 +81,18 @@ function startScan() {
 }
 ```
 
-###6. Open `config.xml` in `www`, and add below in [[refer](https://build.phonegap.com/plugins/261)]:
-```
+### 6. Open `config.xml` in `www`, and add below in [[refer](https://build.phonegap.com/plugins/261)]:
+
+```xml
 <gap:plugin name="com.phonegap.plugins.barcodescanner" version="1.1.0" />
 ```
 
-###7. Upload the project into GitHub
+### 7. Upload the project into GitHub
 
-###8. Build you app in [phoneGap website](https://build.phonegap.com/) ---- You need an account here
+### 8. Build you app in [phoneGap website](https://build.phonegap.com/) ---- You need an account here
 
-###Note: *if you need to build an iOS app, you need to provide a key. ---- Apple Developer $99/yr*
+#### Note: *if you need to build an iOS app, you need to provide a key. ---- Apple Developer $99/yr*
 
-### See my demo project in the [GitHub](https://github.com/zhouhao/PhoneGap-Test).   
-![Start Page](https://dn-myblog.qbox.me/img/phoneGap-QRCode/1.jpg "Start Page")     
+### See my demo project in the [GitHub](https://github.com/zhouhao/PhoneGap-Test).
+![Start Page](https://dn-myblog.qbox.me/img/phoneGap-QRCode/1.jpg "Start Page")
 ![Scan Page](https://dn-myblog.qbox.me/img/phoneGap-QRCode/2.jpg "Scan Page")  

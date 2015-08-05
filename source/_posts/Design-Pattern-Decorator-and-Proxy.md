@@ -3,18 +3,21 @@ date: 2014-08-17 13:39:57
 tags:
  - Design Pattern
  - Java
+categories:
+  - 计算机那些事
+  - 设计模式
 ---
-I think it is better to master 23 Design Patterns as a Java developer.    
-After I have a brief study, I find design pattern is not a new concept, and I have already used some of them in my daily projects unconsciously.    
+I think it is better to master 23 Design Patterns as a Java developer.
+After I have a brief study, I find design pattern is not a new concept, and I have already used some of them in my daily projects unconsciously.
 
 Here I will describe some details about **Decorator** and **Proxy**, as I find they share something in common.
 <!-- more -->
 
 <h3>Decorator</h3>
-*This pattern can dynamically add some new features to an Instance.*    
+*This pattern can dynamically add some new features to an Instance.*
 **When to use this?**
-1. Need to extend a class dynamically    
-2. Dynamically add/remove functions for new instance (Inheritance is static without dynamically adding or removing.)     
+1. Need to extend a class dynamically
+2. Dynamically add/remove functions for new instance (Inheritance is static without dynamically adding or removing.)
 
 
 ```
@@ -23,7 +26,7 @@ public interface Sourceable {
 }
 
 public class Source implements Sourceable {
-	
+
 	@override
 	public void method() {
 		System.out.println("The origin method");
@@ -66,7 +69,7 @@ public interface Sourceable {
 }
 
 public class Source implements Sourceable {
-	
+
 	@override
 	public void method() {
 		System.out.println("The origin method");
@@ -106,6 +109,3 @@ public class ProxyTest {
 	}
 }
 ```
-
-
-

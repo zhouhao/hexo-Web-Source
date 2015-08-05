@@ -9,7 +9,7 @@ categories:
 ---
 
 In recent life, I always need to migrate data from excel sheets into MySQL. But in sometimes, I do some mess-up. For example, **αβγ**...These are not **ASCII** symbols. So when I do the migration, they will be **Unrecognizable Code**.  
-###The code I used at the first stage:
+### The code I used at the first stage:
 <!-- more -->
 ```perl
 #!/usr/bin/perl -w
@@ -65,7 +65,7 @@ $dbh->disconnect();
 
 ```
 
-###after some modification:
+### after some modification:
 
 ```perl
 # more code here
