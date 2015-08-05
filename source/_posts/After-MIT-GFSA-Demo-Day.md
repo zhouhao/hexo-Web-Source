@@ -4,6 +4,7 @@ tags:
  - MIT GFSA
 categories:
   - 程序员的日常
+  - 文艺
 ---
 MIT GFSA program ended in 6th September with the Demo day, which also means this summer is over to me.
 ![MIT GFSA Demo Day](https://dn-myblog.qbox.me/img/mit-gfsa/demoday.png "MIT GFSA Demo Day")  
