@@ -4,6 +4,9 @@ tags:
  - GitHub
  - OpenShift
  - CloudFlare
+categories:
+ - 计算机那些事
+ - 网站
 ---
 之前博客一直以纯静态的方式托管在GitHub Page里面（是基于[Hexo](https://hexo.io/)的），遗憾的是
 

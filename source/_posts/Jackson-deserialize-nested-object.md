@@ -14,12 +14,13 @@ In class `Zoo`, there is a set of `IAnimal`. The when I tried to deserialize `{"
 
 
 ```java
-com.fasterxml.jackson.databind.JsonMappingException: Can not construct instance of com.oshackers.quickstart.jackson.model.IAnimal, problem: abstract types either need to be mapped to concrete types, have custom deserializer, or be instantiated with additional type information
- at [Source: {"animals":[{"name":"1"},{"name":"2"}]}; line: 1, column: 13] (through reference chain: com.oshackers.quickstart.jackson.model.Zoo["animals"]->java.util.HashSet[0])
-	at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:148)
-	at com.fasterxml.jackson.databind.DeserializationContext.instantiationException(DeserializationContext.java:857)
-	at com.fasterxml.jackson.databind.deser.AbstractDeserializer.deserialize(AbstractDeserializer.java:139)
-	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+com.fasterxml.jackson.databind.JsonMappingException: Can not construct instance of com.oshackers.quickstart.jackson.model.IAnimal, 
+problem: abstract types either need to be mapped to concrete types, have custom deserializer, or be instantiated with additional type information
+at [Source: {"animals":[{"name":"1"},{"name":"2"}]}; line: 1, column: 13] (through reference chain: com.oshackers.quickstart.jackson.model.Zoo["animals"]->java.util.HashSet[0])
+at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:148)
+at com.fasterxml.jackson.databind.DeserializationContext.instantiationException(DeserializationContext.java:857)
+at com.fasterxml.jackson.databind.deser.AbstractDeserializer.deserialize(AbstractDeserializer.java:139)
+at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
 ```
 
 The error message is very clear. 
@@ -30,20 +31,20 @@ The error message is very clear.
 
 ```java
 public class AnimalDeserializer extends JsonDeserializer<Set<IAnimal>> {
-
-	@Override
-	public Set<IAnimal> deserialize(JsonParser jsonParser, DeserializationContext ctxt) throws IOException {
-		Set<IAnimal> result = new HashSet<>();
-		ObjectCodec oc = jsonParser.getCodec();
-
-		JsonNode node = oc.readTree(jsonParser);
-
-		ObjectMapper mapper = new ObjectMapper();
-		for (JsonNode n : node) {
-			result.add(mapper.treeToValue(n, Animal.class));
-		}
-		return result;
-	}
+    
+    @Override
+    public Set<IAnimal> deserialize(JsonParser jsonParser, DeserializationContext ctxt) throws IOException {
+        Set<IAnimal> result = new HashSet<>();
+        ObjectCodec oc = jsonParser.getCodec();
+        
+        JsonNode node = oc.readTree(jsonParser);
+        
+        ObjectMapper mapper = new ObjectMapper();
+        for (JsonNode n : node) {
+            result.add(mapper.treeToValue(n, Animal.class));
+        }
+        return result;
+    }
 }
 ```
 
@@ -51,8 +52,8 @@ Then inside `IZoo`:
 
 
 ```java
-	@JsonDeserialize(using = AnimalDeserializer.class)
-	void setAnimals(Set<IAnimal> animals);
+@JsonDeserialize(using = AnimalDeserializer.class)
+void setAnimals(Set<IAnimal> animals);
 ```
 
 
@@ -63,10 +64,10 @@ Modify `IAnimal` as
 ```java
 @JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY, property = "@class")
 public interface IAnimal {
-
-	String getName();
-
-	void setName(String name);
+    
+    String getName();
+    
+    void setName(String name);
 }
 ```
 

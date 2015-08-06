@@ -5,13 +5,13 @@ tags:
   - OpenGL
 ---
 
-###Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](https://dn-myblog.qbox.me/demo/ComputerGraphics/GLinfo2.zip)
+### Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](https://dn-myblog.qbox.me/demo/ComputerGraphics/GLinfo2.zip)
 The very first thing you need to do is determine if your video card can support GPU programming. Specifically, you are looking to see if your graphic card supports OpenGL version **4.1** or later.
 
 [>>See the Source Code<<](https://github.com/zhouhao/CS543-Computer-Graphics-Course-Project/tree/master/HW5)   
 [>>Download the Executive program<<](https://dn-myblog.qbox.me/demo/ComputerGraphics/Image_Manipulation.zip)
 <!-- more -->
-##How my program works(Keyboard events are case-insensitive):
+### How my program works(Keyboard events are case-insensitive):
 ```
 Key 'O': Display original picture (usain_bolt.bmp -- colorful without transformation)
 Key 'L': Display picture with Luminance effect (gray scale)
@@ -23,13 +23,14 @@ Key 'W': Display image with Twirl Transformation
 Key 'P': Display image with Ripple Transformation
 Key 'S': Display image with Spherical Transformation
 ```
-##Attention for keyboar issues 'D':
-1). Edge Detection in color:       If the previous keyboard event is 'O', or no previous keyboard event, then when you press 'D' or 'd', it will trigger edge detection in color
+### Attention for keyboar issues 'D':
+1). Edge Detection in color:       If the previous keyboard event is 'O', or no previous keyboard event, then when you press 'D' or 'd', it will trigger edge detection in color   
+
 2). Edge Detection in luminance:   Otherwise, it will trigger edge detection in luminance
 
-##If you have any question, you can contact me: <a href="mailto:royhzhou@gmail.com">royhzhou@gmail.com</a>
+### If you have any question, you can contact me: <a href="mailto:royhzhou@gmail.com">royhzhou@gmail.com</a>
 
-##Screen Shots:
+### Screen Shots:
 ![keyboard 'l' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/2.PNG "Luminance effect")
 ![keyboard 'n' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/3.PNG "negative effect")
 ![keyboard 'd' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/4.PNG "edge detection effect")
