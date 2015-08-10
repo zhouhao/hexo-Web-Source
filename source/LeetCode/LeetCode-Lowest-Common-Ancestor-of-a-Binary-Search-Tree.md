@@ -19,41 +19,17 @@ For example, the lowest common ancestor (LCA) of nodes `2` and `8` is `6`. Anoth
 
 ```java
 public class Solution {
-       public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        return helper(root, p, q).node;
-    }
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        while (true) {
+            int n = root.val;
+            int a = p.val;
+            int b = q.val;
 
-    private Item helper(TreeNode root, TreeNode p, TreeNode q) {
-        if (root == null) {
-            return new Item(0, null);
-        }
-
-        Item left = helper(root.left, p, q);
-        if (left.count == 2) {
-            return left;
-        }
-
-        Item right = helper(root.right, p, q);
-        if (right.count == 2) {
-            return right;
-        }
-
-        int total = left.count + right.count;
-
-        if (root == p || root == q) {
-            total++;
-        }
-
-        return new Item(total, root);
-    }
-
-    class Item {
-        int count;
-        TreeNode node;
-
-        public Item(int count, TreeNode node) {
-            this.count = count;
-            this.node = node;
+            if ((n >= a && n <= b) || (n >= b && n <= a)) {
+                return root;
+            } else {
+                root = n > a && n > b ? root.left : root.right;
+            }
         }
     }
 }
