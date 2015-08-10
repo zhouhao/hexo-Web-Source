@@ -18,6 +18,10 @@ date: 2015-06-23 09:41:14
         <tr><td>244</td><td>[Shortest Word Distance II](LeetCode-Shortest-Word-Distance-II.html)</td><td>Medium</td></tr>
         <tr><td>243</td><td>[Shortest Word Distance](LeetCode-Shortest-Word-Distance.html)</td><td>Easy</td></tr>
         <tr><td>242</td><td>[Valid Anagram](LeetCode-Valid-Anagram.html)</td><td>Easy</td></tr>
+
+        <tr><td>241</td><td>[Different Ways to Add Parentheses](LeetCode-Different-Ways-to-Add-Parentheses.html)</td><td>Medium</td></tr>
+        <tr><td>240</td><td>[Search a 2D Matrix II](LeetCode-Search-a-2D-Matrix-II.html)</td><td>Medium</td></tr>
+        
         <tr><td>232</td><td>[Implement Queue using Stacks](LeetCode-Implement-Queue-Using-Stacks.html)</td><td>Easy</td></tr>
         <tr><td>231</td><td>[Power of Two](LeetCode-Power-Of-Two.html)</td><td>Easy</td></tr>
         <tr><td>230</td><td>[Kth Smallest Element in a BST](LeetCode-Kth-Smallest-Element-in-a-BST.html)</td><td>Medium</td></tr>
