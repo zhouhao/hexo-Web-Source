@@ -3,7 +3,7 @@ date: 2013-11-29 12:07:41
 tags:
   - Computer Graphics
   - OpenGL
- categories:
+categories:
   - 计算机那些事
   - 图像处理
 ---
