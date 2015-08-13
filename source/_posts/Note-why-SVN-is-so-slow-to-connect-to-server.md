@@ -9,7 +9,7 @@ Today, they changed SVN server(but the same IP is kept), however, it is still ve
 
 After finishing my task, I googled a lot, then find a very easy solution: http://stackoverflow.com/questions/5048718/tortoisesvn-not-saving-authentication-details
 
-```
+```bash 
 # AppData maybe a hidden folder in windows
 Open "C:\Users\${username}\AppData\Roaming\Subversion", then delete "auth" folder. All set now!!!
 ```

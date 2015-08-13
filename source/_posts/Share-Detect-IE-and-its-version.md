@@ -3,9 +3,12 @@ date: 2014-07-17 12:50:12
 tags:
  - IE
  - Web
+categories:
+   - 计算机那些事
+   - 网站
 ---
-This post will tell you how detect IE and its version.     
-Refer: http://stackoverflow.com/questions/10964966/detect-ie-version-in-javascript     
+This post will tell you how detect IE and its version.
+Refer: http://stackoverflow.com/questions/10964966/detect-ie-version-in-javascript
 <!-- more -->
 
 ```html
@@ -35,7 +38,7 @@ Refer: http://stackoverflow.com/questions/10964966/detect-ie-version-in-javascri
 
 </html>
 ```
-###ScreenShots:   
-![IE 10](https://dn-myblog.qbox.me/img/blog/ie10.png "IE 10")    
-![IE 9](https://dn-myblog.qbox.me/img/blog/ie9.png "IE 9")    
-![IE 7](https://dn-myblog.qbox.me/img/blog/ie7.png "IE 7")    
+### ScreenShots:
+![IE 10](https://dn-myblog.qbox.me/img/blog/ie10.png "IE 10")
+![IE 9](https://dn-myblog.qbox.me/img/blog/ie9.png "IE 9")
+![IE 7](https://dn-myblog.qbox.me/img/blog/ie7.png "IE 7")

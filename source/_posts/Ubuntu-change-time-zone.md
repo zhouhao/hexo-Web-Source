@@ -22,4 +22,4 @@ Sometime, even I set time zone to ETS for Ubuntu server, I still get the time "w
 TimeZone.setDefault(TimeZone.getTimeZone("EST"));
 ```
 
-in my Global Filter(global handler).
+in my Global Filter/handler.

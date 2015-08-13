@@ -5,7 +5,7 @@ tags:
   - Ubuntu
 ---
 I have two servers in [DigitalOcean](https://www.digitalocean.com/), and both of them are Ubutun with tomcat 7. Recently, I found that if I want to restart tomcat, it will cost me more than 5 minutes(No errors during this). And the worest is(almots half an hour):  
-```
+```bash
 INFO: Server startup in 1497026 ms
 ```
 <!-- more -->

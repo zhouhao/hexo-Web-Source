@@ -3,16 +3,15 @@ date: 2014-07-15 22:05:23
 tags:
  - IE
  - Front End
- - Compatibility Test
  - Web
 ---
-I have tried almost every browser, and my favorite one is Google Chrome:   
-```
-Fast
-Easy to sync everything I need
-Easy for web developing
-... more ...
-```
+I have tried almost every browser, and my favorite one is Google Chrome:
+
+1. Fast
+2. Easy to sync everything I need
+3. Easy for web developing
+4. ... more ...
+
 But this is not the execuse that I can never care about IE. In my daily life, I have many web related projects. Even I use Chrome, I must care for the users who use IE to visit my works.
 <!-- more -->
 

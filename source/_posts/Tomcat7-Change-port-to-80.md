@@ -5,12 +5,12 @@ tags:
   - Ubuntu
 ---
 I have many servers, which run Java Web applications. For development, I like Jetty, but for production, I prefer Tomcat7 now.
-###In ubuntu, you need root permission to use ports under 1024.
+### In ubuntu, you need root permission to use ports under `1024`.
 <!-- more -->
 
-When you Google this topic, you will find alot of solutions around the Internet, but many of them are not so useful, even some try to trap you.
+When you Google this topic, you will find a lot of solutions around the Internet, but many of them are not so useful, even some try to trap you.
 
-So I just record what I do for this issue in **Ubuntu**:   
+So I just record what I do for this issue in **Ubuntu**:
 
 1. Open `/var/lib/tomcat7/conf/server.xml` or `/etc/tomcat7/server.xml`(they are the same), modify code as below
 ```xml
@@ -24,8 +24,8 @@ So I just record what I do for this issue in **Ubuntu**:
 <!-- more code here -->
 ```
 
-2. Open `/etc/default/tomcat`:    
-```xml
+2. Open `/etc/default/tomcat`:
+```bash
 # If you run Tomcat on port numbers that are all higher than 1023, then you
 # do not need authbind.  It is used for binding Tomcat to lower port numbers.
 # NOTE: authbind works only with IPv4.  Do not enable it when using IPv6.
@@ -34,4 +34,3 @@ AUTHBIND=yes
 ```
 
 3. In very rare case, you need to change `TOMCAT7_USER=tomcat7` to `TOMCAT7_USER=root`. [This is not recommended]
-

@@ -33,7 +33,7 @@ It is pretty easy to do, so I don't write anything related to their installation
      |
      | NOTE: You should either specify username/password OR privateKey/passphrase, since these pairings are
      |       used together.
-     |
+     | -->
     <server>
       <id>TomcatServer</id>
       <username>username</username>
@@ -46,23 +46,23 @@ It is pretty easy to do, so I don't write anything related to their installation
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>me.hzhou.paypal</groupId>
-	<artifactId>PayPal-jFinal</artifactId>
-	<packaging>war</packaging>
-	<version>0.1</version>
-	<name>PayPal Plugin For jFinal</name>
-	<url>http://maven.apache.org</url>
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>me.hzhou.paypal</groupId>
+    <artifactId>PayPal-jFinal</artifactId>
+    <packaging>war</packaging>
+    <version>0.1</version>
+    <name>PayPal Plugin For jFinal</name>
+    <url>http://maven.apache.org</url>
 
-	<dependencies>
-		<dependency>
-			<groupId>com.paypal.sdk</groupId>
-			<artifactId>rest-api-sdk</artifactId>
-			<version>0.9.0</version>
-		</dependency>
+    <dependencies>
+        <dependency>
+            <groupId>com.paypal.sdk</groupId>
+            <artifactId>rest-api-sdk</artifactId>
+            <version>0.9.0</version>
+        </dependency>
 
-		<!-- More Dependencies -->
+        <!-- More Dependencies -->
 
     </dependencies>
     <build>
@@ -98,10 +98,10 @@ It is pretty easy to do, so I don't write anything related to their installation
 ```
 
 ### 5. Change directory to your website folder
-```
+```sh
 mvn tomcat7:deploy
 ```
 Or
-```
+```sh
 mvn tomcat7:redeploy
 ```

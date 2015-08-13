@@ -3,12 +3,15 @@ date: 2013-11-29 18:07:41
 tags:
   - Computer Graphics
   - OpenGL
+categories:
+  - 计算机那些事
+  - 图像处理
 ---
 
 ### Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](https://dn-myblog.qbox.me/demo/ComputerGraphics/GLinfo2.zip)
 The very first thing you need to do is determine if your video card can support GPU programming. Specifically, you are looking to see if your graphic card supports OpenGL version **4.1** or later.
 
-[>>See the Source Code<<](https://github.com/zhouhao/CS543-Computer-Graphics-Course-Project/tree/master/HW5)   
+[>>See the Source Code<<](https://github.com/zhouhao/CS543-Computer-Graphics-Course-Project/tree/master/HW5)
 [>>Download the Executive program<<](https://dn-myblog.qbox.me/demo/ComputerGraphics/Image_Manipulation.zip)
 <!-- more -->
 ### How my program works(Keyboard events are case-insensitive):
@@ -24,7 +27,7 @@ Key 'P': Display image with Ripple Transformation
 Key 'S': Display image with Spherical Transformation
 ```
 ### Attention for keyboar issues 'D':
-1). Edge Detection in color:       If the previous keyboard event is 'O', or no previous keyboard event, then when you press 'D' or 'd', it will trigger edge detection in color   
+1). Edge Detection in color:       If the previous keyboard event is 'O', or no previous keyboard event, then when you press 'D' or 'd', it will trigger edge detection in color
 
 2). Edge Detection in luminance:   Otherwise, it will trigger edge detection in luminance
 

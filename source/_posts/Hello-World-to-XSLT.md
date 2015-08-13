@@ -3,12 +3,15 @@ date: 2014-09-25 13:35:34
 tags:
  - XSLT
  - XML
+categories:
+  - 计算机那些事
+  - 杂项
 ---
 ### Definition
-XSL stands for EXtensible Stylesheet Language, and is a style sheet language for XML documents. (`XSL = Style Sheets for XML`)   
+XSL stands for EXtensible Stylesheet Language, and is a style sheet language for XML documents. (`XSL = Style Sheets for XML`)
 XSLT stands for XSL Transformations. In this tutorial you will learn how to use XSLT to transform XML documents into other formats, like XHTML.
 
-You can try a online demo here: http://www.w3schools.com/xsl/tryxslt.asp?xmlfile=cdcatalog&xsltfile=cdcatalog 
+You can try a online demo here: http://www.w3schools.com/xsl/tryxslt.asp?xmlfile=cdcatalog&xsltfile=cdcatalog
 <!-- more -->
 ### A simple Sample in Java
 The XML file(I already add line: `<?xml-stylesheet type="text/xsl" href="helloWorld.xslt" ?>`, you can put `helloWorld.xml` and `helloWorld.xslt` in the same folder, then open helloWorld.xml in IE[Note: I hate IE, but in this case, IE is better than Chrome])
@@ -101,7 +104,7 @@ import javax.xml.transform.stream.StreamSource;
 /**
  * Generate output xml based on provided XSLT and Input XML files
  * http://stackoverflow.com/questions/4604497/xslt-processing-with-java
- * 
+ *
  * @author hzhou
  * @param  XSLT
  * @param  Input XML
