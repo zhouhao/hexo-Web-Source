@@ -15,12 +15,12 @@ categories:
 
 这对这种情况，我当时的做法是自己写一个`MyKeyGenerator`。   
 ```Java
-	@Override
-	public Object generate(Object target, Method method, Object... params) {
-		int key = Objects.hashCode(method.getName(), params);
-		//log.info("key = " + key);
-		return key;
-	}
+    @Override
+    public Object generate(Object target, Method method, Object... params) {
+        int key = Objects.hashCode(method.getName(), params);
+        //log.info("key = " + key);
+        return key;
+    }
 ```
 
 我以为这样是万事无忧的，然而实际中，我发现我的`Ehcache`根本没派上用场，每次service的调用都会执行数据库操作语句。经过丛丛调试，终于发现即使我每次的输入参数数据一模一样，但是每次生成的`key`值不一样。
