@@ -6,6 +6,10 @@ date: 2015-06-23 09:41:14
         <tr><th>#</th><th>Question</th><th>Difficulty</th></tr>
     </thead>
     <tbody>  
+        <tr><td>258</td><td>[Add Digits](LeetCode-Add-Digits.html)</td><td>Easy</td></tr>
+        <tr><td>257</td><td>[Binary Tree Paths](LeetCode-Binary-Tree-Paths.html)</td><td>Easy</td></tr>
+        <tr><td>256</td><td>[Paint House](LeetCode-Paint-House.html)</td><td>Medium</td></tr>
+        <tr><td>255</td><td>[Verify Preorder Sequence in Binary Search Tree](LeetCode-Verify-Preorder-Sequence-in-Binary-Search-Tree.html)</td><td>Medium</td></tr>
     	<tr><td>254</td><td>[Factor Combinations](LeetCode-Factor-Combinations.html)</td><td>Medium</td></tr>
         <tr><td>253</td><td>[Meeting Rooms II](LeetCode-Meeting-Rooms-II.html)</td><td>Medium</td></tr>
         <tr><td>252</td><td>[Meeting Rooms](LeetCode-Meeting-Rooms.html)</td><td>Easy</td></tr>
