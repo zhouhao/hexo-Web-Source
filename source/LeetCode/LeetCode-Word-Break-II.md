@@ -4,11 +4,6 @@ date: 2015-06-24 00:03:22
 
 ```java
 
-/**
- * Description:
- *
- * @author hzhou
- */
 public class WordBreakII {
     public List<String> wordBreak(String s, Set<String> wordDict) {
         List<String> result = new ArrayList<String>();
@@ -41,6 +36,7 @@ public class WordBreakII {
         helper(s.length(), result, new ArrayList<String>(), map);
         return result;
     }
+    
     private void helper(int end, List<String> result, List<String> crt, List<String> map[]) {
         if (end <= 0) {
             StringBuilder sb = new StringBuilder();

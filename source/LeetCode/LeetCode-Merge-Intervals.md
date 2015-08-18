@@ -1,13 +1,16 @@
 title: 'LeetCode: Merge Intervals'
 date: 2015-06-24 00:03:22
 ---
-
+Given intervals => merged intervals:
+```
+[                     [
+  [1, 3],               [1, 6],
+  [2, 6],      =>       [8, 10],
+  [8, 10],              [15, 18]
+  [15, 18]            ]
+]
+```
 ```java
-
-/**
- * Created by hzhou on 2015/5/21.
- * Email: codeashobby@gmail.com
- */
 public class MergeIntervals {
     public List<Interval> merge(List<Interval> intervals) {
         List<Interval> result = new ArrayList<Interval>();
@@ -38,26 +41,6 @@ public class MergeIntervals {
             result.add(in);
         }
         return result;
-    }
-    @Test
-    public void test() {
-        List<Interval> list = new ArrayList<Interval>();
-        /**/
-        list.add(new Interval(1, 3));
-        list.add(new Interval(2, 6));
-        list.add(new Interval(8, 10));
-        list.add(new Interval(15, 18));
-        /**/
-        /*
-        list.add(new Interval(1, 4));
-        list.add(new Interval(4, 5));
-        */
-        /*
-        list.add(new Interval(1, 4));
-        list.add(new Interval(0, 2));
-        list.add(new Interval(3, 5));
-        */
-        List<Interval> result = merge(list);
     }
 }
 ```

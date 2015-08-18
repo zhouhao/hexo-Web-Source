@@ -3,10 +3,6 @@ date: 2015-06-24 00:03:22
 ---
 
 ```java
-
-/**
- * Created by hzhou on 5/1/15. codeashobby@gmail.com
- */
 public class UniquePaths {
     public int uniquePaths1(int m, int n) {
         if (m < 1 || n < 1) {

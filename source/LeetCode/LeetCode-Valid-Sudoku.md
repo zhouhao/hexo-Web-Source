@@ -3,10 +3,6 @@ date: 2015-06-24 00:03:22
 ---
 
 ```java
-
-/**
- * Created by hzhou on 5/11/15. codeashobby@gmail.com
- */
 public class ValidSudoku {
     public boolean isValidSudoku(char[][] board) {
         Set<Character> set = new HashSet<Character>();
@@ -56,15 +52,6 @@ public class ValidSudoku {
             }
         }
         return true;
-    }
-    @Test
-    public void test() {
-        String[] s = new String[]{".87654321","2........","3........","4........","5........","6........","7........","8........","9........"};
-        char[][] board = new char[9][9];
-        for(int i = 0; i < 9; i++) {
-            board[i] = s[i].toCharArray();
-        }
-        isValidSudoku(board);
     }
 }
 ```

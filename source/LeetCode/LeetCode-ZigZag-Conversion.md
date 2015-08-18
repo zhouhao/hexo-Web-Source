@@ -3,12 +3,6 @@ date: 2015-06-24 00:03:22
 ---
 
 ```java
-
-/**
- * Description
- *
- * @author hzhou
- */
 public class ZigZagConversion {
     public String convert(String s, int numRows) {
         if (numRows <= 0) {

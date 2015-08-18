@@ -1,33 +1,26 @@
 title: 'LeetCode: Wildcard Matching'
 date: 2015-06-24 00:03:22
 ---
+`'?'` Matches any single character.
+`'*'` Matches any sequence of characters (including the empty sequence).
+
+The matching should cover the entire input string (not partial).
+
+The function prototype should be:
+`bool isMatch(const char *s, const char *p)`
+
+### Some examples:
+```java
+isMatch("aa","a") -> false
+isMatch("aa","aa") -> true
+isMatch("aaa","aa") -> false
+isMatch("aa", "*") -> true
+isMatch("aa", "a*") -> true
+isMatch("ab", "?*") -> true
+isMatch("aab", "c*a*b") -> false
+```
 
 ```java
-
-import static junit.framework.Assert.assertTrue;
-/**
- * Description:
- * <pre>
- * '?' Matches any single character.
- * '*' Matches any sequence of characters (including the empty sequence).
- *
- * The matching should cover the entire input string (not partial).
- *
- * The function prototype should be:
- * bool isMatch(const char *s, const char *p)
- *
- * Some examples:
- * isMatch("aa","a") â†? false
- * isMatch("aa","aa") â†? true
- * isMatch("aaa","aa") â†? false
- * isMatch("aa", "*") â†? true
- * isMatch("aa", "a*") â†? true
- * isMatch("ab", "?*") â†? true
- * isMatch("aab", "c*a*b") â†? false
- * </pre>
- *
- * @author hzhou
- */
 public class WildcardMatching {
     public boolean isMatch(String s, String p) {
         if (p == null || p.isEmpty()) {
@@ -85,14 +78,6 @@ public class WildcardMatching {
             start++;
         }
         return start;
-    }
-    @Test
-    public void test() {
-        assertTrue(isMatch("ab", "?*"));
-        assertTrue(isMatch("ab", "ab"));
-        assertTrue(isMatch("ab", "*"));
-        assertTrue(isMatch("ab", "*?"));
-        assertTrue(!isMatch("aab", "c*a*b"));
     }
 }
 ```

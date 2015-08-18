@@ -4,9 +4,6 @@ date: 2015-06-24 00:03:22
 
 ```java
 
-/**
- * Created by hzhou on 5/10/15. codeashobby@gmail.com
- */
 public class WordSearch {
     public boolean exist(char[][] board, String word) {
         if (board == null || board.length == 0 || board[0].length == 0) {

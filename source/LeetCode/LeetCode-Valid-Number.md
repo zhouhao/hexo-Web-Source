@@ -1,4 +1,4 @@
-title: 'LeetCode: Valid Sudoku'
+title: 'LeetCode: Valid Number'
 date: 2015-06-24 00:03:22
 ---
 Validate if a given string is numeric.
@@ -12,10 +12,6 @@ Validate if a given string is numeric.
 ```
 
 ```java
-
-/**
- * Created by hzhou on 5/11/15. codeashobby@gmail.com
- */
 public class ValidNumber  {
     public boolean isNumber(String s) {  
         if(s.trim().isEmpty()){  

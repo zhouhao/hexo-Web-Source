@@ -4,11 +4,6 @@ date: 2015-06-24 00:03:22
 
 ```java
 
-/**
- * Description
- *
- * @author hzhou
- */
 public class ValidPalindrome {
     public boolean isPalindrome(String s) {
         if (s == null || s.trim().isEmpty()) {
