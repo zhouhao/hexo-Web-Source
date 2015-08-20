@@ -3,7 +3,7 @@ date: 2014-08-31 19:41:28
 tags:
  - Tomcat 7
 ---
-Sometime, when I failed to restart my tomcat7 server, and in the log, it returns error: **address already in use!**
+Sometime, when I failed to restart my tomcat7 server, and in the log, it returns error: `**address already in use!**`
 <!-- more -->
 
 In this case, you can do some check as below:
