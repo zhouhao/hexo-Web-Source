@@ -1,24 +1,13 @@
 title: 'LeetCode: Shortest Palindrome'
 date: 2015-06-23 21:37:43
-tags:
 ---
-Find all possible combinations of `k` numbers that add up to a number `n`, given that only numbers from 1 to 9 can be used and each combination should be a unique set of numbers.   
-Ensure that numbers within the set are sorted in ascending order.
+Given a string S, you are allowed to convert it to a palindrome by adding characters in front of it. Find and return the shortest palindrome you can find by performing this transformation.
 
+### For example:
 
-### Example 1:
-Input: `k = 3, n = 7`    
-Output:   
-```
-[[1,2,4]]
-```
+Given "`aacecaaa`", return "`aaacecaaa`".
 
-### Example 2:
-Input: `k = 3, n = 9`   
-Output:   
-```
-[[1,2,6], [1,3,5], [2,3,4]]
-```
+Given "`abcd`", return "`dcbabcd`".
 
 ```java
 public class ShortestPalindrome {
