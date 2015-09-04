@@ -1,0 +1,21 @@
+title: Last Day in Ovitas
+date: 2015-09-04 14:26:31
+tags:
+ - Life
+categories:
+  - 程序员的日常
+  - 普通
+---
+09/04/2015，今天是我在Ovitas的最后一天了。
+
+<!-- more -->
+
+一到公司，我刚打开电脑，还没来得及输入开机密码，Alfred就走过来递给我一个大盒子，说这是给你的结婚礼物，打开看看。没想到是一个巨大的相册。（美国兄弟真心挺nice+靠谱的）当我告诉他这是我最后一天的时候，感觉太还是有点吃惊的。
+
+![结婚相册](https://dn-myblog.qbox.me/img/blog/wedding-album.jpg "结婚相册")
+
+这个上午，下午我就保持着低调的看一些信息，知道manager喊我去吃蛋糕，我才意识到，原来所有人都过来了。公司买了蛋糕来庆祝一下我最后一天。大家一起乱侃一通，祝福祝福。（没有一丝一毫的撕逼，耶）好多人以为今天是谁的生日，不明真相的群众（很多人和我工作上交集不多），都怪我之前没张扬。
+
+![My Last Day In Ovitas](https://dn-myblog.qbox.me/img/blog/last_day_in_ovitas.jpg "My Last Day In Ovitas")
+
+祝大家日后顺利！！！
