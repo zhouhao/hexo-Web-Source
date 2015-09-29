@@ -9,4 +9,7 @@ date: 2015-08-03 13:41:25
 
 本人目前就职于麻州的一个本地小公司，干着后台服务开发的活。平时也会积极参与一些创业相关的项目。
 
+changelog:
+1. 09/08/2015 转战TripAdvisor
+
 #### [>>个人简历 pdf<<](https://dn-myblog.qbox.me/Resume_Hao_Zhou.pdf)
