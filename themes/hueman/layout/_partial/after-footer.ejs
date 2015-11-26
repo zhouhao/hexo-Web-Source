@@ -14,11 +14,7 @@
 </script>
 <% } %>
 
-<% if(theme.use_google_apis) { %>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<% } else { %>
-  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-<% } %>
+<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
 <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
 <% if (theme.fancybox){ %>
   <%- js('fancybox/jquery.fancybox.pack') %>
@@ -31,3 +27,13 @@
 
 <%- js('js/html-patch') %>
 <%- js('js/script') %>
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+            
