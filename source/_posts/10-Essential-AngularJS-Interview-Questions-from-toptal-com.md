@@ -8,8 +8,10 @@ categories:
 ---
 This article is forward from http://www.toptal.com/angular-js/interview-questions
 
-![http://www.toptal.com/angular-js/interview-questions](https://dn-myblog.qbox.me/img/blog/AngularJS_Interview.png "http://www.toptal.com/angular-js/interview-questions")
 <!-- more -->
+
+![http://www.toptal.com/angular-js/interview-questions](https://dn-myblog.qbox.me/img/blog/AngularJS_Interview.png "http://www.toptal.com/angular-js/interview-questions")
+
 ### 1. What are the ways to communicate between modules of your application using core AngularJS functionality? Name three ways.
 
 Communication can happen:

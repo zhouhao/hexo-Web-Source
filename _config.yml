@@ -3,11 +3,11 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: CrazyEgg
+title: 疯狂de咸蛋
 subtitle: "Laugh, you should try. Cry, you should try!"
 description: "Enjoy life, enjoy coding"
 author: "Hao Zhou"
-email: royhzhou@gmail.com
+email: i@ihzhou.me
 language: en
 
 # URL
@@ -80,7 +80,7 @@ disqus_shortname: zhouhao
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: hueman
+theme: maupassant
 #exclude_generator:
 
 plugins:

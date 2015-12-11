@@ -1,0 +1,32 @@
+fancybox: true ## If you want to use fancybox please set the value to true
+duoshuo: ## Your duoshuo_shortname, e.g. haomwei
+disqus: ## Your disqus_shortname, e.g. haomwei
+google_search: ## Use Google search, true/false
+baidu_search: ## Use Baidu search, true/false
+swiftype: 7Q4fXSChRnPVrHYRXR76 ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
+tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
+menu:
+  - page: home
+    directory: /
+    icon: icon-home
+  - page: archive
+    directory: archives/
+    icon: icon-archive
+  - page: about
+    directory: about/
+    icon: icon-about
+  - page: rss
+    directory: atom.xml
+    icon: icon-rss
+links:
+  - title: site-name1
+    url: http://www.example1.com/
+  - title: site-name2
+    url: http://www.example2.com/
+  - title: site-name3
+    url: http://www.example3.com/
+highlight:
+  enable: true
+  auto_detect: true
+  line_number: true
+  tab_replace:
