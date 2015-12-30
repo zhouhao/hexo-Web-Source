@@ -63,7 +63,7 @@ html(lang='#{config.language}')
         .widget
           .widget-title= __('tags')
           .tagcloud
-            != tagcloud({min_font: 15, max_font: 15, amount: 100, orderby: 'count'})
+            != tagcloud({min_font: 14, max_font: 14, amount: 100, orderby: 'count'})
         .widget
           .widget-title= __('blogroll')
           - for (var i in theme.links)
