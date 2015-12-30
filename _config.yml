@@ -71,7 +71,7 @@ time_format: H:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 12
+per_page: 20
 pagination_dir: page
 
 # Disqus
@@ -80,7 +80,7 @@ disqus_shortname: zhouhao
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: maupassant
+theme: hzhou
 #exclude_generator:
 
 plugins:
