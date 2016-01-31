@@ -18,8 +18,20 @@
         <%}%>
         <% if (theme.search_box){ %>
             <form>
-                <input type="text" class="search" placeholder=" Search...">
+                <input type="text" id="st-search-input" class="search" placeholder=" Search...">
             </form>
+            <script type="text/javascript">
+            var Swiftype = window.Swiftype || {};
+              (function() {
+                Swiftype.key = '7Q4fXSChRnPVrHYRXR76';
+
+                /** DO NOT EDIT BELOW THIS LINE **/
+                var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+                script.src = "//s.swiftypecdn.com/embed.js";
+                var entry = document.getElementsByTagName('script')[0];
+                entry.parentNode.insertBefore(script, entry);
+              }());
+            </script>
         <%}%>
         <%if(theme.tagcloud){%>
             <div id="switch-btn" class="switch-btn">

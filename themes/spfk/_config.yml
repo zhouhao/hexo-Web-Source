@@ -102,7 +102,7 @@ excerpt_link: 点击有惊喜  #修改more>>的文字
 
 # 是否显示边栏中的搜索框（仅样式，未添加搜索功能）
 # Search Box in left column
-# search_box: true
+search_box: true
 
 # 是否开启主页及加载头像时的动画效果
 # Animation in Homepage and Loading avatar
