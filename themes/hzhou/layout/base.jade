@@ -65,7 +65,7 @@ html(lang='#{config.language}')
           .tagcloud
             != tagcloud({min_font: 14, max_font: 14, amount: 100, orderby: 'count'})
         .widget
-          .widget-title= __('blogroll')
+          .widget-title= __('links')
           - for (var i in theme.links)
             ul
             a(href='#{theme.links[i].url}' title='#{theme.links[i].title}' target='_blank') #{theme.links[i].title}
@@ -77,12 +77,15 @@ html(lang='#{config.language}')
       a(rel='nofollow', target='_blank', href='https://github.com/tufu9441/maupassant-hexo')  Theme
       |  by
       a(rel='nofollow', target='_blank', href='https://github.com/pagecho')  Cho.
+      <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"></span> 次</span>
 
     include _partial/totop
     != js([root + '/js/jquery.min.js', root + '/js/totop.js'])
     if theme.fancybox
       != js([root + '/js/fancybox.pack.js', root + '/js/jquery.fancybox.js'])
       != css(root + '/css/jquery.fancybox.css')
+
+    script(src='//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js')
 
     if theme.duoshuo
       script.
