@@ -98,7 +98,7 @@ toc_nowrap: false
 
 # 自定义"阅读全文"链接按钮的显示文字
 # Customize the text on excerpt link
-excerpt_link: Read More >> #修改more>>的文字
+excerpt_link: 点击有惊喜  #修改more>>的文字
 
 # 是否显示边栏中的搜索框（仅样式，未添加搜索功能）
 # Search Box in left column
