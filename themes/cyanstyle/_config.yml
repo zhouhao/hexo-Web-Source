@@ -24,7 +24,7 @@ widgets:
 
 # Miscellaneous
 google_analytics:
-duoshuo_shortname: flhexo
+disqus_shortname: zhouhao
 rss: /atom.xml
 favicon: http://7u2hdm.com1.z0.glb.clouddn.com/favicon.ico
 google_site_verification: NCXVSqxqB-os803-VFMtIEd1SUNJVOIjctCfNYUwD0w
