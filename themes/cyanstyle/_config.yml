@@ -8,8 +8,6 @@ menu:
 excerpt_link: Read More
 prev: Prev
 next: Next
-reply: 评论
-share: 分享
 fancybox: true
 
 # Sidebar
@@ -28,3 +26,4 @@ rss: /atom.xml
 favicon: /favicon.png
 google_site_verification: NCXVSqxqB-os803-VFMtIEd1SUNJVOIjctCfNYUwD0w
 baidu_site_verification: Nzwx7HuplM
+subtitle: "Laugh, you should try; cry, you should try"

@@ -3,19 +3,14 @@
       <h1 class="site-title">
         <a href="<%- url_for() %>" title="<%= config.title %>" rel="home"><%= config.title %></a>
       </h1>
-      <% if (theme.subtitle){ %>
-        <h2 class="site-description">
-          <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
-        </h2>
-      <% } else { %>
-        <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
-        <h2 class="site-description"><script>hitokoto();</script></h2>
-      <% } %>
+      <h2 class="site-description">
+        <a href="<%- url_for() %>" id="subtitle">Laugh, you should try; Cry, you should try</a>
+      </h2>
     </hgroup>
 
     <nav id="site-navigation" class="main-navigation" role="navigation">
-            <button class="menu-toggle">菜单</button>
-            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
+            <button class="menu-toggle">Nenu</button>
+            <a class="assistive-text" href="/#content" title="跳至内容">Goto</a><!--TODO-->
             <div class="menu-main-container">
                 <ul id="menu-main" class="nav-menu">
                 <% for (var i in theme.menu){ %>
