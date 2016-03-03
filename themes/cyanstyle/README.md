@@ -46,17 +46,17 @@ widgets:
 
 # Miscellaneous
 google_analytics:
-duoshuo_shortname: 
-rss: 
-google_site_verification: 
-baidu_site_verification: 
-favicon: 
-music: 
+disqus_shortname:
+rss:
+google_site_verification:
+baidu_site_verification:
+favicon:
+music:
 ```
 
 + `menu` - 导航栏的菜单，键值对形式，键为文字，值为连接
 + `widgets` - 侧栏上的小工具，一行一个
-+ `duoshuo_shortname` - 站点的多说ID，可选
++ `disqus_shortname` - 站点的多说ID，可选
 + `fancybox` - 是否开启 jQuery 弹出层效果
 + `google_analytics` - Google Analytics ID ，可选
 + `rss` - rss 订阅链接，可选

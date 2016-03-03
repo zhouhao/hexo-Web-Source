@@ -5,27 +5,26 @@ menu:
   RSS: /atom.xml
 
 # Content
-excerpt_link: 更多内容
-prev: 上一页
-next: 下一页
+excerpt_link: Read More
+prev: Prev
+next: Next
 reply: 评论
 share: 分享
 fancybox: true
 
 # Sidebar
 widgets:
+- search
 - about
 - recent_posts
 - archive
 - category
 - tagcloud
-- link
-- account
 
 # Miscellaneous
 google_analytics:
 disqus_shortname: zhouhao
 rss: /atom.xml
-favicon: http://7u2hdm.com1.z0.glb.clouddn.com/favicon.ico
+favicon: /favicon.png
 google_site_verification: NCXVSqxqB-os803-VFMtIEd1SUNJVOIjctCfNYUwD0w
 baidu_site_verification: Nzwx7HuplM
