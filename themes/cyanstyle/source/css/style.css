@@ -1969,3 +1969,7 @@ img#wpstats {
 		margin-left: 3.57142857rem;
 	}
 }
+
+pre {
+  background-color: rgba(255,255,255, 0.5);
+}
