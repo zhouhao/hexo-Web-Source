@@ -1,29 +1,15 @@
 <script src="/js/jquery-2.0.3.min.js"></script>
 
-<% if (theme.fancybox){ %>
-  <%- css('fancybox/jquery.fancybox') %>
-  <%- js('fancybox/jquery.fancybox.pack') %>
-<% } %>
+
+<%- css('fancybox/jquery.fancybox') %>
+<%- js('fancybox/jquery.fancybox.pack') %>
 
 <%- js('js/script') %>
 
 <script src="/js/navigation.js"></script>
 
-<script>
-    //Kill XP and IE8
-    (function(){
-        var ua = navigator.userAgent;
-        var res = /Windows NT (\d+\.\d+)/.exec(ua);
-        var xpOrLower = res && JSON.parse(res[1]) < 6;
-        res = /MSIE (\d+\.\d+)/.exec(ua);
-        var ie8OrLower = res && JSON.parse(res[1]) < 9;
-        // var fromBaiduSE = /^https?:\/\/www.baidu.com/.test(document.referrer);
-        if(xpOrLower || ie8OrLower /* || fromBaiduSE */)
-        {
-            alert('请不要用XP及之前的Windows系统，和IE8及之前的IE浏览器访问本站！');
-            location.href = "about:blank";
-        }
-    })();
-</script>
+<%- css('highlight/styles/github') %>
+<%- js('highlight/highlight.pack') %>
+<script>hljs.initHighlightingOnLoad();</script>
 
 <div id="bg"></div>

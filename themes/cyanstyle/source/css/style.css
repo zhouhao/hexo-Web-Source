@@ -90,7 +90,7 @@ Microsoft YaHei,html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	vertical-align: baseline; 
+	vertical-align: baseline;
 }
 body {
 	line-height: 1;
@@ -1003,7 +1003,7 @@ article.sticky .featured-post {
 .entry-content code,
 .comment-content code {
     font-family: Consolas, Monaco, Lucida Console, monospace;
-    padding: 0 5px;
+    padding: 3px;
     margin: 0 2px;
     font-size: 0.9em;
     border: 1px solid rgba(0, 0, 0, 0.24);

@@ -1,7 +1,6 @@
 title: Welcome to 2016
 date: 2016-02-08 13:55:31
 tags:
-tags:
   - 生活
 categories:
   - 程序员的日常

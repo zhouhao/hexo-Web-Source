@@ -1,9 +1,9 @@
 # Header
 menu:
-  待填坑: /todo
-  留言板: /about
+  LeetCode: /LeetCode
+  About: /about
   RSS: /atom.xml
-
+  
 # Content
 excerpt_link: Read More
 prev: Prev
@@ -24,6 +24,4 @@ google_analytics:
 disqus_shortname: zhouhao
 rss: /atom.xml
 favicon: /favicon.png
-google_site_verification: NCXVSqxqB-os803-VFMtIEd1SUNJVOIjctCfNYUwD0w
-baidu_site_verification: Nzwx7HuplM
 subtitle: "Laugh, you should try; cry, you should try"
