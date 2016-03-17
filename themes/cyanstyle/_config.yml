@@ -3,7 +3,7 @@ menu:
   LeetCode: /LeetCode
   About: /about
   RSS: /atom.xml
-  
+
 # Content
 excerpt_link: Read More
 prev: Prev
@@ -14,6 +14,7 @@ fancybox: true
 widgets:
 - search
 - about
+- ad
 - recent_posts
 - archive
 - category
