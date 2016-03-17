@@ -7,9 +7,13 @@
 <%- js('js/script') %>
 
 <script src="/js/navigation.js"></script>
+<script src="/js/particles.min.js"></script>
 
-<%- css('//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/tomorrow.min.css') %>
-<%- js('//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js') %>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+  particlesJS.load('bg', '/js/particlesjs-config.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+</script>
+
 
 <div id="bg"></div>
