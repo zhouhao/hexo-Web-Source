@@ -19,6 +19,18 @@
         <%- post.content %>
       <% } %>
     </div><!-- .entry-content -->
+    <% if (!index){ %>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- hzhou-default -->
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-8072826058239598"
+          data-ad-slot="1252832662"
+          data-ad-format="auto"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    <% } %>
 
     <footer class="entry-meta">
     <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>

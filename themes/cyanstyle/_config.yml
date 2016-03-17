@@ -14,7 +14,6 @@ fancybox: true
 widgets:
 - search
 - about
-- ad
 - recent_posts
 - archive
 - category
