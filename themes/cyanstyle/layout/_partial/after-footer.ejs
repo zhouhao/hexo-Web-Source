@@ -5,11 +5,21 @@
 <%- js('fancybox/jquery.fancybox.pack') %>
 
 <%- js('js/script') %>
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
+<script src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
 
 <script src="/js/navigation.js"></script>
 <script src="/js/particles.min.js"></script>
 
 <script>
+  $(document).ready(function() {
+    $('.datatable').DataTable({
+        "order": [[ 0, "desc" ]],
+         "lengthMenu": [[10, 20, 50, -1], [10, 20, 50, "All"]],
+         "iDisplayLength": 20
+    } );
+  });
+
   particlesJS.load('bg', '/js/particlesjs-config.json', function() {
     console.log('callback - particles.js config loaded');
   });
