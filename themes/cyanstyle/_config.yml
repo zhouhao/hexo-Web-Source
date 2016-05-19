@@ -1,5 +1,6 @@
 # Header
 menu:
+  Home: /
   LeetCode: /LeetCode
   About: /about
   RSS: /atom.xml
@@ -18,6 +19,7 @@ widgets:
 - archive
 - category
 - tagcloud
+- link
 
 # Miscellaneous
 google_analytics:
