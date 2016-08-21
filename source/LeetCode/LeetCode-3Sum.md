@@ -1,7 +1,7 @@
 title: 'LeetCode: 3Sum'
 date: 2015-06-25 20:03:22
 ---
-```java
+ ```java
 public class ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
         Set<List<Integer>> result = new HashSet<List<Integer>>();

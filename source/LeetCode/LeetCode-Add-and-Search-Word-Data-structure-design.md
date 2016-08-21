@@ -1,8 +1,7 @@
 title: 'LeetCode: Add and Search Word - Data structure design'
 date: 2015-06-23 21:38:18
-tags:
 ---
-
+ 
 ```java
 public class WordDictionary {
 

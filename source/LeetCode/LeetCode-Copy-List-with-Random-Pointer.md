@@ -1,7 +1,7 @@
 title: "LeetCode: Copy List with Random Pointer"
 date: 2014-08-31 14:52:12
 ---
-A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
+ A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
 Return a deep copy of the list.
 <!-- more -->
 Link: https://oj.leetcode.com/problems/copy-list-with-random-pointer/

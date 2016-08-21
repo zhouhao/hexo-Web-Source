@@ -1,7 +1,7 @@
 title: 'LeetCode: Number of Digit One'
 date: 2015-08-10 09:43:17
 ---
-Given an integer n, count the total number of digit 1 appearing in all non-negative integers less than or equal to n.
+ Given an integer n, count the total number of digit 1 appearing in all non-negative integers less than or equal to n.
 
 ### For example:
 Given n = `13`,   

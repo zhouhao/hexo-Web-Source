@@ -1,8 +1,7 @@
 title: 'LeetCode: Remove Linked List Elements'
 date: 2015-06-23 21:39:49
-tags:
 ---
-```java
+ ```java
 public class RemoveLinkedListElements {
 
     public ListNode removeElements(ListNode head, int val) {

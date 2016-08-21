@@ -1,7 +1,7 @@
 title: 'LeetCode: Search a 2D Matrix II'
 date: 2015-08-09 22:39:22
 ---
-Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
+ Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
 
 Integers in each row are sorted in ascending from left to right.     
 Integers in each column are sorted in ascending from top to bottom.

@@ -1,7 +1,7 @@
 title: 'LeetCode: Flatten 2D Vector'
 date: 2015-08-08 22:47:07
 ---
-Implement an iterator to flatten a 2d vector.
+ Implement an iterator to flatten a 2d vector.
 
 ### For example,
 Given 2d vector =

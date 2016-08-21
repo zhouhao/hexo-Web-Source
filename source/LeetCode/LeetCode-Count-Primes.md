@@ -1,8 +1,7 @@
 title: 'LeetCode: Count Primes'
 date: 2015-06-23 21:39:39
-tags:
 ---
-```java
+ ```java
 public class CountPrimes {
 
     public int countPrimes(int n) {

@@ -1,7 +1,7 @@
 title: 'LeetCode: Factor Combinations'
 date: 2015-08-11 00:00:57
 ---
-Numbers can be regarded as product of its factors. For example,
+ Numbers can be regarded as product of its factors. For example,
 ```
 8 = 2 x 2 x 2;
   = 2 x 4.

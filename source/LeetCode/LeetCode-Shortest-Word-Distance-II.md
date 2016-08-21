@@ -1,7 +1,7 @@
 title: 'LeetCode: Shortest Word Distance II'
 date: 2015-08-09 15:18:56
 ---
-Given a list of words and two words word1 and word2, return the shortest distance between these two words in the list.
+ Given a list of words and two words word1 and word2, return the shortest distance between these two words in the list.
 
 ### For example,
 Assume that words = `["practice", "makes", "perfect", "coding", "makes"]`.

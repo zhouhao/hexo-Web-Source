@@ -2,7 +2,7 @@ title: 'LeetCode: Binary Tree Postorder Traversal'
 date: 2015-06-24 00:03:22
 
 ---
-```java
+ ```java
 public class BinaryTreePostorderTraversal {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<Integer>();

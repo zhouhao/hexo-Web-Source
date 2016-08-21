@@ -1,7 +1,7 @@
 title: 'LeetCode: Anagrams'
 date: 2015-06-24 00:03:22
 ---
-```java
+ ```java
 public class Anagrams {
     public List<String> anagrams(String[] strs) {
         List<String> result = new ArrayList<String>();

@@ -1,7 +1,7 @@
 title: 'LeetCode: Binary Tree Inorder Traversal'
 date: 2015-06-24 00:03:22
 ---
-```java
+ ```java
 public class BinaryTreeInorderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<Integer>();

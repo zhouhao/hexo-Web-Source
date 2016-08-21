@@ -2,7 +2,7 @@ title: "LeetCode: Longest Common Prefix"
 date: 2014-08-28 13:57:14
  - String
 ---
-Write a function to find the longest common prefix string amongst an array of strings.
+ Write a function to find the longest common prefix string amongst an array of strings.
 <!-- more -->
 ```
 public class Solution {

@@ -1,7 +1,7 @@
 title: 'LeetCode: Strobogrammatic Number II'
 date: 2015-08-09 15:24:42
 ---
-A strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down).
+ A strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down).
 
 Find all strobogrammatic numbers that are of length = n.
 

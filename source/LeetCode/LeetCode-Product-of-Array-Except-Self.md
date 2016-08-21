@@ -1,7 +1,7 @@
 title: 'LeetCode: Product of Array Except Self'
 date: 2015-08-10 09:42:19
 ---
-Given an array of n integers where `n > 1`, nums, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+ Given an array of n integers where `n > 1`, nums, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
 
 Solve it without division and in O(n).
 

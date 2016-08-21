@@ -1,7 +1,7 @@
 title: 'LeetCode: Convert Sorted Array to Binary Search Tree'
 date: 2015-06-25 20:03:22
 ---
-
+ 
 ```java
 
 /**

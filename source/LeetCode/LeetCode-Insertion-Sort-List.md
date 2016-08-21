@@ -1,7 +1,7 @@
 title: 'LeetCode: Insertion Sort List'
 date: 2015-06-24 00:03:22
 ---
-```java
+ ```java
 /**
  * Description: Sort a linked list using insertion sort.
  *

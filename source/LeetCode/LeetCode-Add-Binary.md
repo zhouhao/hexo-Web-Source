@@ -1,7 +1,7 @@
 title: 'LeetCode: Add Binary'
 date: 2015-06-24 00:03:22
 ---
-Given two binary strings, return their sum (also a binary string).
+ Given two binary strings, return their sum (also a binary string).
 
 ### For example
 `a = "11" b = "1"` Return `"100"`.

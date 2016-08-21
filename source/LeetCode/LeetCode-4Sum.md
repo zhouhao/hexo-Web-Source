@@ -1,7 +1,7 @@
 title: 'LeetCode: 4Sum'
 date: 2015-06-25 20:03:22
 ---
-```java
+ ```java
 public class FourSum {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();

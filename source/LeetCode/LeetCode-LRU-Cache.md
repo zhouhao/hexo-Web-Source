@@ -1,7 +1,7 @@
 title: "Leetcode: LRU Cache"
 date: 2015-05-04 23:24:42
 ---
-Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: `get` and `set`.
+ Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: `get` and `set`.
 
 `get(key)` - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
 

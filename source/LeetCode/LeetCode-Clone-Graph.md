@@ -1,7 +1,7 @@
 title: 'LeetCode: Clone Graph'
 date: 2015-06-24 00:03:22
 ---
-Clone an undirected graph. Each node in the graph contains a label and a list of its neighbors.
+ Clone an undirected graph. Each node in the graph contains a label and a list of its neighbors.
 
 ```java
 public class CloneGraph {

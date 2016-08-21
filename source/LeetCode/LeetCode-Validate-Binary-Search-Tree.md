@@ -1,7 +1,7 @@
 title: 'LeetCode: Validate Binary Search Tree'
 date: 2015-06-24 00:03:22
 ---
-Given a binary tree, determine if it is a valid binary search tree (BST).
+ Given a binary tree, determine if it is a valid binary search tree (BST).
 
 Assume a BST is defined as follows:
 

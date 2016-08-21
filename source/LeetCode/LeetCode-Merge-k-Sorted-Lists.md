@@ -1,7 +1,7 @@
 title: 'LeetCode: Merge k Sorted Lists'
 date: 2015-06-24 00:03:22
 ---
-Merge `k` sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+ Merge `k` sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 
 ```java
  public class MergeKSortedLists {

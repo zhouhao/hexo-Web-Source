@@ -1,7 +1,7 @@
 title: 'LeetCode: Palindrome Linked List'
 date: 2015-08-10 09:43:07
 ---
-Given a singly linked list, determine if it is a palindrome.
+ Given a singly linked list, determine if it is a palindrome.
 
 ```java
 public class Solution {

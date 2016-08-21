@@ -1,7 +1,7 @@
 title: 'LeetCode: Valid Number'
 date: 2015-06-24 00:03:22
 ---
-Validate if a given string is numeric.
+ Validate if a given string is numeric.
 ### Some examples:
 ```
 "0" => true

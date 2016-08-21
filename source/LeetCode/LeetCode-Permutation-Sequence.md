@@ -1,11 +1,11 @@
 title: 'LeetCode: Permutation Sequence'
 date: 2015-06-24 00:03:22
 ---
-
+ 
 ```java
 
 /**
- * Description: The set [1,2,3,â€?,n] contains a total of n! unique permutations.
+ * Description: The set [1,2,3,ï¿½?,n] contains a total of n! unique permutations.
  * <p/>
  * By listing and labeling all of the permutations in order, We get the following sequence (ie, for n = 3):
  * <pre>

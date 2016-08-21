@@ -1,7 +1,7 @@
 title: 'LeetCode: Merge Intervals'
 date: 2015-06-24 00:03:22
 ---
-Given intervals => merged intervals:
+ Given intervals => merged intervals:
 ```
 [                     [
   [1, 3],               [1, 6],

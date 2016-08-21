@@ -1,7 +1,7 @@
 title: 'LeetCode: Minimum Depth of Binary Tree'
 date: 2015-06-24 00:03:22
 ---
-Given a binary tree, find its minimum depth.
+ Given a binary tree, find its minimum depth.
 
 The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
 

@@ -1,8 +1,7 @@
 title: 'LeetCode: Course Schedule'
 date: 2015-06-23 21:39:06
-tags:
 ---
-```java
+ ```java
 public class CourseSchedule {
 
     public boolean canFinish(int numCourses, int[][] prerequisites) {

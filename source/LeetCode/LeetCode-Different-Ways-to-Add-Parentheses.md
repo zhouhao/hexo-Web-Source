@@ -1,7 +1,7 @@
 title: 'LeetCode: Different Ways to Add Parentheses'
 date: 2015-08-09 22:08:36
 ---
-Given a string of numbers and operators, return all possible results from computing all the different possible ways to group numbers and operators. The valid operators are `+`, `-` and `*`.
+ Given a string of numbers and operators, return all possible results from computing all the different possible ways to group numbers and operators. The valid operators are `+`, `-` and `*`.
 
 ### Example 1
 Input: `"2-1-1"`.

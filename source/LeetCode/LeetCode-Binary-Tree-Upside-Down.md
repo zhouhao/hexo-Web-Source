@@ -1,7 +1,7 @@
 title: 'LeetCode: Binary Tree Upside Down'
 date: 2015-06-24 00:03:22
 ---
-
+ 
 ```java
 public class BinaryTreeUpsideDown {
     public TreeNode UpsideDownBinaryTree(TreeNode root) {

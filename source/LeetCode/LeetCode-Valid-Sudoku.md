@@ -1,7 +1,7 @@
 title: 'LeetCode: Valid Sudoku'
 date: 2015-06-24 00:03:22
 ---
-
+ 
 ```java
 public class ValidSudoku {
     public boolean isValidSudoku(char[][] board) {

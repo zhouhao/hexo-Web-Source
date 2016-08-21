@@ -1,7 +1,7 @@
 title: 'LeetCode: Candy'
 date: 2015-06-24 00:03:22
 ---
-### Description:
+ ### Description:
 There are `N` children standing in a line. Each child is assigned a rating value.
 
 You are giving candies to these children subjected to the following requirements:

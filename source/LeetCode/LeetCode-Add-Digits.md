@@ -1,7 +1,7 @@
 title: 'LeetCode: Add Digits'
 date: 2015-08-16 17:06:06
 ---
-Given a non-negative integer num, repeatedly add all its digits until the result has only one digit.
+ Given a non-negative integer num, repeatedly add all its digits until the result has only one digit.
 
 ### For example:
 

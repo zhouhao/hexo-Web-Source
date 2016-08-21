@@ -1,7 +1,7 @@
 title: 'LeetCode: Kth Smallest Element in a BST'
 date: 2015-07-07 20:53:22
 ---
-Given a binary search tree, write a function `kthSmallest` to find the kth smallest element in it.
+ Given a binary search tree, write a function `kthSmallest` to find the kth smallest element in it.
 
 ### Note:
 You may assume k is always valid, 1 ≤ k ≤ BST's total elements.

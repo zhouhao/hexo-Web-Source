@@ -1,7 +1,7 @@
 title: 'LeetCode: Next Permutation'
 date: 2015-06-24 00:03:22
 ---
-
+ 
 ```java
 
 /**
@@ -16,9 +16,9 @@ date: 2015-06-24 00:03:22
  * Here are some examples. Inputs are in the left-hand column and its corresponding outputs are in the right-hand
  * column.
  * <pre>
- * 1,2,3 â†? 1,3,2
- * 3,2,1 â†? 1,2,3
- * 1,1,5 â†? 1,5,1
+ * 1,2,3 ï¿½? 1,3,2
+ * 3,2,1 ï¿½? 1,2,3
+ * 1,1,5 ï¿½? 1,5,1
  * </pre>
  *
  * @author hzhou

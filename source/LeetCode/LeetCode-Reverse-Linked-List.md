@@ -1,8 +1,7 @@
 title: 'LeetCode: Reverse Linked List'
 date: 2015-06-23 21:39:15
-tags:
 ---
-```java
+ ```java
 public class ReverseLinkedList {
 
     public ListNode reverseList(ListNode head) {

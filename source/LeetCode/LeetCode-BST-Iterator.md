@@ -1,7 +1,7 @@
 title: 'LeetCode: BST Iterator'
 date: 2015-06-24 00:03:22
 ---
-```java
+ ```java
 public class BSTIterator {
 
     private Stack<TreeNode> stack;

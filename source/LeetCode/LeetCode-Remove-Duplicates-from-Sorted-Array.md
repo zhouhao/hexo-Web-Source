@@ -1,7 +1,7 @@
 title: 'LeetCode: Remove Duplicates from Sorted Array'
 date: 2015-06-24 00:03:22
 ---
-Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
+ Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
 Do not allocate extra space for another array, you must do this in place with constant memory.
 
 ### For example,

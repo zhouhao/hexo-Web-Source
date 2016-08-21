@@ -1,7 +1,7 @@
 title: 'LeetCode: Binary Tree Paths'
 date: 2015-08-16 17:05:53
 ---
-Given a binary tree, return all root-to-leaf paths.
+ Given a binary tree, return all root-to-leaf paths.
 
 ### For example
 Given the following binary tree:

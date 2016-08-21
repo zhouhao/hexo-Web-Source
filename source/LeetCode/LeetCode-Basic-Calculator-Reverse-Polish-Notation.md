@@ -1,7 +1,7 @@
 title: 'LeetCode: Basic Calculator - Reverse Polish Notation'
 date: 2015-06-23 20:32:26
 ---
-
+ 
 ### Solution:
 Convert ***s*** to Reverse Polish Notation(eg. `a+b-c` => `ab+c-`), which will be easier to calculate the result, however this will induce "***Memory Limit Exceeded***"!
 

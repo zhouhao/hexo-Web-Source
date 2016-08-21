@@ -1,7 +1,7 @@
 title: 'LeetCode: Maximal Rectangle'
 date: 2015-06-23 21:16:06
 ---
-Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle containing all ones and return its area.
+ Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle containing all ones and return its area.
 
 ### To finish this, please implement this first: [Largest Rectangle in Histogram](LeetCode-Largest-Rectangle-in-Histogram.html)
 ```java

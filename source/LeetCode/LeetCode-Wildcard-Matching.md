@@ -1,7 +1,7 @@
 title: 'LeetCode: Wildcard Matching'
 date: 2015-06-24 00:03:22
 ---
-`'?'` Matches any single character.
+ `'?'` Matches any single character.
 `'*'` Matches any sequence of characters (including the empty sequence).
 
 The matching should cover the entire input string (not partial).

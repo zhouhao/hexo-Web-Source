@@ -1,7 +1,7 @@
 title: 'LeetCode: Shortest Word Distance III'
 date: 2015-08-09 15:19:02
 ---
-Given a list of words and two words word1 and word2, return the shortest distance between these two words in the list.
+ Given a list of words and two words word1 and word2, return the shortest distance between these two words in the list.
 
 word1 and word2 may be the same and they represent two individual words in the list.
 

@@ -1,7 +1,7 @@
 title: 'LeetCode: Rectangle Area'
 date: 2015-06-23 21:02:38
 ---
-Find the total area covered by two rectilinear rectangles in a 2D plane.   
+ Find the total area covered by two rectilinear rectangles in a 2D plane.   
 Each rectangle is defined by its bottom left corner and top right corner as shown in the figure.   
 
 ![Rectangle Area](https://dn-myblog.qbox.me/img/leetcode/rectangle_area.png "Rectangle Area")

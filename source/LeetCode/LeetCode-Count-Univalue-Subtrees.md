@@ -1,7 +1,7 @@
 title: 'LeetCode: Count Univalue Subtrees'
 date: 2015-08-08 22:51:36
 ---
-Given a binary tree, count the number of uni-value subtrees.
+ Given a binary tree, count the number of uni-value subtrees.
 
 A Uni-value subtree means all nodes of the subtree have the same value.
 

@@ -1,7 +1,7 @@
 title: 'LeetCode: MajorityElement II'
 date: 2015-06-29 11:20:22
 ---
-Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
+ Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
 
 The algorithm should run in linear time <del>and in O(1) space</del>.
 ```java

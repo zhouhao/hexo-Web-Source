@@ -1,7 +1,7 @@
 title: 'LeetCode: Course Schedule II'
 date: 2015-06-23 21:38:34
 ---
-```java
+ ```java
 public class CourseScheduleII {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         if (numCourses < 1) {

@@ -1,7 +1,7 @@
 title: 'LeetCode: Implement Stack using Queues'
 date: 2015-06-23 20:31:09
 ---
-Implement the following operations of a stack using queues.
+ Implement the following operations of a stack using queues.
 ```
 push(x) -- Push element x onto stack.
 pop() -- Removes the element on top of the stack.

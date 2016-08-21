@@ -1,7 +1,7 @@
 title: 'LeetCode: Remove Duplicates from Sorted Array II'
 date: 2015-06-24 00:03:22
 ---
-```java
+ ```java
 
 /**
  * Created by hzhou on 2015/5/27.
