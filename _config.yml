@@ -97,7 +97,6 @@ feed:
   path: atom.xml
   limit: 20
 
-
 marked:
   gfm: true
   pedantic: false
