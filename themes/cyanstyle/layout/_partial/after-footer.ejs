@@ -3,7 +3,6 @@
 
 <%- css('fancybox/jquery.fancybox') %>
 <%- js('fancybox/jquery.fancybox.pack') %>
-
 <%- js('js/script') %>
 <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
 <script src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
@@ -11,19 +10,49 @@
 <script src="/js/navigation.js"></script>
 <script src="/js/particles.min.js"></script>
 
-<script>
-  $(document).ready(function() {
-    $('.datatable').DataTable({
-        "order": [[ 0, "desc" ]],
-         "lengthMenu": [[10, 20, 50, -1], [10, 20, 50, "All"]],
-         "iDisplayLength": 20
-    } );
-  });
+<link href="/tipuesearch/tipuesearch.css" rel="stylesheet">
+<script src="/tipuesearch/tipuesearch_set.js"></script>
+<script src="/tipuesearch/tipuesearch.js"></script>
 
-  particlesJS.load('bg', '/js/particlesjs-config.json', function() {
-    console.log('callback - particles.js config loaded');
-  });
+<script>
+    $(document).ready(function () {
+        $('.datatable').DataTable({
+            "order": [[0, "desc"]],
+            "lengthMenu": [[10, 20, 50, -1], [10, 20, 50, "All"]],
+            "iDisplayLength": 20
+        });
+    });
+
+    particlesJS.load('bg', '/js/particlesjs-config.json', function () {
+        console.log('callback - particles.js config loaded');
+    });
 </script>
 
+<script>
+    $(document).ready(function () {
+
+        var searchInput = $('#tipue_search_input');
+        searchInput.tipuesearch({
+            'mode': 'json',
+            'minimumLength': 2,
+            'contentLocation': '/tipuesearch/tipuesearch_content.json',
+            highlightEveryTerm: true
+        });
+
+        $('#search-form').on('submit', function (e) {
+            e.preventDefault();
+            $('#tipue_search_content').show();
+            $('#content').hide();
+        });
+
+        searchInput.keyup(function () {
+            var length = $(this).val().length;
+            if (length < 1) {
+                $('#tipue_search_content').hide();
+                $('#content').show();
+            }
+        });
+    });
+</script>
 
 <div id="bg"></div>
