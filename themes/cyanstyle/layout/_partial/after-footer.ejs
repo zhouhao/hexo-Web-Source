@@ -35,8 +35,9 @@
         searchInput.tipuesearch({
             'mode': 'json',
             'minimumLength': 2,
+            'show':11,
             'contentLocation': '/tipuesearch/tipuesearch_content.json',
-            highlightEveryTerm: true
+            'highlightEveryTerm': true
         });
 
         $('#search-form').on('submit', function (e) {
