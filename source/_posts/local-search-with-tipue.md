@@ -1,4 +1,5 @@
 title: "Hexo site search plugin with Tipue "
+date: 2016-08-22 21:22:01
 tags: [hexo, search] 
 categories: [程序员的日常, 普通]
 ---
@@ -19,10 +20,12 @@ Comes 2 solutions now:
 1. customize `hexo-generator-json-content`
 2. customize `Tipue Search`
 
-This is not a different choice, and of course I choose the first one.
+This is not a difficult decision, and I prefer the first one.
 
 So I create this repo: [Hexo-Tipue-Search-Json](https://github.com/zhouhao/Hexo-Tipue-Search-Json)
 
 ## How to install it
 
-// TODO: will update this part soon
+You can find all information you want here: https://github.com/zhouhao/Hexo-Tipue-Search-Json
+
+### ;-)
