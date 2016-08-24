@@ -390,7 +390,7 @@ http://www.tipue.com/search
                                         {                                        
                                              var t = found[i].desc;
                                              var t_d = '';
-                                             var t_w = t.split(' ');
+                                             var t_w = t.match(/[\u00ff-\uffff]|\S+/g);
                                              if (t_w.length < set.descriptiveWords)
                                              {
                                                   t_d = t;
@@ -399,7 +399,10 @@ http://www.tipue.com/search
                                              {
                                                   for (var f = 0; f < set.descriptiveWords; f++)
                                                   {
-                                                       t_d += t_w[f] + ' '; 	
+                                                       t_d += t_w[f];
+                                                       if(!t_w[f].match(/[\u00ff-\uffff]/)){
+                                                            t_d+= ' ';
+                                                       }
                                                   }
                                              }
                                              t_d = $.trim(t_d);
