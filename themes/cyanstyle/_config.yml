@@ -14,7 +14,6 @@ fancybox: true
 # Sidebar
 widgets:
 - search
-- notice
 - about
 - recent_posts
 - archive
