@@ -18,7 +18,7 @@ http://www.tipue.com/search
                'showURL'                : true,
                'showTitleCount'         : true,
                'minimumLength'          : 3,
-               'descriptiveWords'       : 25,
+               'descriptiveWords'       : 50,
                'highlightTerms'         : true,
                'highlightEveryTerm'     : false,
                'mode'                   : 'static',
@@ -387,10 +387,17 @@ http://www.tipue.com/search
                                         }
                                         
                                         if (found[i].desc)
-                                        {                                        
+                                        {
+                                            var _r= new RegExp(
+                                                  '[.,\/#!$%\^&\*;:{}=`~()，。]+|'+
+                                                  '[A-Za-z0-9_-]+|'+                             // ASCII letters (no accents)
+                                                  '[\u3040-\u309F]+|'+                           // Hiragana
+                                                  '[\u30A0-\u30FF]+|'+                           // Katakana
+                                                  '[\u4E00-\u9FFF\uF900-\uFAFF\u3400-\u4DBF]',   // Single CJK ideographs
+                                              'g');                                        
                                              var t = found[i].desc;
                                              var t_d = '';
-                                             var t_w = t.split(' ');
+                                             var t_w = t.match(_r);
                                              if (t_w.length < set.descriptiveWords)
                                              {
                                                   t_d = t;
@@ -399,7 +406,10 @@ http://www.tipue.com/search
                                              {
                                                   for (var f = 0; f < set.descriptiveWords; f++)
                                                   {
-                                                       t_d += t_w[f] + ' '; 	
+                                                       t_d += t_w[f];
+                                                       if(!t_w[f].match(/[\u4E00-\u9FFF\uF900-\uFAFF\u3400-\u4DBF]/)){
+                                                            t_d+= ' ';
+                                                       }
                                                   }
                                              }
                                              t_d = $.trim(t_d);
