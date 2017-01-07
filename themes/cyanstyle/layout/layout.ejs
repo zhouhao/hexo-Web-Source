@@ -7,7 +7,11 @@
             <div id="tipue_search_content" style="display: none"></div>
             <div id="content" role="main"><%- body %></div>
         </div>
+
+        <% if (is_home()){ %>
         <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
+        <% } %>
+
     </div>
     <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
     <%- partial('_partial/after-footer') %>

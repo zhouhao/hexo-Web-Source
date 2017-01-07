@@ -49,4 +49,14 @@
   <% } %>
   <%- css('css/style') %>
 
+    <% if (is_home()){ %>
+    <style>
+    @media screen and (min-width: 600px) {
+        .site-content {
+            float: left;
+            width: 65.104166667%;
+        }
+    }
+    </style>
+    <% } %>
 </head>
