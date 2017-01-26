@@ -80,7 +80,7 @@ disqus_shortname: zhouhao
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: cyanstyle
+theme: overdose
 #exclude_generator:
 
 plugins:
