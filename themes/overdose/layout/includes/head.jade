@@ -37,6 +37,7 @@ link(rel="stylesheet" href="/libs/normalize.min.css")
 link(rel="stylesheet" href="/libs/font-awesome-4.6.3/css/font-awesome.min.css")
 link(rel="stylesheet" href="/css/index.css")
 link(rel="stylesheet" href="/css/highlights/" + highlight + ".css")
+link(rel="stylesheet" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css")
 
 | !{ canonical(config, page) }
 | !{ openGraph }
@@ -47,6 +48,8 @@ if theme.favicon
   link(rel="icon" href=theme.favicon)
 if theme.profile.social.rss
   link(rel="alternative" href=theme.profile.social.rss type="application/atom+xml" title=config.title)
+
+script(src="//code.jquery.com/jquery-2.2.4.min.js")
 
 if theme.google_site_verification
   meta(name="google-site-verification" content="#{theme.google_site_verification}")
