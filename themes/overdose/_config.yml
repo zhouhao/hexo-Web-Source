@@ -21,7 +21,7 @@ default:
 ##   'spoqa-han-sans-jp'
 ## ]
 ## If you don't want font, you shouldn't specify the font.
-font:
+font: 'spoqa-han-sans'
 
 # Dynamic menu with scrolling
 dynamic_menu: false
