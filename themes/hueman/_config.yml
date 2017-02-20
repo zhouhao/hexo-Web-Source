@@ -32,9 +32,9 @@ social_links:
   weibo: http://www.weibo.com/sbzhouhao/
   rss: /atom.xml
 widgets:
-# - recent_posts
 - category
 # - archive
+- recent_posts
 - tagcloud
 - links
 
