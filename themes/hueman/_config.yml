@@ -42,10 +42,9 @@ widgets:
 links:
   MIT-CHIEF: http://mitchief.org
   "WPILIFE (WPI CSSA)": http://wpilife.org
-  "Free Twitter Keywords": http://freetwitterkeywords.com
 
 # Don't Use Google APIs if you are in google-blocked areas
-use_google_apis: false
+use_google_apis: true
 
 # Miscellaneous
 google_analytics: UA-39886095-1

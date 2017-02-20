@@ -6,7 +6,6 @@
       <% for (var i in theme.social_links){ %>
         <li><a class="social-tooltip" title="<%= i %>" href="<%- url_for(theme.social_links[i]) %>" target="_blank"><i id="icon-<%= i %>" class="icon"></i></a></li>
       <% } %>
-      <li><a class="social-tooltip" title="Email" href="mailto:<%= theme.email %>" target="_blank"><i id="icon-email" class="icon"></i></a></li>
     </ul>
   </div>
   <% if(is_post()) { %>
