@@ -6,7 +6,8 @@
       <div class="main-body container-inner">
         <div class="main-body-inner">
           <section id="main">
-            <div class="main-body-header">
+            <div id="tipue_search_content" style="display: none"></div>
+            <div class="main-body-header raw_content">
 <% var title = page.title;
 if (page.archive){
   title = __('index.archive');
@@ -34,7 +35,7 @@ if (page.archive){
 } %>
               <h1 class="header"><% if (title){ %><%- title %><% } %></h1>
             </div>
-            <div class="main-body-content">
+            <div class="main-body-content raw_content">
               <%- body %>
             </div>
           </section>
