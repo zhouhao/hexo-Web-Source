@@ -1,14 +1,9 @@
 <% if (!theme.groupByYear){
   var postCount = 0;
-  page.posts.each(function(post){
-    postCount++;
-    if(postCount % 2 == 1) { %>
+  page.posts.each(function(post){ %>
       <div class="article-row">
-    <% } %>
         <%- partial('article', {post: post, index: true}) %>
-    <% if(postCount == page.posts.length || postCount % 2 == 0) { %>
       </div>
-    <% } %>
   <% }) %>
   <% if(page.total > 1) { %>
     <nav id="page-nav">
@@ -32,13 +27,9 @@
         <div class="archives">
     <% } %>
     <% postCount++; %>
-    <% if(postCount % 2 == 1) { %>
       <div class="article-row">
-    <% } %>
         <%- partial('article', {post: post, index: true}) %>
-    <% if(postCount == page.posts.length || postCount % 2 == 0) { %>
       </div>
-    <% } %>
   <% }) %>
   <% if (page.posts.length){ %>
     </div></section>

@@ -18,18 +18,18 @@ groupByYear: true
 fancybox: true
 
 # Thumbnail
-thumbnail: true
+thumbnail: false
 
 # Scroll Loading
 scrollLoading: true
 
 # Sidebar
-sidebar: left // sidebar's position (left or right)
+sidebar: left # sidebar's position (left or right)
 email: i@hzhou.me
 social_links:
-  linkedin: http://www.linkedin.com/in/sbzhouhao/
+  linkedin: https://www.linkedin.com/in/sbzhouhao/
   github: https://github.com/zhouhao
-  weibo: http://www.weibo.com/sbzhouhao/
+#  weibo: http://www.weibo.com/sbzhouhao/
   rss: /atom.xml
 widgets:
 - category
