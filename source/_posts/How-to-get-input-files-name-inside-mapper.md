@@ -23,7 +23,7 @@ FileOutputFormat.setOutputPath(conf, new Path(args[2]));
 2. Single mapper：one mapper handles all input files: [Code Demo](https://github.com/zhouhao/CS525-Big-Data-Course-Project/blob/master/Demo_getFileNameFromReporter/query1.java) (As following code, we can know the souce for the data inside the mapper, then take responding actions)
 
 ```java
-public static class Map extends MapReduceBase implements Mapper&lt;LongWritable, Text, Text, Text> {
+public static class Map extends MapReduceBase implements Mapper<LongWritable, Text, Text, Text> {
 
     public void map(LongWritable key, Text value, OutputCollector&lt;Text,Text> output, Reporter reporter) throws IOException {
         //Get FileName from reporter
