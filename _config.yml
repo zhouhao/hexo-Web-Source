@@ -112,4 +112,4 @@ deploy:
   type: git
   message: "Sync blog from my local machine"
   repo:
-    github: https://github.com/zhouhao/zhouhao.github.io.git
+    github: git@github.com:zhouhao/zhouhao.github.io.git
