@@ -7,6 +7,7 @@ date: 2015-06-23 09:41:14
     </thead>
     <tbody>  
         <tr><td>557</td><td>[Reverse Words in a String III](LeetCode-Reverse-Words-in-a-String-III.html)</td><td>Easy</td></tr>
+        <tr><td>542</td><td>[01 Matrix](LeetCode-01-Matrix.html)</td><td>Medium</td></tr>
         <tr><td>541</td><td>[Reverse String II](LeetCode-Reverse-String-II.html)</td><td>Easy</td></tr>
         <tr><td>504</td><td>[Base 7](LeetCode-Base-7.html)</td><td>Easy</td></tr>
         <tr><td>258</td><td>[Add Digits](LeetCode-Add-Digits.html)</td><td>Easy</td></tr>
