@@ -80,8 +80,14 @@ disqus_shortname: zhouhao
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: hueman
+theme: apollo
 #exclude_generator:
+
+archive_generator:
+    per_page: 0
+    yearly: false
+    monthly: false
+    daily: false
 
 plugins:
 #  - hexo-tag-flickr
