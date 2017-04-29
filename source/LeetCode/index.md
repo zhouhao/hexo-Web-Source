@@ -9,7 +9,62 @@ date: 2015-06-23 09:41:14
         <tr><td>557</td><td>[Reverse Words in a String III](LeetCode-Reverse-Words-in-a-String-III.html)</td><td>Easy</td></tr>
         <tr><td>542</td><td>[01 Matrix](LeetCode-01-Matrix.html)</td><td>Medium</td></tr>
         <tr><td>541</td><td>[Reverse String II](LeetCode-Reverse-String-II.html)</td><td>Easy</td></tr>
+        <tr><td>520</td><td>[Detect Capital](LeetCode-Detect-Capital.html)</td><td>Easy</td></tr>
         <tr><td>504</td><td>[Base 7](LeetCode-Base-7.html)</td><td>Easy</td></tr>
+        <tr><td>485</td><td>[Max Consecutive Ones](LeetCode-Max-Consecutive-Ones.html)</td><td>Easy</td></tr>
+        <tr><td>476</td><td>[Number Complement](LeetCode-Number-Complement.html)</td><td>Easy</td></tr>
+        <tr><td>461</td><td>[Hamming Distance](LeetCode-Hamming-Distance.html)</td><td>Easy</td></tr>
+        <tr><td>350</td><td>[Intersection of Two Arrays II](LeetCode-Intersection-of-Two-Arrays-II.html)</td><td>Easy</td></tr>
+        <tr><td>349</td><td>[Intersection of Two Arrays](LeetCode-Intersection-of-Two-Arrays.html)</td><td>Easy</td></tr>
+        <tr><td>347</td><td>[Top K Frequent Elements](LeetCode-Top-K-Frequent-Elements.html)</td><td>Medium</td></tr>
+        <tr><td>346</td><td>[Moving Average from Data Stream](LeetCode-Moving-Average-from-Data-Stream.html)</td><td>Easy</td></tr>
+        <tr><td>345</td><td>[Reverse Vowels of a String](LeetCode-Reverse-Vowels-of-a-String.html)</td><td>Easy</td></tr>
+        <tr><td>344</td><td>[Reverse String](LeetCode-Reverse-String.html)</td><td>Easy</td></tr>
+        <tr><td>343</td><td>[Integer Break](LeetCode-Integer-Break.html)</td><td>Medium</td></tr>
+        <tr><td>342</td><td>[Power of Four](LeetCode-Power-of-Four.html)</td><td>Easy</td></tr>
+        <tr><td>341</td><td>[Flatten Nested List Iterator](LeetCode-Flatten-Nested-List-Iterator.html)</td><td>Medium</td></tr>
+        <tr><td>340</td><td>[Longest Substring with At Most K Distinct Characters](LeetCode-Longest-Substring-with-At-Most-K-Distinct-Characters.html)</td><td>Hard</td></tr>
+        <tr><td>339</td><td>[Nested List Weight Sum](LeetCode-Nested-List-Weight-Sum.html)</td><td>Easy</td></tr>
+        <tr><td>338</td><td>[Counting Bits](LeetCode-Counting-Bits.html)</td><td>Medium</td></tr>
+        <tr><td>336</td><td>[Palindrome Pairs](LeetCode-Palindrome-Pairs.html)</td><td>Hard</td></tr>
+        <tr><td>332</td><td>[Reconstruct Itinerary](LeetCode-Reconstruct-Itinerary.html)</td><td>Medium</td></tr>
+        <tr><td>331</td><td>[Verify Preorder Serialization of a Binary Tree](LeetCode-Verify-Preorder-Serialization-of-a-Binary-Tree.html)</td><td>Medium</td></tr>
+        <tr><td>330</td><td>[Patching Array](LeetCode-Patching-Array.html)</td><td>Hard</td></tr>
+        <tr><td>328</td><td>[Odd Even Linked List](LeetCode-Odd-Even-Linked-List.html)</td><td>Medium</td></tr>
+        <tr><td>326</td><td>[Power of Three](LeetCode-Power-of-Three.html)</td><td>Easy</td></tr>
+        <tr><td>325</td><td>[Maximum Size Subarray Sum Equals k](LeetCode-Maximum-Size-Subarray-Sum-Equals-k.html)</td><td>Medium</td></tr>
+        <tr><td>319</td><td>[Bulb Switcher](LeetCode-Bulb-Switcher.html)</td><td>Medium</td></tr>
+        <tr><td>316</td><td>[Remove Duplicate Letters](LeetCode-Remove-Duplicate-Letters.html)</td><td>Hard</td></tr>
+        <tr><td>313</td><td>[Super Ugly Number](LeetCode-Super-Ugly-Number.html)</td><td>Medium</td></tr>
+        <tr><td>311</td><td>[Sparse Matrix Multiplication](LeetCode-Sparse-Matrix-Multiplication.html)</td><td>Medium</td></tr>
+        <tr><td>306</td><td>[Additive Number](LeetCode-Additive-Number.html)</td><td>Medium</td></tr>
+        <tr><td>304</td><td>[Range Sum Query 2D - Immutable](LeetCode-Range-Sum-Query-2D---Immutable.html)</td><td>Medium</td></tr>
+        <tr><td>303</td><td>[Range Sum Query - Immutable](LeetCode-Range-Sum-Query---Immutable.html)</td><td>Easy</td></tr>
+        <tr><td>299</td><td>[Bulls and Cows](LeetCode-Bulls-and-Cows.html)</td><td>Medium</td></tr>
+        <tr><td>293</td><td>[Flip Game](LeetCode-Flip-Game.html)</td><td>Easy</td></tr>
+        <tr><td>292</td><td>[Nim Game](LeetCode-Nim-Game.html)</td><td>Easy</td></tr>
+        <tr><td>290</td><td>[Word Pattern](LeetCode-Word-Pattern.html)</td><td>Easy</td></tr>
+        <tr><td>288</td><td>[Unique Word Abbreviation](LeetCode-Unique-Word-Abbreviation.html)</td><td>Medium</td></tr>
+        <tr><td>287</td><td>[Find the Duplicate Number](LeetCode-Find-the-Duplicate-Number.html)</td><td>Medium</td></tr>
+        <tr><td>283</td><td>[Move Zeroes](LeetCode-Move-Zeroes.html)</td><td>Easy</td></tr>
+        <tr><td>281</td><td>[Zigzag Iterator](LeetCode-Zigzag-Iterator.html)</td><td>Medium</td></tr>
+        <tr><td>280</td><td>[Wiggle Sort](LeetCode-Wiggle-Sort.html)</td><td>Medium</td></tr>
+        <tr><td>278</td><td>[First Bad Version](LeetCode-First-Bad-Version.html)</td><td>Easy</td></tr>
+        <tr><td>276</td><td>[Paint Fence](LeetCode-Paint-Fence.html)</td><td>Easy</td></tr>
+        <tr><td>273</td><td>[Integer to English Words](LeetCode-Integer-to-English-Words.html)</td><td>Hard</td></tr>
+        <tr><td>272</td><td>[Closest Binary Search Tree Value II](LeetCode-Closest-Binary-Search-Tree-Value-II.html)</td><td>Hard</td></tr>
+        <tr><td>271</td><td>[Encode and Decode Strings](LeetCode-Encode-and-Decode-Strings.html)</td><td>Medium</td></tr>
+        <tr><td>270</td><td>[Closest Binary Search Tree Value](LeetCode-Closest-Binary-Search-Tree-Value.html)</td><td>Easy</td></tr>
+        <tr><td>269</td><td>[Alien Dictionary](LeetCode-Alien-Dictionary.html)</td><td>Hard</td></tr>
+        <tr><td>268</td><td>[Missing Number](LeetCode-Missing-Number.html)</td><td>Easy</td></tr>
+        <tr><td>267</td><td>[Palindrome Permutation II](LeetCode-Palindrome-Permutation-II.html)</td><td>Medium</td></tr>
+        <tr><td>266</td><td>[Palindrome Permutation](LeetCode-Palindrome-Permutation.html)</td><td>Easy</td></tr>
+        <tr><td>265</td><td>[Paint House II](LeetCode-Paint-House-II.html)</td><td>Hard</td></tr>
+        <tr><td>264</td><td>[Ugly Number II](LeetCode-Ugly-Number-II.html)</td><td>Medium</td></tr>
+        <tr><td>263</td><td>[Ugly Number](LeetCode-Ugly-Number.html)</td><td>Easy</td></tr>
+        <tr><td>261</td><td>[Graph Valid Tree](LeetCode-Graph-Valid-Tree.html)</td><td>Medium</td></tr>
+        <tr><td>260</td><td>[Single Number III](LeetCode-Single-Number-III.html)</td><td>Medium</td></tr>
+        <tr><td>259</td><td>[3Sum Smaller](LeetCode-3Sum-Smaller.html)</td><td>Medium</td></tr>
         <tr><td>258</td><td>[Add Digits](LeetCode-Add-Digits.html)</td><td>Easy</td></tr>
         <tr><td>257</td><td>[Binary Tree Paths](LeetCode-Binary-Tree-Paths.html)</td><td>Easy</td></tr>
         <tr><td>256</td><td>[Paint House](LeetCode-Paint-House.html)</td><td>Medium</td></tr>
@@ -255,4 +310,4 @@ date: 2015-06-23 09:41:14
     </tbody>
 </table>
 
-### [Code Example in GitHub](https://github.com/CodeasHobby/Code-Practice/tree/master/src/main/java/com/codeashobby/leetcode)
+### [Code Example in GitHub](https://github.com/SaltyEggTech/Code-Practice/tree/master/src/main/java/com/codeashobby/leetcode)
