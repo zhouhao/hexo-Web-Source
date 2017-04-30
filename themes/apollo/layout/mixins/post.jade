@@ -1,7 +1,7 @@
-mixin postInfo(item)
+mixin postInfo(item, showCate)
     .post-info
         != full_date(item.date, 'll')
-        if item.categories
+        if showCate && item.categories
             - var count = item.categories.length;
             - var txt = count == 1 ? 'category: ':'categories: ';
             span.categories= __(txt)
@@ -19,7 +19,7 @@ mixin posts()
                     h2.post-title
                         a.post-title-link(href= url_for(item.path))
                             != item.title
-                    +postInfo(item)
+                    +postInfo(item, true)
                     .post-content
                         != item.excerpt
                     a.read-more(href= url_for(item.path))!= __('more')
@@ -37,7 +37,7 @@ mixin postList()
             if change 
                 h2.archive-year!= year
             .post-item
-                +postInfo(item)
+                +postInfo(item, false)
                 a.post-title-link(href= url_for(item.path))
                     != item.title
         - })
@@ -48,7 +48,7 @@ mixin post(item)
         article.post-block
             h1.post-title
                 != item.title
-            +postInfo(item)
+            +postInfo(item, true)
             .post-content
                 != item.content
             if item.tags
