@@ -1,15 +1,12 @@
 ul.nav.nav-list
     each value, key in theme.menu
-        if key == 'Category'
-            != list_categories({show_count: false, depth: 2, class: 'nav-fix', style: 'list'})
-        else if key == 'Tag'   
-            != list_tags({show_count: false})
-        else     
-            li.nav-list-item
-                - var re = /^(http|https):\/\/*/gi;
-                - var tar = re.test(value) ? "_blank" : "_self"
-                - var act = !re.test(value) && "/"+page.current_url === value
-                a.nav-list-link(class={active: act} href=url_for(value) target=tar)
-                    != key.toUpperCase()
+        li.nav-list-item
+            - var re = /^(http|https):\/\/*/gi;
+            - var tar = re.test(value) ? "_blank" : "_self"
+            - var act = !re.test(value) && ("/"+page.path).toLowerCase().indexOf(value.toLowerCase()) >= 0
+            if value === "/" && page.path != "index.html"
+                - act = false
+            a.nav-list-link(class={active: act} href=url_for(value) target=tar)
+                != key.toUpperCase()
         
 
