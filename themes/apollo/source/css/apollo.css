@@ -431,6 +431,8 @@ header {
     header .nav-list-item a {
       font-size: 16px;
       line-height: 1.4; }
+  header ul.nav-fix-list-child {
+    display: none; }
 
 .home.post-list {
   margin: 2em 0; }
@@ -447,7 +449,7 @@ header {
     color: #42b983; }
 
 .archive {
-  max-width: 600px;
+  max-width: 700px;
   margin: 5em auto; }
   .archive .post-item {
     padding: 2px 0 0 30px; }
@@ -749,14 +751,14 @@ pre {
 main.container {
   margin: 2em 10px; }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 888px) {
   .wrap {
-    width: 700px;
+    width: 888px;
     margin: 0 auto; }
 
   header {
     padding: 20px 100px; } }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 888px) {
   .wrap {
     width: 100%; }
 

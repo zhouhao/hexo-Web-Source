@@ -2,9 +2,8 @@ menu:
     Blog: /
     Archive: /archives/
     LeetCode: /LeetCode/
-    GitHub: https://github.com/zhouhao
-    Rss: /atom.xml
-
+    Category: /categories
+    Tag: /tags
 favicon: /favicon.png
 logo: /logo.png
 
