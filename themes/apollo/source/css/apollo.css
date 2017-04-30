@@ -486,6 +486,8 @@ header {
     font-size: 12px;
     color: white;
     background-color: #E36B6B; }
+.post-block .post-tags a {
+  margin-left: 10px; }
 
 .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
   position: relative;
