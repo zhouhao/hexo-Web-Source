@@ -11,9 +11,11 @@ html(lang=config.language)
                 include nav
             main.container
             if page.path === "tags/index.html"
+                .all-categories.tag-content 
                     != list_categories({show_count: false, depth: 2, class: 'nav', style: 'list'})
+                .all-tags.tag-content
                     != tagcloud()
-             else
+            else
                  block container
             footer
                 block pagination

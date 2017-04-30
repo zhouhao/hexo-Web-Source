@@ -12,7 +12,7 @@ language: en
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://hzhou.me
+url: https://hzhou.me
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -45,13 +45,8 @@ default_category: 计算机那些事
 #category_map:
 #tag_map:
 
-# Archives
-## 2: Enable pagination
-## 1: Disable pagination
-## 0: Fully Disable
-archive: 2
-category: 2
-tag: 2
+tag_generator:
+  per_page: 0
 
 # Server
 ## Hexo uses Connect as a server

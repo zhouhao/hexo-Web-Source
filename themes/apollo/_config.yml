@@ -3,8 +3,8 @@ menu:
     Archive: /archives/
     Tag: /tags/
     About: /about/
-    GitHub: https://github.com/zhouhao
     LeetCode: /LeetCode/
+    GitHub: https://github.com/zhouhao
     RSS: /atom.xml
 favicon: /favicon.png
 logo: /logo.png
