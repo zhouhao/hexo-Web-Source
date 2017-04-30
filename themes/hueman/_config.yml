@@ -12,7 +12,7 @@ menu:
   About: /about/
 
 # Article list grouped by year
-groupByYear: true
+groupByYear: false
 
 # Content
 fancybox: true
