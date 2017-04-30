@@ -2,11 +2,9 @@ mixin postInfo(item, showCate)
     .post-info
         != full_date(item.date, 'll')
         if showCate && item.categories
-            - var count = item.categories.length;
-            - var txt = count == 1 ? 'category: ':'categories: ';
-            span.categories= __(txt)
+            span.categories <i class="fa fa-bookmark" aria-hidden="true"></i>
             for category in item.categories.toArray()
-                a(href=url_for(category.path))= " " + category.name
+                a(class="post-category" href=url_for(category.path))= "#"+category.name
         if item.from && (is_home() || is_post())
             a.post-from(href=item.from target="_blank" title=item.from) 翻译 · 原文地址
 
@@ -52,6 +50,6 @@ mixin post(item)
             .post-content
                 != item.content
             if item.tags
-                p.post-tags tags:
+                p.post-tags <i class="fa fa-tags" aria-hidden="true"></i>
                     for tag in item.tags.toArray()
                         a(href=url_for(tag.path))=  '#' + tag.name

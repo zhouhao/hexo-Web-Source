@@ -8,5 +8,6 @@ ul.nav.nav-list
                 - act = false
             a.nav-list-link(class={active: act} href=url_for(value) target=tar)
                 != key.toUpperCase()
-        
+    li.nav-list-item  
+        | <i class="fa fa-search" aria-hidden="true"></i>
 

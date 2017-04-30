@@ -23,8 +23,11 @@
             color: white;
             background-color: #E36B6B;
         }
+        a.post-category {
+            margin-left: 10px;
+        }
     }
-    
+
     .post-tags a {
         margin-left: 10px;
     }
@@ -73,7 +76,7 @@
     }
     & > table,
     & > figure.highlight {
-        box-shadow: 0 1px 2px rgba(0,0,0,0.125);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.125);
     }
     .tip {
         position: relative;
@@ -174,7 +177,7 @@ pre {
     }
 }
 
-$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java", "cpp", "ts");
+$signs: ("html", "js", "bash", "css", "scss", "diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java", "cpp", "ts");
 @include code-signs($signs);
 
 .highlight.cpp .code:after {
@@ -185,7 +188,7 @@ pre {
     color: #525252;
     .function .keyword,
     .constant {
-       color: #0092db;
+        color: #0092db;
     }
     .keyword,
     .attribute {
