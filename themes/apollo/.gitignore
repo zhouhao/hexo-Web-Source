@@ -5,3 +5,6 @@ db.json
 node_modules/
 public/
 .deploy*/
+/source/scss/*/*.css
+/source/scss/*.css
+*.map
