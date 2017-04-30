@@ -1,8 +1,8 @@
 menu:
     Blog: /
     Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
+    LeetCode: /LeetCode/
+    GitHub: https://github.com/zhouhao
     Rss: /atom.xml
 
 favicon: /favicon.png
@@ -10,13 +10,12 @@ logo: /logo.png
 
 # Comment
 # e.g disqus: seansun
-disqus:
-duoshuo:
+disqus: zhouhao
 cloudTie:
 
 # Analytics
 # google-analytics:
 ga: UA-65933410-1
 
-# Copyright Infomation
+# Copyright Information
 startyear: 2015
