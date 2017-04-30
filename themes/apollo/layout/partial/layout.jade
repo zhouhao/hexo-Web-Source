@@ -10,7 +10,11 @@ html(lang=config.language)
                     img(src=url_for(theme.logo) alt="logo")
                 include nav
             main.container
-                block container
+            if page.path === "tags/index.html"
+                    != list_categories({show_count: false, depth: 2, class: 'nav', style: 'list'})
+                    != tagcloud()
+             else
+                 block container
             footer
                 block pagination
                 block copyright
