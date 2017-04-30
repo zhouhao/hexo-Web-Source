@@ -12,7 +12,7 @@ html(lang=config.language)
             main.container
             if page.path === "tags/index.html"
                 .all-categories.tag-content 
-                    != list_categories({show_count: false, depth: 2, class: 'nav', style: 'list'})
+                    != list_categories({show_count: false, depth: 2, class: 'nav-category', style: 'list'})
                 .all-tags.tag-content
                     != tagcloud()
             else

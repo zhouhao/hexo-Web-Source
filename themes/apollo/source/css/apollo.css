@@ -800,6 +800,10 @@ footer {
     footer .copyright a:hover {
       color: #888; }
 
+.nav-category-list-child li.nav-category-list-item {
+  display: inline;
+  margin-right: 10px; }
+
 @font-face {
   font-family: 'sourcesanspro';
   src: url("../font/sourcesanspro.woff2") format("woff2"), url("../font/sourcesanspro.woff") format("woff");
