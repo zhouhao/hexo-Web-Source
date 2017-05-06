@@ -1,4 +1,8 @@
-image: node:4.2.2
+image: node:6.9.0
+
+before_script:
+  - git config --global user.email "i@hzhou.me"
+  - git config --global user.name "Hao Zhou"
 
 pages:
   cache:
