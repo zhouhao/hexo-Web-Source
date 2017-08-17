@@ -69,6 +69,8 @@ Thx to Jackson, with [@JsonIdentityInfo](http://wiki.fasterxml.com/JacksonFeatur
 After I add `@JsonIdentityInfo(generator=ObjectIdGenerators.IntSequenceGenerator.class, property="@id")` to both class, then I can have the JSON string as:
 ```json
 {"@id":1,"name":"Book","author":{"@id":2,"name":"Author","books":[1]}}
+```
+```json
 {"@id":1,"name":"Author","books":[{"@id":2,"name":"Book","author":1}]}
 ```
 However, I am not sure whether this JSON string can be deserialized by other libraries(e.g. GSON), or other languages, my guess is NOT. 
