@@ -9,5 +9,5 @@ date: 2015-08-03 13:41:25
 
 changelog:
 
-1. 09/23/2014 初始工作Ovitas
-2. 09/08/2015 转战TripAdvisor
+1. 09/2014 - 09/2015 初始工作Ovitas
+2. 09/2015 - 07/2017 转战TripAdvisor
