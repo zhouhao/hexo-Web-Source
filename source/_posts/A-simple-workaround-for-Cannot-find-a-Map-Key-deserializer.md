@@ -83,21 +83,21 @@ public class KeyValueContainer<K, V> {
 }
 
 public class ObjectUtils {
-    public static <K, V> List<Class.KeyValueContainer<K, V>> toList(Map<K, V> map) {
+    public static <K, V> List<KeyValueContainer<K, V>> toList(Map<K, V> map) {
         if (map == null || map.isEmpty()) {
             return new ArrayList<>();
         }
         return map.entrySet().stream()
-                .map(e -> new Class.KeyValueContainer<>(e.getKey(), e.getValue()))
+                .map(e -> new KeyValueContainer<>(e.getKey(), e.getValue()))
                 .collect(Collectors.toList());
     }
 
-    public static <K, V> Map<K, V> toMap(List<Class.KeyValueContainer<K, V>> list) {
+    public static <K, V> Map<K, V> toMap(List<KeyValueContainer<K, V>> list) {
         if (list == null || list.isEmpty()) {
             return new HashMap<>();
         }
         return list.stream()
-                .collect(Collectors.toMap(Class.KeyValueContainer::getKey, Class.KeyValueContainer::getValue));
+                .collect(Collectors.toMap(KeyValueContainer::getKey, KeyValueContainer::getValue));
     }
 }
 
