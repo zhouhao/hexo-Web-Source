@@ -12,6 +12,14 @@ date: 2015-06-23 09:41:14
 |485|[Max Consecutive Ones](LeetCode-Max-Consecutive-Ones.html)|Easy|
 |476|[Number Complement](LeetCode-Number-Complement.html)|Easy|
 |461|[Hamming Distance](LeetCode-Hamming-Distance.html)|Easy|
+|387|[First Unique Character in a String](LeetCode-First-Unique-Character-in-a-String.html)|Easy|
+|383|[Ransom Note](LeetCode-Ransom-Note.html)|Easy|
+|374|[Guess Number Higher or Lower](LeetCode-Guess-Number-Higher-or-Lower.html)|Easy|
+|371|[Sum of Two Integers](LeetCode-Sum-of-Two-Integers.html)|Easy|
+|369|[Plus One Linked List](LeetCode-Plus-One-Linked-List.html)|Medium|
+|367|[Valid Perfect Square](LeetCode-Valid-Perfect-Square.html)|Easy|
+|362|[Design Hit Counter](LeetCode-Design-Hit-Counter.html)|Medium|
+|359|[Logger Rate Limiter](LeetCode-Logger-Rate-Limiter.html)|Easy|
 |350|[Intersection of Two Arrays II](LeetCode-Intersection-of-Two-Arrays-II.html)|Easy|
 |349|[Intersection of Two Arrays](LeetCode-Intersection-of-Two-Arrays.html)|Easy|
 |347|[Top K Frequent Elements](LeetCode-Top-K-Frequent-Elements.html)|Medium|
