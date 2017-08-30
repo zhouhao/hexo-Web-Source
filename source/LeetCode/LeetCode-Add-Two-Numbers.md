@@ -1,12 +1,8 @@
 title: 'LeetCode: Add Two Numbers'
 date: 2015-06-24 00:03:22
 ---
- 
-```java
 
-/**
- * Created by hzhou on 4/23/15. codeashobby@gmail.com
- */
+```java
 public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null) {

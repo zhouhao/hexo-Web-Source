@@ -1,7 +1,7 @@
 title: 'LeetCode: Climbing Stairs'
 date: 2015-06-24 00:03:22
 ---
- ```java
+```java
 public class ClimbingStairs {
     public int climbStairs1(int n) {
         assert n > 0;

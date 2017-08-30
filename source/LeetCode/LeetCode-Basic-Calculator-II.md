@@ -14,23 +14,11 @@ Some examples:
 " 3+5 / 2 " = 5
 ```
 **Note**: Do not use the eval built-in library function.
-<!-- more -->
 
 https://leetcode.com/problems/basic-calculator-ii/
 
 
 ```java
-import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import static org.junit.Assert.assertEquals;
-
-/**
- * Created by hzhou on 2015/6/22.
- * Email: i@hzhou.me
- */
 public class BasicCalculatorII {
     public int calculate(String s) {
         if (s == null || s.trim().length() == 0) {
@@ -138,18 +126,6 @@ public class BasicCalculatorII {
             default:
                 return 0;
         }
-    }
-
-    @Test
-    public void test() {
-        String s = "3+2*2";
-        assertEquals(7, calculate(s));
-
-        s = "3+5 / 2 ";
-        assertEquals(5, calculate(s));
-
-        s = "0" + Integer.MIN_VALUE;
-        assertEquals(Integer.MIN_VALUE, calculate(s));
     }
 }
 ```

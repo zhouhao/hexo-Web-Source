@@ -1,12 +1,8 @@
 title: 'LeetCode: Best Time to Buy and Sell Stock II'
 date: 2015-06-24 00:03:22
 ---
- 
-```java
 
-/**
- * Created by hzhou on 4/30/15. codeashobby@gmail.com
- */
+```java
 public class BestTimeToBuyAndSellStockII {
     public int maxProfit(int[] prices) {
         if (prices.length < 2) {
