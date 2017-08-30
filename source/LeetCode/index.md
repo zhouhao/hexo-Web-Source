@@ -34,36 +34,36 @@ date: 2015-06-23 09:41:14
 |598|[Range Addition II](LeetCode-Range-Addition-II.html)|Easy|
 |597|[Friend Requests I: Overall Acceptance Rate](LeetCode-xxxxx.html)|Easy|
 |596|[Classes More Than 5 Students](LeetCode-xxxxx.html)|Easy|
-|595|[Big Countries](LeetCode-xxxxx.html)|Easy|
+|595|[Big Countries](LeetCode-Big-Countries.html)|Easy|
 |594|[Longest Harmonious Subsequence](LeetCode-xxxxx.html)|Easy|
 |586|[Customer Placing the Largest Number of Orders](LeetCode-Customer-Placing-the-Largest-Number-of-Orders.html)|Easy|
-|584|[Find Customer Referee](LeetCode-xxxxx.html)|Easy|
+|584|[Find Customer Referee](LeetCode-Find-Customer-Referee.html)|Easy|
 |583|[Delete Operation for Two Strings](LeetCode-xxxxx.html)|Medium|
 |581|[Shortest Unsorted Continuous Subarray](LeetCode-xxxxx.html)|Easy|
-|580|[Count Student Number in Departments](LeetCode-xxxxx.html)|Medium|
-|577|[Employee Bonus](LeetCode-xxxxx.html)|Easy|
-|575|[Distribute Candies](LeetCode-xxxxx.html)|Easy|
-|572|[Subtree of Another Tree](LeetCode-xxxxx.html)|Easy|
+|580|[Count Student Number in Departments](LeetCode-Count-Student-Number-in-Departments.html)|Medium|
+|577|[Employee Bonus](LeetCode-Employee-Bonus.html)|Easy|
+|575|[Distribute Candies](LeetCode-Distribute-Candies.html)|Easy|
+|572|[Subtree of Another Tree](LeetCode-Subtree-of-Another-Tree.html)|Easy|
 |570|[Managers with at Least 5 Direct Reports](LeetCode-xxxxx.html)|Medium|
-|566|[Reshape the Matrix](LeetCode-xxxxx.html)|Easy|
-|563|[Binary Tree Tilt](LeetCode-xxxxx.html)|Easy|
-|562|[Longest Line of Consecutive One in Matrix](LeetCode-xxxxx.html)|Medium|
-|561|[Array Partition I](LeetCode-xxxxx.html)|Easy|
-|560|[Subarray Sum Equals K](LeetCode-xxxxx.html)|Medium|
-|551|[Student Attendance Record I](LeetCode-xxxxx.html)|Easy|
-|548|[Split Array with Equal Sum](LeetCode-xxxxx.html)|Medium|
-|543|[Diameter of Binary Tree](LeetCode-xxxxx.html)|Easy|
-|539|[Minimum Time Difference](LeetCode-xxxxx.html)|Medium|
-|538|[Convert BST to Greater Tree](LeetCode-xxxxx.html)|Easy|
-|537|[Complex Number Multiplication](LeetCode-xxxxx.html)|Medium|
-|535|[Encode and Decode TinyURL](LeetCode-xxxxx.html)|Medium|
-|532|[K-diff Pairs in an Array](LeetCode-xxxxx.html)|Easy|
-|530|[Minimum Absolute Difference in BST](LeetCode-xxxxx.html)|Easy|
-|526|[Beautiful Arrangement](LeetCode-xxxxx.html)|Medium|
-|525|[Contiguous Array](LeetCode-xxxxx.html)|Medium|
-|524|[Longest Word in Dictionary through Deleting](LeetCode-xxxxx.html)|Medium|
-|521|[Longest Uncommon Subsequence I](LeetCode-xxxxx.html)|Easy|
-|515|[Find Largest Value in Each Tree Row](LeetCode-xxxxx.html)|Medium|
+|566|[Reshape the Matrix](LeetCode-Reshape-the-Matrix.html)|Easy|
+|563|[Binary Tree Tilt](LeetCode-Binary-Tree-Tilt.html)|Easy|
+|562|[Longest Line of Consecutive One in Matrix](LeetCode-Longest-Line-of-Consecutive-One-in-Matrix.html)|Medium|
+|561|[Array Partition I](LeetCode-Array-Partition-I.html)|Easy|
+|560|[Subarray Sum Equals K](LeetCode-Subarray-Sum-Equals-K.html)|Medium|
+|551|[Student Attendance Record I](LeetCode-Student-Attendance-Record-I.html)|Easy|
+|548|[Split Array with Equal Sum](LeetCode-Split-Array-with-Equal-Sum.html)|Medium|
+|543|[Diameter of Binary Tree](LeetCode-Diameter-of-Binary-Tree.html)|Easy|
+|539|[Minimum Time Difference](LeetCode-Minimum-Time-Difference.html)|Medium|
+|538|[Convert BST to Greater Tree](LeetCode-Convert-BST-to-Greater-Tree.html)|Easy|
+|537|[Complex Number Multiplication](LeetCode-Complex-Number-Multiplication.html)|Medium|
+|535|[Encode and Decode TinyURL](LeetCode-Encode-and-Decode-TinyURL.html)|Medium|
+|532|[K-diff Pairs in an Array](LeetCode-K-diff-Pairs-in-an-Array.html)|Easy|
+|530|[Minimum Absolute Difference in BST](LeetCode-Minimum-Absolute-Difference-in-BST.html)|Easy|
+|526|[Beautiful Arrangement](LeetCode-Beautiful-Arrangement.html)|Medium|
+|525|[Contiguous Array](LeetCode-Contiguous-Array.html)|Medium|
+|524|[Longest Word in Dictionary through Deleting](LeetCode-Longest-Word-in-Dictionary-through-Deleting.html)|Medium|
+|521|[Longest Uncommon Subsequence I](LeetCode-Longest-Uncommon-Subsequence-I.html)|Easy|
+|515|[Find Largest Value in Each Tree Row](LeetCode-Find-Largest-Value-in-Each-Tree-Row.html)|Medium|
 |507|[Perfect Number](LeetCode-Perfect-Number.html)|Easy|
 |506|[Relative Ranks](LeetCode-Relative-Ranks.html)|Easy|
 |503|[Next Greater Element II](LeetCode-Next-Greater-Element-II.html)|Medium|
