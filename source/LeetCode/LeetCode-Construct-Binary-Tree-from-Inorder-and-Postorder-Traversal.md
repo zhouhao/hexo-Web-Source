@@ -1,14 +1,8 @@
 title: 'LeetCode: Construct Binary Tree from Inorder and Postorder Traversal'
 date: 2015-06-24 00:03:22
 ---
- 
-```java
 
-/**
- * Description: Given inorder and postorder traversal of a tree, construct the binary tree.
- *
- * @author hzhou
- */
+```java
 public class ConstructBinaryTreeFromInorderAndPostorderTraversal {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         if (inorder == null || inorder.length == 0 || postorder == null || postorder.length == 0) {

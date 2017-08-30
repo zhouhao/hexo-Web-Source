@@ -1,13 +1,8 @@
 title: 'LeetCode: Best Time to Buy and Sell Stock III'
 date: 2015-06-24 00:03:22
 ---
- 
-```java
 
-import static org.junit.Assert.assertSame;
-/**
- * Created by hzhou on 4/30/15. codeashobby@gmail.com
- */
+```java
 public class BestTimeToBuyAndSellStockIII {
     public int maxProfit(int[] prices) {
         if (prices.length < 2) {
@@ -34,11 +29,6 @@ public class BestTimeToBuyAndSellStockIII {
             }
         }
         return max;
-    }
-    @Test
-    public void test() {
-        int[] prices = new int[]{1, 4, 5, 7, 6, 3, 2, 9};
-        assertSame(13, maxProfit(prices));
     }
 }
 ```

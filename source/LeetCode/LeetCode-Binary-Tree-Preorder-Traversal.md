@@ -1,12 +1,8 @@
 title: 'LeetCode: Binary Tree Preorder Traversal'
 date: 2015-06-24 00:03:22
 ---
- 
-```java
 
-/**
- * Created by hzhou on 4/27/15. codeashobby@gmail.com
- */
+```java
 public class BinaryTreePreorderTraversal {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<Integer>();

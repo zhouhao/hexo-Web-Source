@@ -1,27 +1,21 @@
 title: 'LeetCode: Combinations'
 date: 2015-06-24 00:03:22
 ---
- ```java
+Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
 
-/**
- * Description:
- * <p/>
- * Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
- * <p/>
- * For example, If n = 4 and k = 2, a solution is:
- * <pre>
- * [
- * [2,4],
- * [3,4],
- * [2,3],
- * [1,2],
- * [1,3],
- * [1,4],
- * ]
- * </pre>
- *
- * @author hzhou
- */
+For example, If n = 4 and k = 2, a solution is:
+ ```
+[
+ [2,4],
+ [3,4],
+ [2,3],
+ [1,2],
+ [1,3],
+ [1,4],
+]
+```
+
+```java
 public class Combinations {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();

@@ -1,14 +1,8 @@
 title: 'LeetCode: Binary Tree Level Order Traversal'
 date: 2015-06-24 00:03:22
 ---
- 
-```java
 
-/**
- * Description:
- *
- * @author hzhou
- */
+```java
 public class BinaryTreeLevelOrderTraversal {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();

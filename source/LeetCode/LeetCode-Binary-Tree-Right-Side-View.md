@@ -1,14 +1,8 @@
 title: 'LeetCode: Binary Tree Right Side View'
 date: 2015-06-24 00:03:22
 ---
- 
-```java
 
-/**
- * Description
- *
- * @author hzhou
- */
+```java
 public class BinaryTreeRightSideView {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> result = new ArrayList<Integer>();

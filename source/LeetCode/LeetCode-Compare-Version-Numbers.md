@@ -1,12 +1,8 @@
 title: 'LeetCode: Compare Version Numbers'
 date: 2015-06-24 00:03:22
 ---
- 
-```java
 
-/**
- * Created by hzhou on 4/21/15. codeashobby@gmail.com
- */
+```java
 public class CompareVersionNumbers {
     private static final Logger log = Logger.getLogger(CompareVersionNumbers.class);
     public int compareVersion(String version1, String version2) {
@@ -31,13 +27,6 @@ public class CompareVersionNumbers {
             }
         }
         return result;
-    }
-    @Test
-    public void test() {
-        String[] strs = "22.33".split("\\.");
-        for (String str : strs) {
-            log.info(str);
-        }
     }
 }
 ```

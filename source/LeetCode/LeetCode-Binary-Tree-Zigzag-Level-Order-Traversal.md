@@ -1,13 +1,8 @@
 title: 'LeetCode: Binary Tree Zigzag Level Order Traversal'
 date: 2015-06-24 00:03:22
 ---
- 
-```java
 
-import java.util.*;
-/**
- * Created by hzhou on 2015/5/21.
- */
+```java
 public class BinaryTreeZigzagLevelOrderTraversal {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();

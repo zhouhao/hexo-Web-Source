@@ -1,14 +1,8 @@
 title: 'LeetCode: Count and Say'
 date: 2015-06-24 00:03:22
 ---
- 
-```java
 
-/**
- * Description
- *
- * @author hzhou
- */
+```java
 public class CountAndSay {
     public String countAndSay(int n) {
         if (n <= 0) {
@@ -40,13 +34,6 @@ public class CountAndSay {
             }
             return sb.toString();
         }
-    }
-    @Test
-    public void test() {
-        System.out.println(countAndSay(1));
-        System.out.println(countAndSay(2));
-        System.out.println(countAndSay(3));
-        System.out.println(countAndSay(4));
     }
 }
 ```

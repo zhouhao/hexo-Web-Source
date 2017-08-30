@@ -1,14 +1,8 @@
 title: 'LeetCode: Construct Binary Tree from Preorder and Inorder Traversal'
 date: 2015-06-24 00:03:22
 ---
- 
-```java
 
-/**
- * Description:
- *
- * @author hzhou
- */
+```java
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         if (preorder == null || preorder.length == 0 || inorder == null || inorder.length == 0) {

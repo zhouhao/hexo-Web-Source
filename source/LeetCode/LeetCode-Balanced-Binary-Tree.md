@@ -1,14 +1,8 @@
 title: 'LeetCode: Balanced Binary Tree'
 date: 2015-06-24 00:03:22
 ---
- 
-```java
 
-/**
- * Description:
- *
- * @author hzhou
- */
+```java
 public class BalancedBinaryTree {
     public boolean isBalanced(TreeNode root) {
         if (root == null || (root.left == null && root.right == null)) {

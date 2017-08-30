@@ -8,7 +8,7 @@ Link: https://oj.leetcode.com/problems/copy-list-with-random-pointer/
 
 Core: Use a hashMap to store the mapping from old list to new list
 
-```
+```java
 /**
  * Definition for singly-linked list with a random pointer.
  * class RandomListNode {
@@ -21,10 +21,10 @@ public class Solution {
     public RandomListNode copyRandomList(RandomListNode head) {
         RandomListNode result = new RandomListNode(0);
         if(head == null) return null;
-        
+
         // Use a hashmap to store the mapping
         Map<RandomListNode, RandomListNode> oldToNew = new HashMap<RandomListNode, RandomListNode>();
-        
+
         RandomListNode cursor = head;
         // create new nodes for new list
         while(cursor != null) {
@@ -32,7 +32,7 @@ public class Solution {
             oldToNew.put(cursor, tmp);
             cursor = cursor.next;
         }
-        
+
         // build the new list below
         cursor = head;
         RandomListNode tmp = result;
@@ -44,7 +44,7 @@ public class Solution {
             cursor = cursor.next;
             tmp = tmp.next;
         }
-        
+
         return result.next;
     }
 }
