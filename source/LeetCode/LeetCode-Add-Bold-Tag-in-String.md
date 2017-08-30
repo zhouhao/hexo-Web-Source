@@ -21,9 +21,9 @@ dict = ["aaa","aab","bc"]
 Output:
 "<b>aaabbc</b>c"
 ```
-### Note:
-The given dict won't contain duplicates, and its length won't exceed 100.
-All the strings in input have length in range [1, 1000].
+##### Note:
+1. The given dict won't contain duplicates, and its length won't exceed 100.
+2. All the strings in input have length in range [1, 1000].
 
 ```java
 class Solution {
