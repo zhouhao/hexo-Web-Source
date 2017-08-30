@@ -74,34 +74,34 @@ date: 2015-06-23 09:41:14
 |486|[Predict the Winner ](LeetCode-xxxxx.html)|Medium|
 |479|[Largest Palindrome Product](LeetCode-xxxxx.html)|Easy|
 |477|[Total Hamming Distance](LeetCode-xxxxx.html)|Medium|
-|468|[Validate IP Address](LeetCode-xxxxx.html)|Medium|
+|468|[Validate IP Address](LeetCode-Validate-IP-Address.html)|Medium|
 |463|[Island Perimeter](LeetCode-xxxxx.html)|Easy|
 |459|[Repeated Substring Pattern](LeetCode-xxxxx.html)|Easy|
 |458|[Poor Pigs](LeetCode-xxxxx.html)|Easy|
 |455|[Assign Cookies](LeetCode-xxxxx.html)|Easy|
-|454|[4Sum II](LeetCode-xxxxx.html)|Medium|
+|454|[4Sum II](LeetCode-4Sum-II.html)|Medium|
 |453|[Minimum Moves to Equal Array Elements](LeetCode-xxxxx.html)|Easy|
-|448|[Find All Numbers Disappeared in an Array](LeetCode-xxxxx.html)|Easy|
+|448|[Find All Numbers Disappeared in an Array](LeetCode-Find-All-Numbers-Disappeared-in-an-Array.html)|Easy|
 |447|[Number of Boomerangs](LeetCode-xxxxx.html)|Easy|
-|442|[Find All Duplicates in an Array](LeetCode-xxxxx.html)|Medium|
+|442|[Find All Duplicates in an Array](LeetCode-Find-All-Duplicates-in-an-Array.html)|Medium|
 |441|[Arranging Coins](LeetCode-xxxxx.html)|Easy|
 |438|[Find All Anagrams in a String](LeetCode-xxxxx.html)|Easy|
 |437|[Path Sum III](LeetCode-xxxxx.html)|Easy|
 |435|[Non-overlapping Intervals](LeetCode-xxxxx.html)|Medium|
 |434|[Number of Segments in a String](LeetCode-xxxxx.html)|Easy|
 |422|[Valid Word Square](LeetCode-xxxxx.html)|Easy|
-|415|[Add Strings](LeetCode-xxxxx.html)|Easy|
+|415|[Add Strings](LeetCode-Add-Strings.html)|Easy|
 |414|[Third Maximum Number](LeetCode-xxxxx.html)|Easy|
 |413|[Arithmetic Slices](LeetCode-xxxxx.html)|Medium|
 |412|[Fizz Buzz](LeetCode-xxxxx.html)|Easy|
-|409|[Longest Palindrome](LeetCode-xxxxx.html)|Easy|
-|408|[Valid Word Abbreviation](LeetCode-xxxxx.html)|Easy|
-|405|[Convert a Number to Hexadecimal](LeetCode-xxxxx.html)|Easy|
-|404|[Sum of Left Leaves](LeetCode-xxxxx.html)|Easy|
-|402|[Remove K Digits](LeetCode-xxxxx.html)|Medium|
-|401|[Binary Watch](LeetCode-xxxxx.html)|Easy|
-|392|[Is Subsequence](LeetCode-xxxxx.html)|Medium|
-|389|[Find the Difference](LeetCode-xxxxx.html)|Easy|
+|409|[Longest Palindrome](LeetCode-Longest-Palindrome.html)|Easy|
+|408|[Valid Word Abbreviation](LeetCode-Valid-Word-Abbreviation.html)|Easy|
+|405|[Convert a Number to Hexadecimal](LeetCode-Convert-a-Number-to-Hexadecimal.html)|Easy|
+|404|[Sum of Left Leaves](LeetCode-Sum-of-Left-Leaves.html)|Easy|
+|402|[Remove K Digits](LeetCode-Remove-K-Digits.html)|Medium|
+|401|[Binary Watch](LeetCode-Binary-Watch.html)|Easy|
+|392|[Is Subsequence](LeetCode-Is-Subsequence.html)|Medium|
+|389|[Find the Difference](LeetCode-Find-the-Difference.html)|Easy|
 |557|[Reverse Words in a String III](LeetCode-Reverse-Words-in-a-String-III.html)|Easy|
 |542|[01 Matrix](LeetCode-01-Matrix.html)|Medium|
 |541|[Reverse String II](LeetCode-Reverse-String-II.html)|Easy|
