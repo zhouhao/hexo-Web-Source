@@ -26,25 +26,25 @@ date: 2015-06-23 09:41:14
 |613|[Shortest Distance in a Line](LeetCode-Shortest-Distance-in-a-Line.html)|Easy|
 |610|[Triangle Judgement](LeetCode-Triangle-Judgement.html)|Easy|
 |607|[Sales Person](LeetCode-Sales-Person.html)|Easy|
-|606|[Construct String from Binary Tree](LeetCode-xxxxx.html)|Easy|
-|605|[Can Place Flowers](LeetCode-xxxxx.html)|Easy|
-|604|[Design Compressed String Iterator](LeetCode-xxxxx.html)|Easy|
-|603|[Consecutive Available Seats](LeetCode-xxxxx.html)|Easy|
-|599|[Minimum Index Sum of Two Lists](LeetCode-xxxxx.html)|Easy|
+|606|[Construct String from Binary Tree](LeetCode-Construct-String-from-Binary-Tree.html)|Easy|
+|605|[Can Place Flowers](LeetCode-Can-Place-Flowers.html)|Easy|
+|604|[Design Compressed String Iterator](LeetCode-Design-Compressed-String-Iterator.html)|Easy|
+|603|[Consecutive Available Seats](LeetCode-Consecutive-Available-Seats.html)|Easy|
+|599|[Minimum Index Sum of Two Lists](LeetCode-Minimum-Index-Sum-of-Two-Lists.html)|Easy|
 |598|[Range Addition II](LeetCode-Range-Addition-II.html)|Easy|
-|597|[Friend Requests I: Overall Acceptance Rate](LeetCode-xxxxx.html)|Easy|
-|596|[Classes More Than 5 Students](LeetCode-xxxxx.html)|Easy|
+|597|[Friend Requests I: Overall Acceptance Rate](LeetCode-Friend-Requests-I-Overall-Acceptance-Rate.html)|Easy|
+|596|[Classes More Than 5 Students](LeetCode-Classes-More-Than-5-Students.html)|Easy|
 |595|[Big Countries](LeetCode-Big-Countries.html)|Easy|
-|594|[Longest Harmonious Subsequence](LeetCode-xxxxx.html)|Easy|
+|594|[Longest Harmonious Subsequence](LeetCode-Longest-Harmonious-Subsequence.html)|Easy|
 |586|[Customer Placing the Largest Number of Orders](LeetCode-Customer-Placing-the-Largest-Number-of-Orders.html)|Easy|
 |584|[Find Customer Referee](LeetCode-Find-Customer-Referee.html)|Easy|
-|583|[Delete Operation for Two Strings](LeetCode-xxxxx.html)|Medium|
-|581|[Shortest Unsorted Continuous Subarray](LeetCode-xxxxx.html)|Easy|
+|583|[Delete Operation for Two Strings](LeetCode-Delete-Operation-for-Two-Strings.html)|Medium|
+|581|[Shortest Unsorted Continuous Subarray](LeetCode-Shortest-Unsorted-Continuous-Subarray.html)|Easy|
 |580|[Count Student Number in Departments](LeetCode-Count-Student-Number-in-Departments.html)|Medium|
 |577|[Employee Bonus](LeetCode-Employee-Bonus.html)|Easy|
 |575|[Distribute Candies](LeetCode-Distribute-Candies.html)|Easy|
 |572|[Subtree of Another Tree](LeetCode-Subtree-of-Another-Tree.html)|Easy|
-|570|[Managers with at Least 5 Direct Reports](LeetCode-xxxxx.html)|Medium|
+|570|[Managers with at Least 5 Direct Reports](LeetCode-Managers-with-at-Least-5-Direct-Reports.html)|Medium|
 |566|[Reshape the Matrix](LeetCode-Reshape-the-Matrix.html)|Easy|
 |563|[Binary Tree Tilt](LeetCode-Binary-Tree-Tilt.html)|Easy|
 |562|[Longest Line of Consecutive One in Matrix](LeetCode-Longest-Line-of-Consecutive-One-in-Matrix.html)|Medium|
