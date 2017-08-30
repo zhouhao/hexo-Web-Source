@@ -31,12 +31,12 @@ date: 2015-06-23 09:41:14
 |604|[Design Compressed String Iterator](LeetCode-xxxxx.html)|Easy|
 |603|[Consecutive Available Seats](LeetCode-xxxxx.html)|Easy|
 |599|[Minimum Index Sum of Two Lists](LeetCode-xxxxx.html)|Easy|
-|598|[Range Addition II](LeetCode-xxxxx.html)|Easy|
+|598|[Range Addition II](LeetCode-Range-Addition-II.html)|Easy|
 |597|[Friend Requests I: Overall Acceptance Rate](LeetCode-xxxxx.html)|Easy|
 |596|[Classes More Than 5 Students](LeetCode-xxxxx.html)|Easy|
 |595|[Big Countries](LeetCode-xxxxx.html)|Easy|
 |594|[Longest Harmonious Subsequence](LeetCode-xxxxx.html)|Easy|
-|586|[Customer Placing the Largest Number of Orders](LeetCode-xxxxx.html)|Easy|
+|586|[Customer Placing the Largest Number of Orders](LeetCode-Customer-Placing-the-Largest-Number-of-Orders.html)|Easy|
 |584|[Find Customer Referee](LeetCode-xxxxx.html)|Easy|
 |583|[Delete Operation for Two Strings](LeetCode-xxxxx.html)|Medium|
 |581|[Shortest Unsorted Continuous Subarray](LeetCode-xxxxx.html)|Easy|
@@ -64,36 +64,36 @@ date: 2015-06-23 09:41:14
 |524|[Longest Word in Dictionary through Deleting](LeetCode-xxxxx.html)|Medium|
 |521|[Longest Uncommon Subsequence I](LeetCode-xxxxx.html)|Easy|
 |515|[Find Largest Value in Each Tree Row](LeetCode-xxxxx.html)|Medium|
-|507|[Perfect Number](LeetCode-xxxxx.html)|Easy|
-|506|[Relative Ranks](LeetCode-xxxxx.html)|Easy|
-|503|[Next Greater Element II](LeetCode-xxxxx.html)|Medium|
-|501|[Find Mode in Binary Search Tree](LeetCode-xxxxx.html)|Easy|
-|500|[Keyboard Row](LeetCode-xxxxx.html)|Easy|
-|496|[Next Greater Element I](LeetCode-xxxxx.html)|Easy|
-|492|[Construct the Rectangle](LeetCode-xxxxx.html)|Easy|
-|486|[Predict the Winner ](LeetCode-xxxxx.html)|Medium|
-|479|[Largest Palindrome Product](LeetCode-xxxxx.html)|Easy|
-|477|[Total Hamming Distance](LeetCode-xxxxx.html)|Medium|
+|507|[Perfect Number](LeetCode-Perfect-Number.html)|Easy|
+|506|[Relative Ranks](LeetCode-Relative-Ranks.html)|Easy|
+|503|[Next Greater Element II](LeetCode-Next-Greater-Element-II.html)|Medium|
+|501|[Find Mode in Binary Search Tree](LeetCode-Find-Mode-in-Binary-Search-Tree.html)|Easy|
+|500|[Keyboard Row](LeetCode-Keyboard-Row.html)|Easy|
+|496|[Next Greater Element I](LeetCode-Next-Greater-Element-I.html)|Easy|
+|492|[Construct the Rectangle](LeetCode-Construct-the-Rectangle.html)|Easy|
+|486|[Predict the Winner](LeetCode-Predict-the-Winner.html)|Medium|
+|479|[Largest Palindrome Product](LeetCode-Largest-Palindrome-Product.html)|Easy|
+|477|[Total Hamming Distance](LeetCode-Total-Hamming-Distance.html)|Medium|
 |468|[Validate IP Address](LeetCode-Validate-IP-Address.html)|Medium|
-|463|[Island Perimeter](LeetCode-xxxxx.html)|Easy|
-|459|[Repeated Substring Pattern](LeetCode-xxxxx.html)|Easy|
-|458|[Poor Pigs](LeetCode-xxxxx.html)|Easy|
-|455|[Assign Cookies](LeetCode-xxxxx.html)|Easy|
+|463|[Island Perimeter](LeetCode-Island-Perimeter.html)|Easy|
+|459|[Repeated Substring Pattern](LeetCode-Repeated-Substring-Pattern.html)|Easy|
+|458|[Poor Pigs](LeetCode-Poor-Pigs.html)|Easy|
+|455|[Assign Cookies](LeetCode-Assign-Cookies.html)|Easy|
 |454|[4Sum II](LeetCode-4Sum-II.html)|Medium|
-|453|[Minimum Moves to Equal Array Elements](LeetCode-xxxxx.html)|Easy|
+|453|[Minimum Moves to Equal Array Elements](LeetCode-Minimum-Moves-to-Equal-Array-Elements.html)|Easy|
 |448|[Find All Numbers Disappeared in an Array](LeetCode-Find-All-Numbers-Disappeared-in-an-Array.html)|Easy|
-|447|[Number of Boomerangs](LeetCode-xxxxx.html)|Easy|
+|447|[Number of Boomerangs](LeetCode-Number-of-Boomerangs.html)|Easy|
 |442|[Find All Duplicates in an Array](LeetCode-Find-All-Duplicates-in-an-Array.html)|Medium|
-|441|[Arranging Coins](LeetCode-xxxxx.html)|Easy|
-|438|[Find All Anagrams in a String](LeetCode-xxxxx.html)|Easy|
-|437|[Path Sum III](LeetCode-xxxxx.html)|Easy|
-|435|[Non-overlapping Intervals](LeetCode-xxxxx.html)|Medium|
-|434|[Number of Segments in a String](LeetCode-xxxxx.html)|Easy|
-|422|[Valid Word Square](LeetCode-xxxxx.html)|Easy|
+|441|[Arranging Coins](LeetCode-Arranging-Coins.html)|Easy|
+|438|[Find All Anagrams in a String](LeetCode-Find-All-Anagrams-in-a-String.html)|Easy|
+|437|[Path Sum III](LeetCode-Path-Sum-III.html)|Easy|
+|435|[Non-overlapping Intervals](LeetCode-Non-overlapping-Intervals.html)|Medium|
+|434|[Number of Segments in a String](LeetCode-Number-of-Segments-in-a-String.html)|Easy|
+|422|[Valid Word Square](LeetCode-Valid-Word-Square.html)|Easy|
 |415|[Add Strings](LeetCode-Add-Strings.html)|Easy|
-|414|[Third Maximum Number](LeetCode-xxxxx.html)|Easy|
-|413|[Arithmetic Slices](LeetCode-xxxxx.html)|Medium|
-|412|[Fizz Buzz](LeetCode-xxxxx.html)|Easy|
+|414|[Third Maximum Number](LeetCode-Third-Maximum-Number.html)|Easy|
+|413|[Arithmetic Slices](LeetCode-Arithmetic-Slices.html)|Medium|
+|412|[Fizz Buzz](LeetCode-Fizz-Buzz.html)|Easy|
 |409|[Longest Palindrome](LeetCode-Longest-Palindrome.html)|Easy|
 |408|[Valid Word Abbreviation](LeetCode-Valid-Word-Abbreviation.html)|Easy|
 |405|[Convert a Number to Hexadecimal](LeetCode-Convert-a-Number-to-Hexadecimal.html)|Easy|
