@@ -40,34 +40,35 @@ public class Solution {
         List<Integer> result = new ArrayList<>();
         if (s == null || p.isEmpty() || s.length() < p.length()) return result;
 
-        Map<Character, Integer> dict = new HashMap<>();
+        Map<Character, Integer> ds = new HashMap<>();
+        Map<Character, Integer> dp = new HashMap<>();
+
         for (int i = 0; i < p.length(); i++) {
-            char c = p.charAt(i);
-            dict.put(c, dict.getOrDefault(c, 0) + 1);
+            ds.put(s.charAt(i), ds.getOrDefault(s.charAt(i), 0) + 1);
+            dp.put(p.charAt(i), dp.getOrDefault(p.charAt(i), 0) + 1);
         }
-        int count = p.length();
-        int l = 0;
+        if (isEqual(ds, dp)) {
+            result.add(0);
+        }
 
-        for (int i = 0; i < s.length(); i++) {
+        for (int i = p.length(); i < s.length(); i++) {
             char c = s.charAt(i);
-            if (dict.getOrDefault(c, 0) > 0) {
-                count--;
-            }
-            dict.put(c, dict.getOrDefault(c, 0) - 1);
-            if (count == 0) {
-                result.add(l);
-            }
-
-            if (i - l +1== p.length()) {
-                char lc = s.charAt(l);
-                if (dict.getOrDefault(lc, 0) >= 0) {
-                    count++;
-                }
-                dict.put(lc, dict.getOrDefault(lc, 0) + 1);
-                l++;
+            ds.put(c, ds.getOrDefault(c, 0) + 1);
+            ds.put(s.charAt(i - p.length()), ds.getOrDefault(s.charAt(i - p.length()), 0) - 1);
+            if (isEqual(ds, dp)) {
+                result.add(i - p.length() + 1);
             }
         }
         return result;
+    }
+
+    private boolean isEqual(Map<Character, Integer> map, Map<Character, Integer> src) {
+        for (Map.Entry<Character, Integer> entry : src.entrySet()) {
+            if (!map.getOrDefault(entry.getKey(), 0).equals(entry.getValue())) {
+                return false;
+            }
+        }
+        return true;
     }
 }
 ```
