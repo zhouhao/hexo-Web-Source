@@ -4,6 +4,8 @@ date: 2015-06-23 09:41:14
 
 |#|Question|Difficulty|
 | ------- | ------ | ------ |
+|533|[Lonely Pixel II](LeetCode-Lonely-Pixel-II.html)|Medium|
+|531|[Lonely Pixel I](LeetCode-Lonely-Pixel-I.html)|Medium|
 |354|[Russian Doll Envelopes](LeetCode-Russian-Doll-Envelopes.html)|Hard|
 |663|[Equal Tree Partition](LeetCode-Equal-Tree-Partition.html)|Medium|
 |661|[Image Smoother](LeetCode-Image-Smoother.html)|Easy|
