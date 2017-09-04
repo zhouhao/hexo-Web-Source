@@ -4,6 +4,8 @@ date: 2015-06-23 09:41:14
 
 |#|Question|Difficulty|
 | ------- | ------ | ------ |
+|395|[Longest Substring with At Least K Repeating Characters](LeetCode-Longest-Substring-with-At-Least-K-Repeating-Characters.html)|Medium|
+|351|[Android Unlock Patterns](LeetCode-Android-Unlock-Patterns.html)|Medium|
 |533|[Lonely Pixel II](LeetCode-Lonely-Pixel-II.html)|Medium|
 |531|[Lonely Pixel I](LeetCode-Lonely-Pixel-I.html)|Medium|
 |354|[Russian Doll Envelopes](LeetCode-Russian-Doll-Envelopes.html)|Hard|
