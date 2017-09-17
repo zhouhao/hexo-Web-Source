@@ -117,15 +117,13 @@ tagcloud: true
 
 # Blogroll, Link exchange | 友情链接
 friends: false
-friends:
+
 #  MOxFIVE: http://MOxFIVE.github.io/
 #  DoubleV: http://www.vsay.cn/
 #  兮兮: http://www.ccwebsite.com/
-# 翁天信: http://blog.dandyweng.com/
-#  潘利强: http://www.plqblog.com/views/index.php
 
 #是否开启“关于我”。
-aboutme: 专注于前端
+#aboutme: 专注于前端
 aboutme: false
 
 # 是否在新窗口打开链接
