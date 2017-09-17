@@ -24,7 +24,7 @@ thumbnail: false
 scrollLoading: true
 
 # Sidebar
-sidebar: left # sidebar's position (left or right)
+sidebar: right # sidebar's position (left or right)
 email: i@hzhou.me
 social_links:
   linkedin: https://www.linkedin.com/in/sbzhouhao/
@@ -32,10 +32,10 @@ social_links:
 #  weibo: http://www.weibo.com/sbzhouhao/
   rss: /atom.xml
 widgets:
-- category
-# - archive
 - recent_posts
 - tagcloud
+- category
+#- archive
 - links
 
 # Links

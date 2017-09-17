@@ -75,7 +75,7 @@ disqus_shortname: zhouhao
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: apollo
+theme: hueman
 #exclude_generator:
 
 archive_generator:
