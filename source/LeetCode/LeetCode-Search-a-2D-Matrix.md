@@ -1,65 +1,50 @@
 title: 'LeetCode: Search a 2D Matrix'
 date: 2015-06-24 00:03:22
 ---
+Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
+
+1. Integers in each row are sorted from left to right.
+2. The first integer of each row is greater than the last integer of the previous row.
+
+For example,
+
+Consider the following matrix:
+```
+[
+  [1,   3,  5,  7],
+  [10, 11, 16, 20],
+  [23, 30, 34, 50]
+]
+```
+Given target = `3`, return `true`.
+
  
 ```java
 
-/**
- * Description:
- * TODO: this algorithm is not elegant
- *
- * @author hzhou
- */
 public class SearchA2DMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
-        if (matrix == null || matrix.length == 0) {
-            return false;
-        }
-        if (target < matrix[0][0] || target > matrix[matrix.length - 1][matrix[0].length - 1]) {
-            return false;
-        }
-        // find the right row
-        int start = 0;
-        int end = matrix.length - 1;
-        while (start <= end) {
-            if (start + 1 == end) {
-                start = (target >= matrix[end][0]) ? end : start;
-                break;
-            }
-            int middle = (start + end) / 2;
-            if (matrix[middle][0] == target) {
-                return true;
-            }
-            if (target > matrix[end][0]) {
-                start = end;
-                break;
-            }
-            if (matrix[middle][0] > target) {
-                end = middle - 1;
+        if (matrix == null || matrix.length == 0 || matrix[0] == null || matrix[0].length == 0) return false;
+        int h = matrix.length;
+        int w = matrix[0].length;
+
+        int l = 0, r = h * w - 1;
+        while (l <= r) {
+            int m = l + (r - l) / 2;
+            int g = get(m, matrix);
+            if (g == target) return true;
+            if (g > target) {
+                r = m - 1;
             } else {
-                start = middle;
-            }
-        }
-        int row = start;
-        start = 0;
-        end = matrix[0].length - 1;
-        while (start <= end) {
-            int middle = (start + end) / 2;
-            if (matrix[row][middle] == target) {
-                return true;
-            }
-            if (matrix[row][middle] > target) {
-                end = middle - 1;
-            } else {
-                start = middle + 1;
+                l = m + 1;
             }
         }
         return false;
     }
-    @Test
-    public void test() {
-        int[][] matrix = new int[][]{{1}, {3}};
-        searchMatrix(matrix, 3);
+
+    private int get(int i, int[][] matrix) {
+        int r = i / matrix[0].length;
+        int c = i % matrix[0].length;
+        return matrix[r][c];
     }
 }
 ```
