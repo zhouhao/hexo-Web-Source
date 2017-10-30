@@ -23,61 +23,27 @@ isMatch("aab", "c*a*b") -> false
 ```java
 public class WildcardMatching {
     public boolean isMatch(String s, String p) {
-        if (p == null || p.isEmpty()) {
-            return s == null || s.isEmpty();
-        }
-        if (s == null || s.isEmpty()) {
-            int star = trimStartStar(p, 0);
-            return star == p.length();
-        }
-        int startS = 0;
-        int startP = 0;
-        int preS, preP;
-        preS = preP = 0;
-        boolean hasStart = false;
-        while (startS < s.length()) {
-            if (startP == p.length()) {
-                if (hasStart) {
-                    startP = preP;
-                    ++preS;
-                    startS = preS;
-                } else {
-                    return false;
-                }
-            }
-            char cs = s.charAt(startS);
-            char cp = p.charAt(startP);
-            if (cs != cp) {
-                if (cp == '?') {
-                    startP++;
-                    startS++;
-                } else if (cp == '*') {
-                    hasStart = true;
-                    startP = trimStartStar(p, startP);
-                    if (startP == p.length()) {
-                        return true;
-                    }
-                    preS = startS;
-                    preP = startP;
-                } else if (hasStart) {
-                    preS++;
-                    startS = preS;
-                    startP = preP;
-                } else {
-                    return false;
-                }
+        int sCrt = 0, pCrt = 0, sStar = -1, pStar = -1;
+        while (sCrt < s.length()) {
+            if (pCrt < p.length() && (s.charAt(sCrt) == p.charAt(pCrt) || p.charAt(pCrt) == '?')) {
+                sCrt++;
+                pCrt++;
+            } else if (pCrt < p.length() && p.charAt(pCrt) == '*') {
+                pStar = pCrt;
+                pCrt++;
+                sStar = sCrt;
+            } else if (pStar > -1) {
+                pCrt = pStar + 1;
+                sStar++;
+                sCrt = sStar;
             } else {
-                startP++;
-                startS++;
+                return false;
             }
         }
-        return startS == s.length() && trimStartStar(p, startP) == p.length();
-    }
-    private int trimStartStar(String s, int start) {
-        while (start < s.length() && s.charAt(start) == '*') {
-            start++;
+        while (pCrt < p.length() && p.charAt(pCrt) == '*') {
+            pCrt++;
         }
-        return start;
+        return pCrt == p.length();
     }
 }
 ```
