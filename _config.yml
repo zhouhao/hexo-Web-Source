@@ -3,11 +3,11 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: 疯狂de咸蛋
-subtitle: "Salty Egg"
-description: "Enjoy life, enjoy coding"
+title: "Salty Egg"
+subtitle: "疯狂de咸蛋"
+description: "Salty Egg = Software Engineer"
 author: "Salty Egg"
-email: i@hzhou.me
+#email: i@hzhou.me
 language: en
 
 # URL
@@ -71,6 +71,7 @@ pagination_dir: page
 
 # Disqus
 disqus_shortname: zhouhao
+disqus: zhouhao
 
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
@@ -114,3 +115,8 @@ deploy:
 #  message: "Sync blog from my local machine"
 #  repo:
 #    github: git@github.com:zhouhao/zhouhao.github.io.git
+
+algolia:
+  applicationID: 'BX26LQARYP'
+  apiKey: '19d356c034c8e3151e29e34a7dc21129'
+  indexName: 'hexo'
