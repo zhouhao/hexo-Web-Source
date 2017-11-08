@@ -1,4 +1,4 @@
 hexo-Web-Source
 ===============
 
-code for my hexo website: https://hzhou.me
+All sources for my hexo website: https://hzhou.me
