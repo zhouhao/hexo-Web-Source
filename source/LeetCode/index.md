@@ -4,6 +4,7 @@ date: 2015-06-23 09:41:14
 
 |#|Question|Difficulty|
 | ------- | ------ | ------ |
+|726|[Number of Atoms](LeetCode-Number-of-Atoms.html)|Hard|
 |720|[Longest Word in Dictionary](LeetCode-Longest-Word-in-Dictionary.html)|Easy|
 |395|[Longest Substring with At Least K Repeating Characters](LeetCode-Longest-Substring-with-At-Least-K-Repeating-Characters.html)|Medium|
 |351|[Android Unlock Patterns](LeetCode-Android-Unlock-Patterns.html)|Medium|
