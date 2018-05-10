@@ -26,27 +26,27 @@ npm install -g generator-angular
 
 1. Create `todo.html` in `app/views` folder with the code:
 
-```
-<!-- change TodoController to TodoCtrl-->
+```html
+<!-- change TodoController to TodoCtrl -->
 <div ng-controller="TodoCtrl">
-	<span>{{remaining()}} of {{todos.length}} remaining</span>
-	[ <a href="" ng-click="archive()">archive</a> ]
-	<ul class="unstyled">
-	  <li ng-repeat="todo in todos">
-	    <input type="checkbox" ng-model="todo.done">
-	    <span class="done-{{todo.done}}">{{todo.text}}</span>
-	  </li>
-	</ul>
-	<form ng-submit="addTodo()">
-	  <input type="text" ng-model="todoText"  size="30" placeholder="add new todo here">
-	  <input class="btn-primary" type="submit" value="add">
-	</form>
+    <span>{{remaining()}} of {{todos.length}} remaining</span>
+    [ <a href="" ng-click="archive()">archive</a> ]
+    <ul class="unstyled">
+      <li ng-repeat="todo in todos">
+        <input type="checkbox" ng-model="todo.done">
+        <span class="done-{{todo.done}}">{{todo.text}}</span>
+      </li>
+    </ul>
+    <form ng-submit="addTodo()">
+      <input type="text" ng-model="todoText"  size="30" placeholder="add new todo here">
+      <input class="btn-primary" type="submit" value="add">
+    </form>
 </div>
 ```
 
 2. Create `todo.js` in `app/scripts/controllers` folder with the code:
 
-```
+```js
 'use strict';
 
 /**
@@ -81,7 +81,7 @@ angular.module('angularJsDemoCodeApp')
       $scope.todos = [];
       angular.forEach(oldTodos, function(todo) {
         if (!todo.done) { // please add this "{", or jsLint will report error in grunt
-        	$scope.todos.push(todo); 
+            $scope.todos.push(todo); 
         }
       });
     };
@@ -91,7 +91,7 @@ angular.module('angularJsDemoCodeApp')
 
 3. Change `app.js` to:
 
-```
+```js
 'use strict';
 
 /**
@@ -134,7 +134,7 @@ angular
 
  4. Modify `index.html` menu as:
 
- ```
+ ```html
 <ul class="nav nav-pills pull-right">
     <li class="active"><a ng-href="#">Home</a></li>
     <li><a ng-href="#/about">About</a></li>
