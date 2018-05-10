@@ -7,3 +7,4 @@ public/
 .deploy*/
 .idea/
 *.sass-cache/
+package-lock.json

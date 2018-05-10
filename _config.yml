@@ -86,10 +86,6 @@ archive_generator:
     daily: false
 
 plugins:
-#  - hexo-tag-flickr
-
-# Flickr API key
-flickr_api_key: bed44a7a354536725e3299b4b32108bb
 
 sitemap:
   path: sitemap.xml
@@ -115,8 +111,3 @@ deploy:
 #  message: "Sync blog from my local machine"
 #  repo:
 #    github: git@github.com:zhouhao/zhouhao.github.io.git
-
-algolia:
-  applicationID: 'BX26LQARYP'
-  apiKey: '19d356c034c8e3151e29e34a7dc21129'
-  indexName: 'hexo'

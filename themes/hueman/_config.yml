@@ -29,7 +29,7 @@ email: i@hzhou.me
 social_links:
   linkedin: https://www.linkedin.com/in/sbzhouhao/
   github: https://github.com/zhouhao
-#  weibo: http://www.weibo.com/sbzhouhao/
+  weibo: http://www.weibo.com/sbzhouhao/
   rss: /atom.xml
 widgets:
 - recent_posts
@@ -47,7 +47,7 @@ links:
 use_google_apis: true
 
 # Miscellaneous
-google_analytics: UA-39886095-1
+#google_analytics: UA-39886095-1
 favicon: /favicon.png
 fb_admins:
 fb_app_id:
