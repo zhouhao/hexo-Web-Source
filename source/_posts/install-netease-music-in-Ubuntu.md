@@ -5,7 +5,7 @@ categories: [程序员的日常]
 ---
 在18.04出来之前，一直用Ubuntu的16.04，安装网易音乐之后，只需要在`/usr/share/applications/netease-cloud-music.desktop` 添加一个 `--no-sandbox`就可以解决了。
 ```
-Exec=netease-cloud-music -no-sandbox %U
+Exec=netease-cloud-music --no-sandbox %U
 ```
 <!-- more -->
 但是等我升级之后，网易云音乐怎么也启动不了。后来在[知乎](https://www.zhihu.com/question/268165660/answer/377142494)中再次看到了解决方法，顺便在此记录一下。
