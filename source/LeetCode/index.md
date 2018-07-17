@@ -117,6 +117,7 @@ date: 2015-06-23 09:41:14
 |485|[Max Consecutive Ones](LeetCode-Max-Consecutive-Ones.html)|Easy|
 |476|[Number Complement](LeetCode-Number-Complement.html)|Easy|
 |461|[Hamming Distance](LeetCode-Hamming-Distance.html)|Easy|
+|394|[Decode String](LeetCode-Decode-String.html)|Medium|
 |387|[First Unique Character in a String](LeetCode-First-Unique-Character-in-a-String.html)|Easy|
 |383|[Ransom Note](LeetCode-Ransom-Note.html)|Easy|
 |374|[Guess Number Higher or Lower](LeetCode-Guess-Number-Higher-or-Lower.html)|Easy|
