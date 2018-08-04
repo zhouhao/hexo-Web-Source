@@ -153,6 +153,7 @@ date: 2015-06-23 09:41:14
 |304|[Range Sum Query 2D - Immutable](LeetCode-Range-Sum-Query-2D---Immutable.html)|Medium|
 |303|[Range Sum Query - Immutable](LeetCode-Range-Sum-Query---Immutable.html)|Easy|
 |299|[Bulls and Cows](LeetCode-Bulls-and-Cows.html)|Medium|
+|298|[Binary Tree Longest Consecutive Sequence](LeetCode-Binary-Tree-Longest-Consecutive-Sequence.html)|Medium|
 |293|[Flip Game](LeetCode-Flip-Game.html)|Easy|
 |292|[Nim Game](LeetCode-Nim-Game.html)|Easy|
 |290|[Word Pattern](LeetCode-Word-Pattern.html)|Easy|
