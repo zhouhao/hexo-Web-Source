@@ -37,6 +37,7 @@ date: 2015-06-23 09:41:14
 |605|[Can Place Flowers](LeetCode-Can-Place-Flowers.html)|Easy|
 |604|[Design Compressed String Iterator](LeetCode-Design-Compressed-String-Iterator.html)|Easy|
 |603|[Consecutive Available Seats](LeetCode-Consecutive-Available-Seats.html)|Easy|
+|601|[Human Traffic of Stadium](LeetCode-Human-Traffic-of-Stadium.html)|hard|
 |599|[Minimum Index Sum of Two Lists](LeetCode-Minimum-Index-Sum-of-Two-Lists.html)|Easy|
 |598|[Range Addition II](LeetCode-Range-Addition-II.html)|Easy|
 |597|[Friend Requests I: Overall Acceptance Rate](LeetCode-Friend-Requests-I-Overall-Acceptance-Rate.html)|Easy|
