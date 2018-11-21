@@ -9,7 +9,7 @@ categories:
 这是我在StackOverflow上提的第一个问题：[Why Objects.hash() returns different values for the same input?](http://stackoverflow.com/questions/29955291/why-objects-hash-returns-different-values-for-the-same-input)
 
 <!-- more -->
-![hashCode](https://dn-myblog.qbox.me/img/blog/hashcode.png "hashCode")    
+![hashCode](/img/blog/hashcode.png "hashCode")    
 
 之所以会遇到这个问题，是因为我准备在`Spring`的项目中通过注解的方式使用`EhCache`。如果没记错的话，`@Cacheable`默认的`key`是function的***输入参数***（不含方法名），然后在我的`service`层中有许多的functions有同样的输入参数，比如`getRoleByUserId(int userId)`, `getInfoByUserId(int userId)`。如果这两个function都把`cache`指向`userCache`(`@Cacheable(value = "userCache")`)，这样会导致`cache`会被误调用。
 

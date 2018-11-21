@@ -12,7 +12,7 @@ I am implementing a RESTful server inside my company. The workflow is very strai
 <!-- more -->
 
 ### Take this as a demo:
-![Class diagram](https://dn-myblog.qbox.me/img/json/structure.png "Class diagram")
+![Class diagram](/img/json/structure.png "Class diagram")
 In class `Zoo`, there is a set of `IAnimal`. The when I tried to deserialize `{"animals":[{"name":"1"},{"name":"2"}]}` into `Zoo` instance, it will will have such error as below:
 
 

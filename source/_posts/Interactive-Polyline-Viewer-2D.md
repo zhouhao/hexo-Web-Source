@@ -7,12 +7,12 @@ categories:
   - 计算机那些事
   - 图像处理
 ---
-### Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](https://dn-myblog.qbox.me/demo/ComputerGraphics/GLinfo2.zip)
+### Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](/demo/ComputerGraphics/GLinfo2.zip)
 The very first thing you need to do is determine if your video card can support GPU programming. Specifically, you are looking to see if your graphic card supports OpenGL version **4.1** or later.
 
 [See the Source Code](https://github.com/zhouhao/CS543-Computer-Graphics-Course-Project/tree/master/HW1)
 
-[Download the Executive program](https://dn-myblog.qbox.me/demo/ComputerGraphics/Interactive_Polyline_Viewer_2D.zip)
+[Download the Executive program](/demo/ComputerGraphics/Interactive_Polyline_Viewer_2D.zip)
 <!-- more -->
 ## How to run it:
 Event: A key is pressed:
@@ -30,14 +30,14 @@ Event: A key is pressed:
 
 esc: Response: The program terminates.
 
-![](https://dn-myblog.qbox.me/img/blog/OpenGL/polyline_drawing.jpg)
+![](/img/blog/OpenGL/polyline_drawing.jpg)
 
 **Note**: States (p and t) are polyline viewing states in which you can draw polyline files stored in a .dat file. States (e, m and d) are polyline drawing states. State e is the initial drawing state and states (m and d) are only accessible from state e. In the drawing states, you should be able to accept and draw new polylines onto the screen, but your program does NOT have to be able to edit the provided ones (e.g. dino.dat, usa.dat, etc). You also don't have to be able to save or write out the polyline file drawn on the screen to a file. You may choose to do that but no extra credit will be given. Make sure that reshape works for all states (p, t, e, m, d and g). i.e. if the user grabs the lower right corner of the window and increases or reduces the screen window size, whatever was drawn in it before (and thumbnails) is redrawn to the largest possible size, without distortion (i.e. always maintain correct aspect ratio for each polyline file when drawn either as thumbnails or in the main drawing window).
 
 ##Screen Shots:  
-![keyboard 'p' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw1/1.PNG "keyboard 'p' event")
-![keyboard 't' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw1/2.PNG "keyboard 't' event")
-![keyboard 'e' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw1/3.PNG "keyboard 'e' event")
-![keyboard 'm' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw1/4.PNG "keyboard 'm' event")
-![keyboard 'd' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw1/5.PNG "keyboard 'd' event")
-![keyboard 'g' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw1/6.PNG "keyboard 'g' event")
+![keyboard 'p' event](/img/blog/OpenGL/hw1/1.PNG "keyboard 'p' event")
+![keyboard 't' event](/img/blog/OpenGL/hw1/2.PNG "keyboard 't' event")
+![keyboard 'e' event](/img/blog/OpenGL/hw1/3.PNG "keyboard 'e' event")
+![keyboard 'm' event](/img/blog/OpenGL/hw1/4.PNG "keyboard 'm' event")
+![keyboard 'd' event](/img/blog/OpenGL/hw1/5.PNG "keyboard 'd' event")
+![keyboard 'g' event](/img/blog/OpenGL/hw1/6.PNG "keyboard 'g' event")

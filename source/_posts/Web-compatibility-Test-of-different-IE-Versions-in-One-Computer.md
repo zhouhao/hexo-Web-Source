@@ -23,6 +23,6 @@ The great news is that, actually, IE already gives us a way to do that:
 ```
 Press "F12", you can go into Dev tools.
 ```
-![Screenshot](https://dn-myblog.qbox.me/img/blog/ietest.png "Screenshot")
+![Screenshot](/img/blog/ietest.png "Screenshot")
 
 ###I find in this way, IE mode under 9 cannot be detected by this [browser detector](https://github.com/ded/bowser).

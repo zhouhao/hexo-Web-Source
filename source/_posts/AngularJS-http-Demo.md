@@ -58,4 +58,4 @@ categories:
 
 All set now!
 
-![Final Demo Page](https://dn-myblog.qbox.me/img/angularJS/http.png "Final Demo Page")  
+![Final Demo Page](/img/angularJS/http.png "Final Demo Page")  

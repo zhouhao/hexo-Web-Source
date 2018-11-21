@@ -28,7 +28,7 @@ At least one feature of the product must be installed before applying the update
 
 ### 最后的转机
 最后我找了一个中文版（我也不知道为什么做出这个决定）的，安装，提示`已安装了一个更新的版本`。感觉深深的被Adobe玩了。直接用中文google了一下。然后答案出现了。
-![Adobe Reader](https://dn-myblog.qbox.me/img/blog/sw/adobe-reg.png "Adobe Reader")
+![Adobe Reader](/img/blog/sw/adobe-reg.png "Adobe Reader")
 
 **打开注册表，找到`HKEY_CLASSES_ROOT\Installer \Products\68AB67CA7DA72502B7449A0000000010`，直接把这个文件夹删了。**
 

@@ -42,7 +42,7 @@ Thanks for the CMU competition, Wen can afford the flight fee for us to CA. (31s
 
 
 We came to CA two days before the hackthon. But as the [rule](http://ychacks.challengepost.com/rules) below, we cannot coding until 2 August. So I prepared the document the whole day in Mcdonalds, and defined what we would do in the hackthon.(I'd say that the free wifi in Mcdonalds is so bad, and I have to buy the daily pass of Xinfinity.)
-![Rule](https://dn-myblog.qbox.me/img/ychackthon/rule.png "Rule")
+![Rule](/img/ychackthon/rule.png "Rule")
 
 After working the whole night without sleep, finally, we made a demo which can be played:
 ### What have we done?
@@ -50,7 +50,7 @@ After working the whole night without sleep, finally, we made a demo which can b
 2. Web Apps and mobile apps(android&iOS)
 
 **This is the shit we did:http://challengepost.com/software/timesaverforfoodtruck**
-![The shit we have done](https://dn-myblog.qbox.me/img/ychackthon/screenshot.png "The shit we have done")
+![The shit we have done](/img/ychackthon/screenshot.png "The shit we have done")
 ### Note:
 1. We have watch a film the first night to CA. :-)
 2. I almost did every technic thing, from system architect, API design, server side programming, android/iOS app building to document writing. Really tough work~~~

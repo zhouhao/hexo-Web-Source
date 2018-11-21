@@ -8,12 +8,12 @@ categories:
   - 图像处理
 ---
 
-### Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](https://dn-myblog.qbox.me/demo/ComputerGraphics/GLinfo2.zip)
+### Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](/demo/ComputerGraphics/GLinfo2.zip)
 The very first thing you need to do is determine if your video card can support GPU programming. Specifically, you are looking to see if your graphic card supports OpenGL version **4.1** or later.
 
 [>>See the Source Code<<](https://github.com/zhouhao/CS543-Computer-Graphics-Course-Project/tree/master/HW5)
 
-[>>Download the Executive program<<](https://dn-myblog.qbox.me/demo/ComputerGraphics/Image_Manipulation.zip)
+[>>Download the Executive program<<](/demo/ComputerGraphics/Image_Manipulation.zip)
 <!-- more -->
 ### How my program works(Keyboard events are case-insensitive):
 ```
@@ -35,11 +35,11 @@ Key 'S': Display image with Spherical Transformation
 ### If you have any question, you can contact me: <a href="mailto:royhzhou@gmail.com">royhzhou@gmail.com</a>
 
 ### Screen Shots:
-![keyboard 'l' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/2.PNG "Luminance effect")
-![keyboard 'n' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/3.PNG "negative effect")
-![keyboard 'd' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/4.PNG "edge detection effect")
-![keyboard 'e' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/5.PNG "embossing effect")
-![keyboard 't' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/6.PNG "Toon rendering")
-![keyboard 'w' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/7.PNG "Twirl Transformation")
-![keyboard 'p' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/8.PNG "Ripple Transformation")
-![keyboard 's' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw5/9.PNG "Spherical Transformation")
+![keyboard 'l' event](/img/blog/OpenGL/hw5/2.PNG "Luminance effect")
+![keyboard 'n' event](/img/blog/OpenGL/hw5/3.PNG "negative effect")
+![keyboard 'd' event](/img/blog/OpenGL/hw5/4.PNG "edge detection effect")
+![keyboard 'e' event](/img/blog/OpenGL/hw5/5.PNG "embossing effect")
+![keyboard 't' event](/img/blog/OpenGL/hw5/6.PNG "Toon rendering")
+![keyboard 'w' event](/img/blog/OpenGL/hw5/7.PNG "Twirl Transformation")
+![keyboard 'p' event](/img/blog/OpenGL/hw5/8.PNG "Ripple Transformation")
+![keyboard 's' event](/img/blog/OpenGL/hw5/9.PNG "Spherical Transformation")

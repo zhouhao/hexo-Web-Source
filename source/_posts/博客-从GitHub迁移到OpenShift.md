@@ -48,7 +48,7 @@ OpenShift的免费版本有24小时的[APPLICATION IDLING](https://www.openshift
 
 ## 国内测速(http比https明显快很多)
 1. http://sbzhouhao.net
-![CloudFare非https测速](https://dn-myblog.qbox.me/img/blog/openshift/1.png "CloudFare非https测速")
+![CloudFare非https测速](/img/blog/openshift/1.png "CloudFare非https测速")
 
 2. https://sbzhouhao.net
-![CloudFare https测速](https://dn-myblog.qbox.me/img/blog/openshift/2.png "CloudFare https测速")
+![CloudFare https测速](/img/blog/openshift/2.png "CloudFare https测速")

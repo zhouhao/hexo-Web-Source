@@ -8,12 +8,12 @@ categories:
   - 图像处理
 ---
 
-### Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](https://dn-myblog.qbox.me/demo/ComputerGraphics/GLinfo2.zip)
+### Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](/demo/ComputerGraphics/GLinfo2.zip)
 The very first thing you need to do is determine if your video card can support GPU programming. Specifically, you are looking to see if your graphic card supports OpenGL version **4.1** or later.
 
 [See the Source Code](https://github.com/zhouhao/CS543-Computer-Graphics-Course-Project/tree/master/HW2)
 
-[Download the Executive program](https://dn-myblog.qbox.me/demo/ComputerGraphics/Interactive_Ply_Viewer_3D.zip)
+[Download the Executive program](/demo/ComputerGraphics/Interactive_Ply_Viewer_3D.zip)
 <!-- more -->
 ##Behavior of program
 
@@ -55,11 +55,11 @@ The very first thing you need to do is determine if your video card can support 
 9). If you have any question, you can contact me: <a href="mailto:hzhou@wpi.edu">hzhou@wpi.edu</a>
 
 ##Screen Shots:
-![keyboard 'N' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw2/1.PNG "keyboard 'N' event")
-![keyboard 'X' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw2/2.PNG "keyboard 'X' event")
-![keyboard 'Y' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw2/3.PNG "keyboard 'Y' event")
-![keyboard 'Z' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw2/3_5.PNG "keyboard 'Z' event")
-![keyboard 'R' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw2/3_7.PNG "keyboard 'R' event")
-![keyboard 'B' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw2/4.PNG "keyboard 'B' event")
-![keyboard 'm' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw2/5.PNG "keyboard 'm' event")
-![keyboard 'e' event](https://dn-myblog.qbox.me/img/blog/OpenGL/hw2/6.PNG "keyboard 'e' event")
+![keyboard 'N' event](/img/blog/OpenGL/hw2/1.PNG "keyboard 'N' event")
+![keyboard 'X' event](/img/blog/OpenGL/hw2/2.PNG "keyboard 'X' event")
+![keyboard 'Y' event](/img/blog/OpenGL/hw2/3.PNG "keyboard 'Y' event")
+![keyboard 'Z' event](/img/blog/OpenGL/hw2/3_5.PNG "keyboard 'Z' event")
+![keyboard 'R' event](/img/blog/OpenGL/hw2/3_7.PNG "keyboard 'R' event")
+![keyboard 'B' event](/img/blog/OpenGL/hw2/4.PNG "keyboard 'B' event")
+![keyboard 'm' event](/img/blog/OpenGL/hw2/5.PNG "keyboard 'm' event")
+![keyboard 'e' event](/img/blog/OpenGL/hw2/6.PNG "keyboard 'e' event")

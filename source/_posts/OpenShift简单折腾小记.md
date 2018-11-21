@@ -23,7 +23,7 @@ categories:
 ### 3.环境变量
 因为OpenShift上的应用都是预安装的，所以我们很难自己定制（出了DIY的应用类型），所以很多时候我们需要通过[修改环境变量](https://developers.openshift.com/managing-your-applications/environment-variables.html)来进行一些必要的配置。如下图就是一个tomcat应用的Java相关的环境变量截图：
 
-![Java相关的环境变量](https://dn-myblog.qbox.me/img/blog/openshift_java_env_vars.png "Java相关的环境变量")
+![Java相关的环境变量](/img/blog/openshift_java_env_vars.png "Java相关的环境变量")
 **糟糕的是：** 有些变量我们无法直接设置（部分可以间接）。如：`PATH，known_hosts......`，所以上述图片中虽然我可以把`JAVA_HOME`设置成1.8的，并把它添加到`PATH`中，但是`PATH`中那个1.6的`bin`永远排在1.8之前，导致运行`maven`命令时调用的是1.6的`javac`. ---- 或许有方法，只是我没有找到。另外如果你添加了Jenkins的应用，因为任务在编译之后需要吧war包通过`rsync`复制到对应服务器，因为`known_hosts`无法改写，所以导致permission denied。(网上也有人写了解决方案，但是我还没有去试一下)
 
 ### 4. 其他

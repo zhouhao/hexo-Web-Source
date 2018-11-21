@@ -94,5 +94,5 @@ function startScan() {
 #### Note: *if you need to build an iOS app, you need to provide a key. ---- Apple Developer $99/yr*
 
 ### See my demo project in the [GitHub](https://github.com/zhouhao/PhoneGap-Test).
-![Start Page](https://dn-myblog.qbox.me/img/phoneGap-QRCode/1.jpg "Start Page")
-![Scan Page](https://dn-myblog.qbox.me/img/phoneGap-QRCode/2.jpg "Scan Page")  
+![Start Page](/img/phoneGap-QRCode/1.jpg "Start Page")
+![Scan Page](/img/phoneGap-QRCode/2.jpg "Scan Page")  

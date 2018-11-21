@@ -18,7 +18,7 @@ categories:
     }
 ```
 <!-- more -->
-!["Integer.valueOf()"](https://dn-myblog.qbox.me/img/blog/integer-valueof.png "Integer.valueOf()")
+!["Integer.valueOf()"](/img/blog/integer-valueof.png "Integer.valueOf()")
 
 `Integer`的`public static Integer valueOf(int i)`是一个工厂方法，每次调用都会返回一个新的`Integer`的对象。
 
