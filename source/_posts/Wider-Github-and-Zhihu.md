@@ -11,7 +11,7 @@ categories:
 The main div for GitHub and Zhihu is too narrow, which makes my high-resolution screen not that useful. In this case, I update some exiting stylish script to improve.
 <!-- more --> 
 
-You can download the stylish [here](/file/stylus-2019-01-27.json), and import it to [stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
+You can download the stylish [here](/file/stylus-2019-02-02.json), and import it to [stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
 
 **BTW**: I have some some hard-coded style for my 2560 x 1440(or similar) screen. I also fix the style for github home page.
 
