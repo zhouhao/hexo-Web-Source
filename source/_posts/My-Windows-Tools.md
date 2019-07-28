@@ -1,7 +1,6 @@
 title: "My Windows Tools"
 date: 2015-07-08 14:04:33
-tags:
- - Tool
+tags: [Tool]
 ---
 I am a software developer, and during my daily work time I use a DELL laptop with Win7. Since I have used windows for a long time, and used and am using a lot of awesome tools, below is the list of tools I recommend.
 

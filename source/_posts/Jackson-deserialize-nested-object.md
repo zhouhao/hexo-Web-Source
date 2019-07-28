@@ -1,12 +1,7 @@
 title: "Jackson: deserialize nested object"
 date: 2015-04-23 17:30:58
-tags:
- - Jackson
- - Json
- - deserialize
-categories:
-  - 计算机那些事
-  - Java
+tags: [Jackson, Json, deserialize]
+categories: [计算机那些事, Java]
 ---
 I am implementing a RESTful server inside my company. The workflow is very straight-forward: `request` and `response`. However, nothing is easy, the RESTful service is based on an existed project, which handles database operations, and the entities inside that project is pretty complex(a lot of interfaces and abstract classes).
 <!-- more -->

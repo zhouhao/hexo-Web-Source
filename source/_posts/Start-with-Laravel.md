@@ -1,13 +1,11 @@
 title: Start with Laravel
 date: 2014-08-21 19:11:11
-tags:
- - PHP
- - Laravel
- - Mod Rewrite
+tags: [PHP, Laravel, "Mod Rewrite"]
+categories: [计算机那些事, 网站]
 ---
 This is a quick start helloWorld demo of Laravel.
 <!-- more -->
-<h3>1. Install Composer</h3>
+### 1. Install Composer
 ```bash
 # Install composer
 curl -sS https://getcomposer.org/installer | php
@@ -17,17 +15,17 @@ curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 ```
 
-<h3>2. Install Laravel & Create our HelloWorld Demo</h3>
+### 2. Install Laravel & Create our HelloWorld Demo
 ```bash
 composer create-project laravel/laravel helloWorld
 ```
 
-<h3>3. Change permission of `app/storage` folder</h3>
+### 3. Change permission of `app/storage` folder
 ```
 chmod -R 777 app/storage
 ```
 
-<h3>4. Change vhost to make `public` folder as root directory</h3>
+### 4. Change vhost to make `public` folder as root directory
 ```bash
 # Open /etc/apache2/sites-available/000-default.conf
 # append public to DocumentRoot
@@ -36,7 +34,7 @@ DocumentRoot /var/www/html/public
 ```
 Now, we can access the website with `http://YourIPAddress` now.
 
-<h3>5. Enable mod rewrite</h3>
+### 5. Enable mod rewrite
 ```xml
 # Open /etc/apache2/apache2.conf
 <Directory /var/www/>
@@ -45,7 +43,7 @@ Now, we can access the website with `http://YourIPAddress` now.
     Require all granted
 </Directory>
 ```
-<h3>6. Test for mod rewrite</h3>
+### 6. Test for mod rewrite
 ```
 # Add below function to router.php
 Route::get('users', function() {

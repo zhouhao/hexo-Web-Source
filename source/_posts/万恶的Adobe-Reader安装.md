@@ -1,10 +1,7 @@
 title: 万恶的Adobe Reader安装
 date: 2015-08-05 13:53:43
-tags:
-  - 应用软件
-categories:
-  - 程序员的日常
-  - 二逼
+tags: [应用软件]
+categories: [程序员的日常, 二逼]
 ---
 对于PDF文件，我一直都是用[Foxit Reader](https://www.foxitsoftware.com/products/pdf-reader/)，但是最近在测试网站在IE中显示PDF文件的时候（IE真操蛋，没有内置的PDF渲染器，需要插件支持），公司让我安装一下Adobe Reader。
 *无奈* 之下又得安装一下。没想到整个安装过程比我想象的折腾。

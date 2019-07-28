@@ -1,9 +1,7 @@
 title: 'Web Compatibility Test of different IE Versions in One Computer'
 date: 2014-07-15 22:05:23
-tags:
- - IE
- - Front End
- - Web
+tags: [IE, "Front End", Web]
+categories: [计算机那些事, 网站]
 ---
 I have tried almost every browser, and my favorite one is Google Chrome:
 

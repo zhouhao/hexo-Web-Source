@@ -1,10 +1,7 @@
 title: 'Java: JDK居然有个叫整型池的东西'
 date: 2015-08-15 16:15:48
-tags:
- - Java
-categories:
-  - 计算机那些事
-  - Java
+tags: [Java] 
+categories: [计算机那些事, Java]
 ---
 其实下面这些个`assert`语句都可以通过`junit`测试。
 ```java

@@ -1,11 +1,7 @@
 title: Hello World to XSLT
 date: 2014-09-25 13:35:34
-tags:
- - XSLT
- - XML
-categories:
-  - 计算机那些事
-  - 杂项
+tags: [XSLT, XML]
+categories: [计算机那些事, 杂项]
 ---
 ### Definition
 XSL stands for EXtensible Stylesheet Language, and is a style sheet language for XML documents. (`XSL = Style Sheets for XML`)

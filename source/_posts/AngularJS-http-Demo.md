@@ -1,11 +1,7 @@
 title: AngularJS $http Demo
 date: 2014-08-07 09:41:39
-tags:
- - AngularJS
- - Ajax
-categories:
-   - 计算机那些事
-   - 网站
+tags: [AngularJS, Ajax]
+categories: [计算机那些事, 网站]
 ---
 ### For JavaScript, I believe the most powerful function is ***Ajax***. So I made a very very simple demo for AngularJS as learner.
 

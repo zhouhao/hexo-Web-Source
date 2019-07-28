@@ -1,11 +1,7 @@
 title: Interactive Polyline Viewer 2D [OpenGL]
 date: 2013-11-28 18:07:41
-tags:
-  - Computer Graphics
-  - OpenGL
-categories:
-  - 计算机那些事
-  - 图像处理
+tags: [Computer Graphics, OpenGL]
+categories: [计算机那些事, 图像处理]
 ---
 ### Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](/demo/ComputerGraphics/GLinfo2.zip)
 The very first thing you need to do is determine if your video card can support GPU programming. Specifically, you are looking to see if your graphic card supports OpenGL version **4.1** or later.

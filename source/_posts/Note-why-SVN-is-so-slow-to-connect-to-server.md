@@ -1,7 +1,7 @@
 title: "Note: why SVN is so slow to connect to server"
 date: 2014-12-05 17:33:24
-tags:
- - SVN
+tags: [SVN]
+categories: [计算机那些事, 普通]
 ---
 It happens from one month ago after I changed my windows domain password(Damn windows forced me to do that). Then every time when I want to commit to server, I need to input my password(SVN won't save it for me), what's more, SVN always needs more than 3 minutes to connect with server at background.
 <!-- more -->

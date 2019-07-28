@@ -1,7 +1,6 @@
 title: "AngularJS: Change Page Title Based on Routers Dynamically"
 date: 2014-08-07 12:37:21
-tags:
- - AngularJS
+tags: [AngularJS]
 ---
 Ohhh... I find a problem that the pages do not have titles(just display as URL), when I play the demo in [AngularJS Start with Yeoman, Grunt and Bower](http://sbzhouhao.net/2014/08/06/AngularJS-Start-with-Yeoman-Grunt-and-Bower/).
 ###Intuitively, the page title should be changed dynamically with routers' changing.

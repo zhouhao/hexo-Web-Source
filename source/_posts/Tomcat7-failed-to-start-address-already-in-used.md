@@ -1,7 +1,7 @@
 title: "Tomcat7 failed to start: address already in used"
 date: 2014-08-31 19:41:28
-tags:
- - Tomcat 7
+tags: ["Tomcat 7"]
+categories: [计算机那些事, 普通]
 ---
 Sometime, when I failed to restart my tomcat7 server, and in the log, it returns error: `**address already in use!**`
 <!-- more -->

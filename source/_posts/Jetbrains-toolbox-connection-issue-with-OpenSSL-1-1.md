@@ -1,6 +1,6 @@
 title: Jetbrains-toolbox connection issue with OpenSSL 1.1+
 date: 2017-04-23 17:33:12
-tags: [Jetbrains, Toolbox, OpenSSL] 
+tags: [Jetbrains, Toolbox, OpenSSL]
 categories: [程序员的日常, 普通]
 ---
 作为一个以Java为主开发语言的攻城狮，我觉得我已经离不开Jetbrains的产品了。JB公司前段时间推出的toolbox小工具我也在第一时间使用了（不用的话根本就追不上版本帝的更新节奏）。然而，最近我吧我的系统改为深度的Linux(15.4)之后，我发现toolbox挂了。。。挂了。。。

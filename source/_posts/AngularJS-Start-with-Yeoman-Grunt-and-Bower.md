@@ -1,11 +1,6 @@
 title: AngularJS Start with Yeoman, Grunt and Bower
 date: 2014-08-06 11:54:27
-tags:
- - AngularJS
- - Todo
- - Yeoman
- - Grunt
- - Bower
+tags: [AngularJS, Todo, Yeoman, Grunt, Bower]
 ---
 In this article, I do not try to code myself, just understand AngularJS in a high-level view.
 <!-- more -->
@@ -15,14 +10,14 @@ In this article, I do not try to code myself, just understand AngularJS in a hig
 npm install -g yo grunt-cli bower
 ```
 2. Now, let's install [AngularJS generator](https://github.com/yeoman/generator-angular), which is a Yeoman generator for AngularJS.
-```
+```bash
 npm install -g generator-angular
 ```
 
-###After you run `grunt serve`, you will see the page as below:   
+### After you run `grunt serve`, you will see the page as below:   
 ![Yeoman Page](/img/angularJS/yo.png "Yeoman Page")  
 
-###Now, I am going to add the todo list from [official AngularJS page](https://angularjs.org/#add-some-control) to this demo.
+### Now, I am going to add the todo list from [official AngularJS page](https://angularjs.org/#add-some-control) to this demo.
 
 1. Create `todo.html` in `app/views` folder with the code:
 

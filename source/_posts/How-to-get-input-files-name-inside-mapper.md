@@ -1,11 +1,7 @@
 title: How to get input file's name inside mapper
 date: 2013-10-01 18:07:41
-tags:
-  - Big Data
-  - Hadoop
-categories:
-  - 计算机那些事
-  - 大数据
+tags: ["Big Data", Hadoop]
+categories: [计算机那些事, 大数据]
 ---
 OK, I agree that processing large scale with Hadoop is cool, but sometimes, it makes me frustrated when I was doing my course project.
 Often, in the task of Map-Reduce, we will use **join**, as the input for the whole job may be muti-files.  

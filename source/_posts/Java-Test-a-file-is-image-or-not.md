@@ -1,10 +1,7 @@
 title: "Java: Test a file is image or not"
 date: 2014-12-17 20:51:50
-tags:
- - Java
-categories:
-  - 计算机那些事
-  - Java
+tags: [Java]
+categories: [计算机那些事, Java]
 ---
 There are many ways to check whether a file is image. For example, check the file extension(jpg, png, gif ...). But this is not so safe, in a web environment, user may rename XXX.exe, to XXX.jpg, then s/he can succeed to upload it. In this case, it can induce security problem.
 <!-- more -->

@@ -1,19 +1,15 @@
 title: "JSON serialization and deserialization: Circular References"
 date: 2017-08-10 18:34:02
-tags:
- - Jackson
- - Json
- - deserialize
-categories:
-  - 计算机那些事
-  - Java
+tags: [Jackson, Json, deserialize]
+categories: [计算机那些事, Java]
 ---
 In recent times, I did a lot practise of micro-service with spring boot. And handled a lot of JSON(Jackson) related serialization and deserialization issues. In this post, I will share some tricky how to "fix" Circular References.
 
 <!-- more -->
 
 **Note:** What I want to do are:
-1.  I can serialize object to JSON string
+
+1. I can serialize object to JSON string
 2. I can deserialize the JSON string to the *same* object(*at least all important info retains*)
 
 ### Circular References 
@@ -73,7 +69,7 @@ After I add `@JsonIdentityInfo(generator=ObjectIdGenerators.IntSequenceGenerator
 ```json
 {"@id":1,"name":"Author","books":[{"@id":2,"name":"Book","author":1}]}
 ```
-However, I am not sure whether this JSON string can be deserialized by other libraries(e.g. GSON), or other languages, my guess is NOT. 
+However, I am not sure whether this JSON string can be deserialized by other libraries(e.g. GSON), or other languages, my guess is NOT.
 
 **Note:** Think twice before using it!
 

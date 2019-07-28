@@ -1,8 +1,7 @@
 title: "Fix: Tomcat7 restart too slow in Ubuntu 14.04"
 date: 2015-01-03 11:59:13
-tags:
-  - Tomcat 7
-  - Ubuntu
+tags: ["Tomcat 7", Ubuntu]
+categories: [计算机那些事, 普通]
 ---
 I have two servers in [DigitalOcean](https://www.digitalocean.com/), and both of them are Ubutun with tomcat 7. Recently, I found that if I want to restart tomcat, it will cost me more than 5 minutes(No errors during this). And the worest is(almots half an hour):  
 ```bash

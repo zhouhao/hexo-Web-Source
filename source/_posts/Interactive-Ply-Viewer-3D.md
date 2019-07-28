@@ -1,11 +1,7 @@
 title: Interactive Ply Viewer 3D [OpenGL]
 date: 2013-11-29 09:07:41
-tags:
-  - Computer Graphics
-  - OpenGL
-categories:
-  - 计算机那些事
-  - 图像处理
+tags: [Computer Graphics, OpenGL]
+categories: [计算机那些事, 图像处理]
 ---
 
 ### Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](/demo/ComputerGraphics/GLinfo2.zip)

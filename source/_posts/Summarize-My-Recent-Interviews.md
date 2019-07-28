@@ -1,8 +1,6 @@
 title: Summarize My Recent Life
 date: 2014-09-11 14:47:34
-tags:
- - Interview
- - Life
+tags: [Interview, Life]
 ---
 So far, I have had many interviews, and also I learnt a lot from them, even I failed most of them.
 <!-- more -->

@@ -1,6 +1,6 @@
-title: "Hexo site search plugin with Tipue "
+title: "Hexo site search plugin with Tipue"
 date: 2016-08-22 21:22:01
-tags: [hexo, search] 
+tags: [hexo, search]
 categories: [程序员的日常, 普通]
 ---
 I used to use [swiftype](https://swiftype.com/) as my site search engine, however, it does not provide nay free plan now, what's more, the [price](https://swiftype.com/pricing) is too high for my personal blog (Seems my previous free plan is not auto cancelled by swiftype). However, it is time to find an alternative now. And it is [Tipue search](http://www.tipue.com/search/).
