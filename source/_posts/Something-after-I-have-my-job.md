@@ -1,3 +1,4 @@
+---
 title: Something after I have my job
 date: 2014-11-02 16:40:52
 tags: [Life]

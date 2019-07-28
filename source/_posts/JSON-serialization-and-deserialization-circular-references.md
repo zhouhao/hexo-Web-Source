@@ -1,3 +1,4 @@
+---
 title: "JSON serialization and deserialization: Circular References"
 date: 2017-08-10 18:34:02
 tags: [Jackson, Json, deserialize]

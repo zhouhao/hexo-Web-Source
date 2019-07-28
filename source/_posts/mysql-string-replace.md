@@ -1,3 +1,4 @@
+---
 title: MySQL String Replace
 date: 2013-06-05 18:07:41
 tags: [MySQL]

@@ -1,3 +1,4 @@
+---
 title: "Java: Test a file is image or not"
 date: 2014-12-17 20:51:50
 tags: [Java]

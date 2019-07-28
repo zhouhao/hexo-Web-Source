@@ -1,3 +1,4 @@
+---
 title: 'Java: JDK居然有个叫整型池的东西'
 date: 2015-08-15 16:15:48
 tags: [Java] 

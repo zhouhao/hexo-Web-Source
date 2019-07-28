@@ -1,3 +1,4 @@
+---
 title: "Jackson: deserialize nested object"
 date: 2015-04-23 17:30:58
 tags: [Jackson, Json, deserialize]

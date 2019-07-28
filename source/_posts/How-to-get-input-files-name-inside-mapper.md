@@ -1,3 +1,4 @@
+---
 title: How to get input file's name inside mapper
 date: 2013-10-01 18:07:41
 tags: ["Big Data", Hadoop]

@@ -1,3 +1,4 @@
+---
 title: "AngularJS: Change Page Title Based on Routers Dynamically"
 date: 2014-08-07 12:37:21
 tags: [AngularJS]

@@ -1,3 +1,4 @@
+---
 title: install netease music in Ubuntu
 date: 2018-05-15 17:17:40
 tags: [Ubuntu, 网易]

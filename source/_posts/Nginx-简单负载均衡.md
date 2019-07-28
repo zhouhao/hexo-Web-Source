@@ -1,3 +1,4 @@
+---
 title: 'Nginx: 简单负载均衡'
 date: 2015-07-09 19:52:58
 tags: [Nginx]

@@ -1,3 +1,4 @@
+---
 title: 'Quick start: swagger, spring-boot and Jersey'
 date: 2017-02-13 13:56:40
 tags: [Java, Swagger, "Spring Boot", Jersey]

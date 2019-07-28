@@ -1,3 +1,4 @@
+---
 title: Remote tomcat deployment with Gradle
 date: 2015-01-21 18:49:20
 tags: ["Tomcat 7", Gradle]

@@ -1,3 +1,4 @@
+---
 title: 'Note: Install tp-link AC1200 t4u driver for ubuntu'
 date: 2017-12-19 19:14:09
 tags: [Ubuntu, WIFI, MINT]

@@ -1,3 +1,4 @@
+---
 title: MySQL enable remote access and create a new user
 date: 2014-04-21 10:46:29
 tags: [MySQL]

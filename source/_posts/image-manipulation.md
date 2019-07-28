@@ -1,3 +1,4 @@
+---
 title: Image Manipulation [OpenGL]
 date: 2013-11-29 18:07:41
 tags: [Computer Graphics, OpenGL]

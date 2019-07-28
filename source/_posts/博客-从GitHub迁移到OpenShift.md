@@ -1,3 +1,4 @@
+---
 title: 博客：从GitHub迁移到OpenShift
 date: 2015-07-28 22:59:04
 tags: [GitHub, OpenShift, CloudFlare]

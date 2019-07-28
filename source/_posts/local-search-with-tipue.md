@@ -1,3 +1,4 @@
+---
 title: "Hexo site search plugin with Tipue"
 date: 2016-08-22 21:22:01
 tags: [hexo, search]

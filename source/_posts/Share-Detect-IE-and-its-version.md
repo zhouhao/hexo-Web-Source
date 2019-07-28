@@ -1,3 +1,4 @@
+---
 title: "Share: Detect IE and its version"
 date: 2014-07-17 12:50:12
 tags: [IE, Web]

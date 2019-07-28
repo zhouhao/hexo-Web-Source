@@ -1,3 +1,4 @@
+---
 title: OpenShift简单折腾小记
 date: 2016-04-13 14:59:00
 tags: [OpenShift, PaaS]
