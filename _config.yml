@@ -8,7 +8,9 @@ subtitle: "疯狂de咸蛋"
 description: "Salty Egg = Software Engineer"
 author: "Salty Egg"
 #email: i@hzhou.me
-language: en
+language:
+  - en
+  - zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -76,7 +78,7 @@ disqus: zhouhao
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: hueman
+theme: material-x
 #exclude_generator:
 
 archive_generator:
