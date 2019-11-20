@@ -78,7 +78,7 @@ disqus: zhouhao
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: material-x
+theme: hueman
 #exclude_generator:
 
 archive_generator:
