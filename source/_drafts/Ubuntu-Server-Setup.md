@@ -59,7 +59,7 @@ An important reason is that they have different licenses.
 * [MariaDB](https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client) is LGPL 2.1.
 * [MySQL](https://mvnrepository.com/artifact/mysql/mysql-connector-java) is GPL 2.0, which is not compatible with MIT license.
 
-If you take Open Source seriously, this is something that you should care. [如何选择开源许可证？](http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html)
+If you take Open Source seriously, this is something that you should care. [如何选择开源许可证](http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html)
 
 **Configure MariaDB**
 
