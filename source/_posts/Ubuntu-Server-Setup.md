@@ -88,7 +88,7 @@ MariaDB [(none)]>
 #### NginX
 As a reverse proxy, NginX is very helpful. Usually, I use it as a load balancer.
 
-Simply open http://your-server-ip, you will see a page showing these words
+Simply open `http://your-server-ip`, you will see a page showing these words
 
 ```plaintext
 Welcome to nginx!
