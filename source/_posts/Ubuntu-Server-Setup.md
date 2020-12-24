@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Server Setup
-tags: [Ubuntu, 服务器]
+tags: [Ubuntu]
 categories: [程序员的日常, 日常]
 date: 2020-12-23 22:28:32
 ---
