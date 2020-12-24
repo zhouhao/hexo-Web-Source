@@ -16,6 +16,7 @@ sudo dpkg-reconfigure tzdata
 Then, you will see a list of country, choose the right one you need.
 
 ### In my Java Project
+
 Sometime, even I set time zone to ETS for Ubuntu server, I still get the time "wrong" in my Java Code. In this case, I just add
 
 ```java
