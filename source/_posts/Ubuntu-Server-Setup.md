@@ -32,7 +32,7 @@ I really like `zsh`, and I will also enable [oh-my-zsh](https://ohmyz.sh/). But 
 
 ## 2. Setup for Web Server
 
-### 2.1 Install Necessary Softwares
+### 2.1 Install Necessary Software
 
 ```bash
 sudo apt install openjdk-11-jre mariadb-server nginx
