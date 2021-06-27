@@ -143,7 +143,7 @@ server {
 service nginx restart
 ```
 
-![nginx-service](./images/nginx-service.png)
+![nginx-service](/img/blog/nginx-service.png)
 
 #### 4. Enable Https
 
