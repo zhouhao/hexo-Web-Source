@@ -29,7 +29,6 @@ email: i@hzhou.me
 social_links:
   linkedin: https://www.linkedin.com/in/sbzhouhao/
   github: https://github.com/zhouhao
-  weibo: http://www.weibo.com/sbzhouhao/
   rss: /atom.xml
 widgets:
 - recent_posts
@@ -40,8 +39,7 @@ widgets:
 
 # Links
 links:
-  MIT-CHIEF: http://mitchief.org
-  "WPILIFE (WPI CSSA)": http://wpilife.org
+  MIT-CHIEF: https://mitchief.org
 
 # Don't Use Google APIs if you are in google-blocked areas
 use_google_apis: true
