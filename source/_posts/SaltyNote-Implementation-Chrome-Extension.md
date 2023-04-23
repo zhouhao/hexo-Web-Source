@@ -10,9 +10,13 @@ details about server side implementation of SaltyNote. In this article, I will i
 SaltyNote Chrome Extension.
 
 <!-- more -->
+
+> Note: Since Chrome Extension is a special Web Application running in Chrome, in this article, I will focus more on the
+> differences between Chrome Extension and standard Web Application.
+
 Reference: https://saltynote.github.io/saltynote-chrome-extension/
 
-Unlike normal website, Chrome Extension can have 2 different runtime environments: **background script** and **content
+Unlike standard website, Chrome Extension can have 2 different runtime environments: **background script** and **content
 script**.
 
 * **background.js**: The background script is a persistent script that runs in the background of Chrome Extension. It is
