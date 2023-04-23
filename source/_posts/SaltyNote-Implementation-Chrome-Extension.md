@@ -10,6 +10,8 @@ details about server side implementation of SaltyNote. In this article, I will i
 SaltyNote Chrome Extension.
 
 <!-- more -->
+Reference: https://saltynote.github.io/saltynote-chrome-extension/
+
 Unlike normal website, Chrome Extension can have 2 different runtime environments: **background script** and **content
 script**.
 
