@@ -190,7 +190,32 @@
       margin-top: 0
   .scrollLoading
     /*width:98%;*/
-    box-shadow: 3px 3px 9px #888888;
+    box-shadow: 3px 3px 9px #888888
+  .box
+    position: relative
+    padding: 0.75rem 1.25rem
+    margin-bottom: 1rem
+    border: 1px solid transparent
+    border-radius: 0.25rem
+  .box-tip
+    color: #155724
+    background-color: #d4edda
+    border-color: #c3e6cb
+    &:before
+      content: "Tip: "
+  .box-warn
+    color: #ef8d1e
+    background-color: #efe9d1
+    border-color: #efebd7
+    &:before
+      content: "Warn: "
+  .box-error
+    color: #f30d27
+    background-color: #efcde0
+    border-color: #e56fb2
+    &:before
+      content: "Critical: "
+
 
 .article-more-link a
   display: inline-block
@@ -374,3 +399,5 @@ $article-gallery-ctrl
   &:before
     content: "\f054"
     right: 15px*/
+
+
