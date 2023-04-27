@@ -11,8 +11,9 @@ SaltyNote Chrome Extension.
 
 <!-- more -->
 
-> Note: Since Chrome Extension is a special Web Application running in Chrome, in this article, I will focus more on the
-> differences between Chrome Extension and standard Web Application.
+<div class="box box-tip">
+  Since Chrome Extension is a special Web Application running in Chrome, in this article, I will focus more on the differences between Chrome Extension and standard Web Application.
+</div>
 
 Reference: https://saltynote.github.io/saltynote-chrome-extension/
 
@@ -50,3 +51,14 @@ script**.
    token with refresh token, before sending out the data request, the Chrome extension will check whether the access
    token is expired or not, it is expired, it will send a request to refresh the access token automatically. Since we
    have a long-lived refresh token, the user only needs to login once before refresh token expires or is invalidated.
+
+## Misc
+
+When injecting the content script, a css file will also be pushed to host page. If we do not take if carefully, the
+injected css may impact the UI of the host page. For resolve this, I
+use [`sass-plus`](https://www.npmjs.com/package/sass-plus)([Source Code](https://github.com/SaltyNote/saltynote-chrome-extension/blob/70892bb4e20934e2870c7f9eca8e09391921aea3/package.json#L10))
+to generate a customized css file
+with bootstrap within a custom class
+name `saltynote`([source code](https://github.com/SaltyNote/saltynote-chrome-extension/blob/70892bb4e20934e2870c7f9eca8e09391921aea3/src/custom.scss#L7)).
+Then I will add the class name to the root element of the Vue
+application. So the css will only impact the elements within the Vue application.
