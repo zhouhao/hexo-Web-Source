@@ -59,7 +59,7 @@ Then it will throw this exception:
 
 `Exception in thread "main" com.fasterxml.jackson.databind.JsonMappingException: Infinite recursion (StackOverflowError) (through reference chain: ...`
 
-<span style="color:red;">JSON is pretty to hard to demonstrate the data with Circular References</span>
+<span style="color:red;">JSON is pretty hard to demonstrate the data with Circular References</span>
 
 ##### Solution:
 Thx to Jackson, with [@JsonIdentityInfo](http://wiki.fasterxml.com/JacksonFeatureObjectIdentity), we can easy fix this issue.
