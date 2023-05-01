@@ -35,38 +35,3 @@
         }
     </script>
 <% } %>
-
-<link href="/tipuesearch/tipuesearch.css" rel="stylesheet">
-<script src="/tipuesearch/tipuesearch_set.js"></script>
-<script src="/tipuesearch/tipuesearch.js"></script>
-<!-- Other code may be here -->
-<script>
-    $(document).ready(function () {
-
-        var search_input = $('#tipue_search_input');
-        var tipue_search_content = $('#tipue_search_content');
-        var raw_content= $('.raw_content');
-        search_input.tipuesearch({
-            'mode': 'json',
-            'minimumLength': 2,
-            'contentLocation': '/tipuesearch/tipuesearch_content.json',
-            highlightEveryTerm: true
-        });
-
-        $('#search-form').on('submit', function (e) {
-            e.preventDefault();
-            tipue_search_content.show();
-            raw_content.hide();
-        });
-
-        search_input.keyup(function () {
-            var length = $(this).val().length;
-            if (length < 1) {
-                tipue_search_content.hide();
-                raw_content.show();
-            }
-        });
-    });
-</script>
-
-            
