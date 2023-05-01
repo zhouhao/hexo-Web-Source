@@ -41,11 +41,7 @@ widgets:
 links:
   MIT-CHIEF: https://mitchief.org
 
-# Don't Use Google APIs if you are in google-blocked areas
-use_google_apis: true
-
 # Miscellaneous
-#google_analytics: UA-39886095-1
 favicon: /favicon.png
 fb_admins:
 fb_app_id:
