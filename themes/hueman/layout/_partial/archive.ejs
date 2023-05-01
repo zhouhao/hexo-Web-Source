@@ -8,7 +8,7 @@
   <% if(page.total > 1) { %>
     <nav id="page-nav">
       <span class="pages"><%= _p('nav.current_page', page.current) %><%= _p('nav.total_page', page.total) %></span>
-      <%- paginator({prev_text: '&laquo;', next_text: '&raquo;'}) %>
+      <%- paginator({prev_text: '<', next_text: '>'}) %>
     </nav>
   <% } %>
 <% } else { %>
@@ -37,7 +37,7 @@
   <% if(page.total > 1) { %>
     <nav id="page-nav">
       <span class="pages"><%= _p('nav.current_page', page.current) %><%= _p('nav.total_page', page.total) %></span>
-      <%- paginator({prev_text: '&laquo;', next_text: '&raquo;'}) %>
+      <%- paginator({prev_text: '<', next_text: '>'}) %>
     </nav>
   <% } %>
 <% } %>
