@@ -1,4 +1,4 @@
-title: 'LeetCode: 4Sum II'
+title: 'LeetCode: Process Tasks Using Servers'
 date: 2023-05-01 23:03:22
 ---
 1882. Process Tasks Using Servers: https://leetcode.com/problems/process-tasks-using-servers/description/
