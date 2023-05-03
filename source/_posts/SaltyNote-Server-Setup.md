@@ -1,6 +1,6 @@
 ---
 title: SaltyNote Server Setup 
-tags: [Ubuntu]
+tags: [Ubuntu, SaltyNote]
 categories: [程序员的日常, 日常]
 date: 2020-12-24 00:26:41
 ---
