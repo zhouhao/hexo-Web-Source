@@ -41,7 +41,7 @@ head of `feature/my-awesome-feature` is `1234567`.
 
 ```
 From github.com:XYZ/ABC
-2312a5a..1234567  feature/my-awesome-feature -> origin/feature/my-awesome-feature
+1234567..2312a5a  feature/my-awesome-feature -> origin/feature/my-awesome-feature
 Successfully rebased and updated refs/heads/feature/my-awesome-feature-sub-X.
 ```
 
