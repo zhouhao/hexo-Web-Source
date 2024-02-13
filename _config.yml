@@ -82,10 +82,10 @@ theme: hueman
 #exclude_generator:
 
 archive_generator:
-    per_page: 0
-    yearly: false
-    monthly: false
-    daily: false
+  per_page: 0
+  yearly: false
+  monthly: false
+  daily: false
 
 plugins:
 

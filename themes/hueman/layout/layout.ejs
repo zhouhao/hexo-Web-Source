@@ -6,7 +6,6 @@
         <div class="main-body container-inner">
             <div class="main-body-inner">
                 <section id="main">
-                    <div id="tipue_search_content" style="display: none"></div>
                     <div class="main-body-header raw_content">
                         <% var title = page.title;
                         if (page.archive) {
@@ -23,7 +22,7 @@
                             title = '<i class="icon" id="icon-tag"></i>' + __('index.tag') + '<em>' + page.tag + '</em>';
                         } else if (is_post()) {
                             title = list_categories(page.categories, {show_count: false, style: 'none', class: 'page-title', separator: '<i class="icon" id="icon-angle-right"></i>'});
-                            if (title == "") {
+                            if (title === "") {
                                 title = __('index.uncategorized');
                             }
                         } else if (is_home()) {
