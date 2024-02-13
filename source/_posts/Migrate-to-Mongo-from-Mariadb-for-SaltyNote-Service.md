@@ -16,9 +16,10 @@ performance.
 Be host, the important reason I changed to Mongo is that I need a more flexible schema for the note data.
 
 If I stick to MariaDB, I need to have a separate table for note tags field for better aggregation and search later.
-<div class="box box-tip">
-I know some SQL database support JSON field, that can also be the solution. While instead of using JSON field, I prefer NoSQL.
-</div>
+
+!!! note Info
+    I know some SQL database support JSON field, that can also be the solution. While instead of using JSON field, I prefer NoSQL.
+
 
 ## For MariaDB
 
@@ -99,9 +100,8 @@ Types_](https://prateek-ashtikar512.medium.com/how-to-handle-json-in-mysql-4adae
 For the reason above, eventually, I choose MongoDB. With MongoDB, I can store the tags in the same document with the
 note object.
 
-<div class="box box-tip">
-Transaction is not a concern for SaltyNote. Since it is OK to save duplicated notes, and user can simply delete it. (No duplicated notes have been found so far)
-</div>
+!!! note Info
+    Transaction is not a concern for SaltyNote. Since it is OK to save duplicated notes, and user can simply delete it. (No duplicated notes have been found so far)
 
 ### Pros:
 
