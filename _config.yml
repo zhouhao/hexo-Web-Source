@@ -109,7 +109,7 @@ marked:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-#  type: git
-#  message: "Sync blog from my local machine"
-#  repo:
-#    github: git@github.com:zhouhao/zhouhao.github.io.git
+  type: git
+  message: "Sync blog from my local machine"
+  repo:
+    github: git@github.com:zhouhao/zhouhao.github.io.git
