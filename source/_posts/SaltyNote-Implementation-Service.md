@@ -59,7 +59,18 @@ The Code base: https://github.com/SaltyNote/saltynote-service
 5. To protect the service from batch user registration attack, a verification code is needed during signup flow, and the
    code will be sent to the user via email asynchronously by Application Event, with which they want to register. (The
    verification code can be stored in redis
-   with TTL.) ![user-signup](/img/saltynote/user-signup.png)
+   with TTL.) 
+
+```mermaid
+sequenceDiagram 
+New User->>Service: Signup with this {EMAIL}
+Service-->>Email Client: Send Verification Code to {EMAIL}
+Service->>New User: Hi, Verification Code has been sent to {EMAIL}
+Email Client-->>New User: Read Verification Code
+New User->>Service: Signup with this {EMAIL}, {USERNAME}, {PASSWORD} and {VERIFICATION CODE}
+Service->>New User: Your Profile has been created!
+```
+
 6. For Redis cache, if the cache object's schema has been changed, the de/serialization may fail. As a workaround, when
    the service is deployed, it will clean all cache before serving the traffic. (I know it is not a good solution, but
    since I am still actively developing the service, it benefits more. Once the service is stable, and the schema is
