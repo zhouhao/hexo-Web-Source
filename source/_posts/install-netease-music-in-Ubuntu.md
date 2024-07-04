@@ -34,7 +34,6 @@ dpkg-deb -b extract/ build/
 dpkg -i  *.deb
 
 ```
-如果你嫌麻烦，你可以直接下载我修改好的了，[netease-cloud-music_1.0.0_amd64_modified.deb](/file/netease-cloud-music_1.0.0_amd64_modified.deb). 如果你不放心，可以自己打包，也不是很复杂。
 
 Note: 在这个方式中你不加`--no-sandbox`也没有问题。
 
