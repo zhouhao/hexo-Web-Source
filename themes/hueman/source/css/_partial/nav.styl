@@ -90,22 +90,39 @@ $nav-link
   margin-top: 5px
 
 .search-trigger
-  display: block
-  padding: 15px 14px
-  color: color-nav-foreground
-  text-decoration: none
-  text-shadow: 0 1px rgba(0, 0, 0, 0.2)
-  font-size: 16px
-  line-height: 20px
-  transition: 0.2s ease-in
   cursor: pointer
-  &:hover
-    color: #fff
-    background: color-nav-hover-background
-  .fa-search
-    font-family: FontAwesome
-    &:before
-      content: "\f002"
+
+.search-form
+  padding: 14px 15px 16px
+  height: 50px
+  overflow: hidden
+  box-sizing: border-box
+  display: flex
+  align-items: center
+
+.search-form-icon
+  color: color-nav-foreground
+  font-family: FontAwesome
+  font-size: 16px
+  margin-right: 8px
+  &:before
+    content: "\f002"
+
+.search-form-input
+  -webkit-appearance: none
+  width: 100px
+  border: none
+  outline: none
+  background: none
+  line-height: line-height
+  transition: width 0.2s ease-in
+  font: 16px font-sans
+  color: color-nav-foreground
+  cursor: pointer
+  &::placeholder
+    color: rgba(255, 255, 255, 0.5)
+  &::-webkit-search-cancel-button
+    -webkit-appearance: none
 
 .search-overlay
   display: none

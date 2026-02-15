@@ -1,6 +1,7 @@
 <div class="search" id="search">
-  <a href="#" class="search-trigger" aria-label="Search">
-    <i class="fa fa-search"></i>
-  </a>
+  <form class="search-form search-trigger">
+    <span class="search-form-icon"></span>
+    <input type="text" class="search-form-input" placeholder="Search..." readonly />
+  </form>
 </div>
 <%- partial('_partial/algolia') %>
