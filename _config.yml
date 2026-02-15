@@ -40,7 +40,7 @@ post_asset_folder: false
 highlight:
   enable: true
   line_number: true
-  tab_replace: true
+  tab_replace: '    '
 
 # Category & Tag
 default_category: 计算机那些事
