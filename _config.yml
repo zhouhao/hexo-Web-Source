@@ -105,3 +105,10 @@ marked:
   breaks: false
   smartLists: true
   smartypants: true
+
+# Local search
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html

@@ -1,12 +1,12 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
-<script type="text/javascript">
-    algoliasearchNetlify({
-        appId: 'KOX699T4XU',
-        apiKey: '53bba46ae156cbb4c2b5c6f3fdd6f893',
-        siteId: 'd6865537-5303-4d56-83f8-6a70f853b626',
-        branch: 'master',
-        selector: 'div#search',
-        detached: true,
-    });
-</script>
+<div id="search-overlay" class="search-overlay">
+  <div class="search-overlay-inner">
+    <div class="search-overlay-header">
+      <input type="text" id="local-search-input" class="search-overlay-input" placeholder="搜索文章..." autocomplete="off" />
+      <button id="search-overlay-close" class="search-overlay-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="search-overlay-hint"><kbd>ESC</kbd> 关闭 · <kbd>⌘K</kbd> 快捷搜索</div>
+    <div id="local-search-result" class="search-overlay-results">
+      <div class="search-empty">输入关键词搜索文章</div>
+    </div>
+  </div>
+</div>
