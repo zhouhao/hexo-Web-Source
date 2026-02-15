@@ -12,3 +12,6 @@ yarn.lock
 
 # Local Netlify folder
 .netlify
+
+.vscode
+.output.txt
