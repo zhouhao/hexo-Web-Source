@@ -8,7 +8,7 @@ menu:
   Home: /
   # Delete this row if you don't want categories in your header nav bar
   Categories:
-#  LeetCode: /LeetCode/
+  LeetCode: /leetcode/
   About: /about/
 
 # Article list grouped by year
