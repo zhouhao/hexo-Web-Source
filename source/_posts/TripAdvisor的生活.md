@@ -2,7 +2,7 @@
 title: TripAdvisor的生活
 date: 2015-09-18 17:59:52
 tags: [Life]
-categories: [程序员的日常, 普通]
+categories: [编程人生, 普通]
 ---
 在TripAdvisor入职的已经3周多了。介于博客长时间没有更新，那就写一篇水文扯个淡。
 

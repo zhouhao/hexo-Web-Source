@@ -2,7 +2,7 @@
 title: Last Day in Ovitas
 date: 2015-09-04 14:26:31
 tags: [Life]
-categories: [程序员的日常, 普通]
+categories: [编程人生, 普通]
 ---
 09/04/2015，今天是我在Ovitas的最后一天了。
 

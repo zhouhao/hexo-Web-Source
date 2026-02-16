@@ -1,7 +1,7 @@
 ---
 title: Ubuntu Server Setup
 tags: [Ubuntu, SaltyNote]
-categories: [程序员的日常, 日常]
+categories: [编程人生, 日常]
 date: 2020-12-23 22:28:32
 ---
 

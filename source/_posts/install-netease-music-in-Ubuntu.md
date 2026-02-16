@@ -2,7 +2,7 @@
 title: install netease music in Ubuntu
 date: 2018-05-15 17:17:40
 tags: [Ubuntu, 网易]
-categories: [程序员的日常]
+categories: [编程人生]
 ---
 在18.04出来之前，一直用Ubuntu的16.04，安装网易音乐之后，只需要在`/usr/share/applications/netease-cloud-music.desktop` 添加一个 `--no-sandbox`就可以解决了。
 ```

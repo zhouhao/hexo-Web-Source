@@ -1,7 +1,7 @@
 ---
 title: Maybe not a good start of 2023
 tags: [ layoff, interview ]
-categories: [ 程序员的日常, 操蛋 ]
+categories: [ 编程人生, 操蛋 ]
 date: 2023-04-12 15:32:26
 ---
 

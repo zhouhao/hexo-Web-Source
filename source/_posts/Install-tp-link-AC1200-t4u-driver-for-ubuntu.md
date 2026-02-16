@@ -2,7 +2,7 @@
 title: 'Note: Install tp-link AC1200 t4u driver for ubuntu'
 date: 2017-12-19 19:14:09
 tags: [Ubuntu, WIFI, MINT]
-categories: [程序员的日常]
+categories: [编程人生]
 ---
 Bought a TP-link AC1200 wifi adapter long before and not used it so far. Yesterday, I find it again when I collected my old stuff.
 Since my old Dell laptop does not support 5G channel, and its built-in wifi adapter sucks, why not have a try!!!

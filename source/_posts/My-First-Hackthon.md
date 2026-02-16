@@ -5,7 +5,7 @@ tags:
  - YCombinator
  - Hackthon
 categories:
-  - 程序员的日常
+  - 编程人生
   - 文艺
 ---
 Maybe in the June, Wen, the CEO of Smarking Inc gave a link to apply YC Hackthon. Then, in a morning, when I was waiting the subway, I got the email that my application was accepted. Not so superised, as it just means I still did the same thing(coding) in a different place.
