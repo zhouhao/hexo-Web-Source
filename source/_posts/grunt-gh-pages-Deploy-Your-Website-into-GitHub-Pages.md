@@ -2,7 +2,7 @@
 title: "grunt-gh-pages: Deploy Your Website into GitHub Pages"
 date: 2014-08-08 14:27:16
 tags: [AngularJS, Firebase, Grunt, "GitHub Pages", TodoApps]
-categories: [计算机那些事, 网站]
+categories: [编程人生, 网站]
 ---
 Recently, I am learning AngularJS, and I "believe" I have some progress, so that I cannot wait to puslish my work to the public.
 This is the [repository for the AngularJS demo](https://github.com/webiseverything/AngularJS-Demo-Code) I write in GitHub. And I publish this work at this link: http://sbzhouhao.net/TodoApp-AngularJS-Firebase/#/todo, which is a static page hosted in [GitHub Pages](https://pages.github.com/).

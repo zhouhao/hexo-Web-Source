@@ -2,7 +2,7 @@
 title: Image Manipulation [OpenGL]
 date: 2013-11-29 18:07:41
 tags: [Computer Graphics, OpenGL]
-categories: [计算机那些事, 图像处理]
+categories: [编程人生, 图像处理]
 ---
 
 ### Finding out what version of OpenGL your graphics card support: [GLinfo2.zip](/demo/ComputerGraphics/GLinfo2.zip)

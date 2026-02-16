@@ -1,7 +1,7 @@
 ---
 title: SaltyNote Implementation - Service
 tags: [ microservice, SpringBoot, Java, Redis, MariaDB, SaltyNote ]
-categories: [ 计算机那些事, Chrome Extension, microservice ]
+categories: [ 编程人生, Chrome Extension, microservice ]
 date: 2023-04-22 15:02:51
 ---
 

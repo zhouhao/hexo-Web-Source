@@ -1,7 +1,7 @@
 ---
 title: Enable postman json tree view
 tags: [ JSON, Postman ]
-categories: [ 计算机那些事, Backend ]
+categories: [ 编程人生, Backend ]
 date: 2023-07-25 11:34:01
 ---
 

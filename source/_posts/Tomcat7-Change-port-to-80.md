@@ -2,7 +2,7 @@
 title: 'Tomcat7: Change Port to 80'
 date: 2014-07-14 21:27:08
 tags: ["Tomcat 7", Ubuntu]
-categories: [计算机那些事, 普通]
+categories: [编程人生, 普通]
 ---
 I have many servers, which run Java Web applications. For development, I like Jetty, but for production, I prefer Tomcat7 now.
 ### In ubuntu, you need root permission to use ports under `1024`.

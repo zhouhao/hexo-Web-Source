@@ -2,7 +2,7 @@
 title: "PhoneGap: QRCode Example"
 date: 2014-07-22 13:07:37
 tags: [PhoneGap, QRCode, Mobile]
-categories: [计算机那些事, 手机开发]
+categories: [编程人生, 手机开发]
 ---
 With PhoneGap, we can use HTML+CSS+JS to build the mobile apps. But how could we call hardware of iPhone, such as camera, in our code with PhoneGap?
 ### Good news is that there are many plugins already existed, with which we can interact with hardware.

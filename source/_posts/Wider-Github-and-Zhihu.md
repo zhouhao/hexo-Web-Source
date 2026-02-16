@@ -2,7 +2,7 @@
 title: Wider Github and Zhihu
 date: 2019-01-28 23:27:19
 tags: [GitHub, Zhihu, Stylish]
-categories: [计算机那些事, 网站]
+categories: [编程人生, 网站]
 ---
 The main div for GitHub and Zhihu is too narrow, which makes my high-resolution screen not that useful. In this case, I update some exiting stylish script to improve.
 <!-- more --> 

@@ -2,7 +2,7 @@
 title: "Design Pattern: Decorator & Proxy"
 date: 2014-08-17 13:39:57
 tags: [Design Pattern, Java]
-categories: [计算机那些事, 设计模式]
+categories: [编程人生, 设计模式]
 ---
 I think it is better to master 23 Design Patterns as a Java developer.
 After I have a brief study, I find design pattern is not a new concept, and I have already used some of them in my daily projects unconsciously.

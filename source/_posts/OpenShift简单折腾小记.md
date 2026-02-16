@@ -2,7 +2,7 @@
 title: OpenShift简单折腾小记
 date: 2016-04-13 14:59:00
 tags: [OpenShift, PaaS]
-categories: [计算机那些事]
+categories: [编程人生]
 ---
 前段时间趁着参加一个无聊活动的过程中折腾了一下OpenShift，即使有一些不足，但是感觉它比我想象的好用。底下就扯扯我是瞎折腾过程中得经验。
 

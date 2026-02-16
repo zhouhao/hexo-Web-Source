@@ -2,7 +2,7 @@
 title: 博客：从GitHub迁移到OpenShift
 date: 2015-07-28 22:59:04
 tags: [GitHub, OpenShift, CloudFlare]
-categories: [计算机那些事, 网站]
+categories: [编程人生, 网站]
 ---
 之前博客一直以纯静态的方式托管在GitHub Page里面（是基于[Hexo](https://hexo.io/)的），遗憾的是
 

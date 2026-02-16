@@ -2,7 +2,7 @@
 title: "Share: Detect IE and its version"
 date: 2014-07-17 12:50:12
 tags: [IE, Web]
-categories: [计算机那些事, 网站]
+categories: [编程人生, 网站]
 ---
 This post will tell you how detect IE and its version.
 Refer: http://stackoverflow.com/questions/10964966/detect-ie-version-in-javascript

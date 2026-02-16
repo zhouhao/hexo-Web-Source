@@ -2,7 +2,7 @@
 title: 'Tip: Upload Multiple Files with Jersey'
 date: 2016-05-01 22:30:17
 tags: [Java, RESTful]
-categories: [计算机那些事, Java]
+categories: [编程人生, Java]
 ---
 这篇文章将简单介绍一下如何用Jersey（DropWizard）在一次Request中接受多个文件。其实Google一下，SO上会有很多回答，只是在这边献丑一下。
 <!-- more -->

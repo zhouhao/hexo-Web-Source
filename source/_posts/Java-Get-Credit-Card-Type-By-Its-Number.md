@@ -5,7 +5,7 @@ tags:
  - Java
  - Regular Expression
 categories:
-  - 计算机那些事
+  - 编程人生
   - Java
 ---
 It is a simple function that can identify the credit card type by its number.

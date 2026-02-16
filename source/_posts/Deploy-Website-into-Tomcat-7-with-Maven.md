@@ -2,7 +2,7 @@
 title: Deploy Website into Tomcat 7 with Maven
 date: 2014-08-22 09:10:05
 tags: [Maven, Java, "Tomcat 7"]
-categories: [计算机那些事, 网站]
+categories: [编程人生, 网站]
 ---
 This article is a brief introduction of how to use maven to deploy your website into tomcat7 [Ubuntu].
 <!-- more -->

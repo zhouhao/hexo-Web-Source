@@ -2,7 +2,7 @@
 title: Start with Laravel
 date: 2014-08-21 19:11:11
 tags: [PHP, Laravel, "Mod Rewrite"]
-categories: [计算机那些事, 网站]
+categories: [编程人生, 网站]
 ---
 This is a quick start helloWorld demo of Laravel.
 <!-- more -->

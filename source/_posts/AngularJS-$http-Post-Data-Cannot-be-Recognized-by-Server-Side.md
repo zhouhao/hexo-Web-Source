@@ -5,7 +5,7 @@ tags:
  - AngularJS
  - Ajax
 categories:
-  - 计算机那些事
+  - 编程人生
   - 网站
 ---
 As a newcomer, I find a lot of problems when I am using AngularJS. One problem is related to Ajax request.

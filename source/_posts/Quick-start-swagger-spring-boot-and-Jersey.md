@@ -2,7 +2,7 @@
 title: 'Quick start: swagger, spring-boot and Jersey'
 date: 2017-02-13 13:56:40
 tags: [Java, Swagger, "Spring Boot", Jersey]
-categories: [计算机那些事, 服务]
+categories: [编程人生, 服务]
 ---
 在做服务器端API开发的时候，如何保持文档的更新是一个比较头疼的问题。试过写成word文档，缺点很明显：
 1. 更新不及时

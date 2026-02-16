@@ -2,7 +2,7 @@
 title: 'Ubuntu: change time zone'
 date: 2014-07-10 19:04:04
 tags: [Ubuntu， cli]
-categories: [计算机那些事, 普通]
+categories: [编程人生, 普通]
 ---
 Recently, I always have work in Ubuntu servers. And sometimes when I tried to output a timestamp from server side to front end, I find something is "wrong". Such I want time in EST, but the default is UTC.
 <!-- more -->

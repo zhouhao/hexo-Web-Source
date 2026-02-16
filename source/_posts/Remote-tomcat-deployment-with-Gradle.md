@@ -2,7 +2,7 @@
 title: Remote tomcat deployment with Gradle
 date: 2015-01-21 18:49:20
 tags: ["Tomcat 7", Gradle]
-categories: [计算机那些事, 普通]
+categories: [编程人生, 普通]
 ---
 Recently, I am playing Gradle, which is a similar tool as Maven. What I usual do is to depoly webiste into Tomcat. Refer this [Deploy Website into Tomcat 7 with Maven](http://sbzhouhao.net/2014/08/22/Deploy-Website-into-Tomcat-7-with-Maven/). Here is my note to deploy website with Gradle.
 <!-- more -->

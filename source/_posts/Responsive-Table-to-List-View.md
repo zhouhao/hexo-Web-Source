@@ -2,7 +2,7 @@
 title: Responsive Table to List View With CSS
 date: 2014-07-24 07:23:00
 tags: [Resposive, Web]
-categories: [计算机那些事, 网站]
+categories: [编程人生, 网站]
 ---
 This post is related to how to make a responsive table into a List view when the browser width is pretty small.
 Table collapses into a "list" on small screens. Headers are pulled from data attributes.

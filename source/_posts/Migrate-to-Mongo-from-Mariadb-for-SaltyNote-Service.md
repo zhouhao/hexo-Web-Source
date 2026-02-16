@@ -1,7 +1,7 @@
 ---
 title: Migrate to MongoDB from MariaDB for SaltyNote Service
 tags: [ microservice, SpringBoot, Java, Redis, MariaDB, MongoDB, SaltyNote ]
-categories: [ 计算机那些事, microservice, database ]
+categories: [ 编程人生, microservice, database ]
 date: 2023-05-01 11:19:33
 ---
 

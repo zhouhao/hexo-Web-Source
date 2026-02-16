@@ -2,7 +2,7 @@
 title: "JSON serialization and deserialization: Circular References"
 date: 2017-08-10 18:34:02
 tags: [Jackson, Json, deserialize]
-categories: [计算机那些事, Java]
+categories: [编程人生, Java]
 ---
 In recent times, I did a lot practise of micro-service with spring boot. And handled a lot of JSON(Jackson) related serialization and deserialization issues. In this post, I will share some tricky how to "fix" Circular References.
 

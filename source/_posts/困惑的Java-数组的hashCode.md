@@ -2,7 +2,7 @@
 title: '困惑的Java: 数组的hashCode()'
 date: 2015-08-06 18:13:11
 tags: [Java]
-categories: [计算机那些事, Java]
+categories: [编程人生, Java]
 ---
 这是我在StackOverflow上提的第一个问题：[Why Objects.hash() returns different values for the same input?](http://stackoverflow.com/questions/29955291/why-objects-hash-returns-different-values-for-the-same-input)
 
