@@ -31,6 +31,7 @@ social_links:
   github: https://github.com/zhouhao
   rss: /atom.xml
 widgets:
+- google_translate
 - recent_posts
 - tagcloud
 - category
