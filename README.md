@@ -32,3 +32,36 @@ _config.yml       # Hexo configuration
 | hexo-admonition | Admonition blocks |
 | hexo-pdf | PDF embedding |
 | hexo-wordcount | Word count & reading time |
+
+## Admonition Blocks
+
+Use `hexo-admonition` to add callout/notice blocks in posts. Syntax:
+
+```markdown
+!!! type Custom Title
+    Content goes here (indented by 4 spaces).
+```
+
+### Supported Types
+
+| Type | Color | Use Case |
+|------|-------|----------|
+| `note` | Green | General notes, default style |
+| `info` / `todo` | Cyan | Informational tips |
+| `warning` / `attention` / `caution` | Orange | Warnings |
+| `failure` / `error` / `fail` / `missing` | Red | Errors, critical notices |
+
+### Examples
+
+```markdown
+!!! note Info
+    This is a green note block with title "Info".
+
+!!! warning Warning
+    This is an orange warning block.
+
+!!! info
+    Omit the custom title to use the type name as title.
+```
+
+Title is optional — if omitted, the type name is used as the title.
