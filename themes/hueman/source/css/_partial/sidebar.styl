@@ -249,42 +249,34 @@
 
 // Google Translate widget overrides
 .google-translate-widget
-  .goog-te-gadget
+  .gt-selector
+    width: 100%
+    padding: 8px 12px
     font-family: font-sans
-    font-size: 0
-    color: transparent
-    .goog-te-combo
-      width: 100%
-      padding: 8px 12px
-      font-family: font-sans
-      font-size: font-size
-      color: color-sidebar-text-dark
-      background-color: #fff
-      border: 1px solid color-border
-      border-radius: 3px
-      outline: none
-      cursor: pointer
-      appearance: none
-      -webkit-appearance: none
-      -moz-appearance: none
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23777' d='M6 8L1 3h10z'/%3E%3C/svg%3E")
-      background-repeat: no-repeat
-      background-position: right 10px center
-      transition: border-color 0.2s ease, box-shadow 0.2s ease
-      &:hover
-        border-color: color-link
-      &:focus
-        border-color: color-link
-        box-shadow: 0 0 0 2px rgba(66, 185, 131, 0.15)
-    // Hide "Powered by Google Translate" branding
-    > span
-      display: none !important
-    a
-      display: none !important
-    img
-      display: none !important
+    font-size: font-size
+    color: color-sidebar-text-dark
+    background-color: #fff
+    border: 1px solid color-border
+    border-radius: 3px
+    outline: none
+    cursor: pointer
+    appearance: none
+    -webkit-appearance: none
+    -moz-appearance: none
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23777' d='M6 8L1 3h10z'/%3E%3C/svg%3E")
+    background-repeat: no-repeat
+    background-position: right 10px center
+    transition: border-color 0.2s ease, box-shadow 0.2s ease
+    &:hover
+      border-color: color-link
+    &:focus
+      border-color: color-link
+      box-shadow: 0 0 0 2px rgba(66, 185, 131, 0.15)
 
-// Hide Google Translate top bar
+// Hide Google Translate injected elements
+#google_translate_element
+  display: none !important
+
 body > .skiptranslate
   display: none !important
 

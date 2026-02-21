@@ -1,6 +1,17 @@
 <div class="widget-wrap">
 	<h3 class="widget-title"><i class="fa fa-globe"></i> Translate</h3>
-	<div class="widget google-translate-widget" id="google_translate_element"></div>
+	<div class="widget google-translate-widget">
+		<select id="google_translate_selector" class="gt-selector" aria-label="Language Translate Widget">
+			<option value="" selected>Original</option>
+			<option value="zh-CN">中文</option>
+			<option value="en">English</option>
+			<option value="es">Español</option>
+			<option value="ru">Русский</option>
+			<option value="ja">日本語</option>
+			<option value="ko">한국어</option>
+		</select>
+		<div id="google_translate_element" style="display:none;"></div>
+	</div>
 </div>
 <script type="text/javascript">
 function googleTranslateElementInit() {
@@ -9,9 +20,34 @@ function googleTranslateElementInit() {
 		multilanguagePage: true,
 		gaTrack: true,
 		gaId: 'UA-39886095-1',
-		includedLanguages: 'en,zh-CN,ja,ko,auto',
-		layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+		includedLanguages: 'en,es,ja,ko,ru,zh-CN',
+		layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL,
+		autoDisplay: false
 	}, 'google_translate_element');
 }
+
+document.getElementById('google_translate_selector').addEventListener('change', function () {
+	var lang = this.value;
+	if (!lang) {
+		// Origin: restore original page
+		var frame = document.querySelector('.goog-te-banner-frame');
+		if (frame) {
+			var innerDoc = frame.contentDocument || frame.contentWindow.document;
+			var restoreBtn = innerDoc.querySelector('.goog-close-link');
+			if (restoreBtn) restoreBtn.click();
+		}
+		// Fallback: clear the Google Translate cookie and reload
+		document.cookie = 'googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC';
+		document.cookie = 'googtrans=; path=/; domain=.' + location.hostname + '; expires=Thu, 01 Jan 1970 00:00:00 UTC';
+		location.reload();
+		return;
+	}
+	// Trigger Google Translate by setting the hidden combo value
+	var combo = document.querySelector('.goog-te-combo');
+	if (combo) {
+		combo.value = lang;
+		combo.dispatchEvent(new Event('change'));
+	}
+});
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
