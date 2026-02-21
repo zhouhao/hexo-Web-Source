@@ -5,7 +5,8 @@ tags: [Python, 踩坑记录, 编程技巧]
 categories: [编程人生, Python]
 ---
 
-> 整理了一些 Python 开发中常见但容易踩坑的问题，希望对你有所帮助。
+!!! note 
+    整理了一些 Python 开发中常见但容易踩坑的问题，希望对你有所帮助。
 
 <!-- more -->
 
