@@ -26,17 +26,19 @@ function googleTranslateElementInit() {
 	}, 'google_translate_element');
 }
 
+// Restore selector state from googtrans cookie on page load
+(function () {
+	var selector = document.getElementById('google_translate_selector');
+	var match = document.cookie.match(/googtrans=\/[^\/]+\/([^;]+)/);
+	if (match && match[1]) {
+		selector.value = match[1];
+	}
+})();
+
 document.getElementById('google_translate_selector').addEventListener('change', function () {
 	var lang = this.value;
 	if (!lang) {
-		// Origin: restore original page
-		var frame = document.querySelector('.goog-te-banner-frame');
-		if (frame) {
-			var innerDoc = frame.contentDocument || frame.contentWindow.document;
-			var restoreBtn = innerDoc.querySelector('.goog-close-link');
-			if (restoreBtn) restoreBtn.click();
-		}
-		// Fallback: clear the Google Translate cookie and reload
+		// Original: clear the Google Translate cookie and reload
 		document.cookie = 'googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC';
 		document.cookie = 'googtrans=; path=/; domain=.' + location.hostname + '; expires=Thu, 01 Jan 1970 00:00:00 UTC';
 		location.reload();
