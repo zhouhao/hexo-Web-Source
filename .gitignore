@@ -7,7 +7,6 @@ public/
 .deploy*/
 .idea/
 *.sass-cache/
-package-lock.json
 yarn.lock
 
 # Local Netlify folder
