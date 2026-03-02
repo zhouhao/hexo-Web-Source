@@ -5,7 +5,7 @@ tags: [可观测性, Observability, AI Agent, OpenTelemetry, 后端工程]
 categories: [ 编程人生, AI ]
 ---
 
-Metrics、Logs、Traces——这套经典三支柱撑起了过去十年的可观测性体系。但当系统里的"执行者"从确定性代码变成了 AI Agent，传统的观测手段开始出现盲区。本文聊聊可观测性在 AI 时代面临的新挑战，以及工程师该怎么应对。
+Metrics、Logs、Traces——这套经典三支柱撑起了过去十年的可观测性体系。但当系统里的"执行者"从确定性代码变成了 AI Agent，传统的观测手段开始出现盲区。今天我想聊聊可观测性在 AI 时代面临的新挑战，以及工程师该怎么应对。
 
 <!-- more -->
 
