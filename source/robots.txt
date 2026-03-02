@@ -1,3 +1,13 @@
 User-agent: *
-Disallow:
-Sitemap: /sitemap.xml
+Allow: /
+Disallow: /js/
+Disallow: /css/
+Disallow: /fancybox/
+Disallow: /scrollLoading/
+Disallow: /page/
+Disallow: /demo/
+
+Sitemap: https://hzhou.me/sitemap.xml
+Sitemap: https://hzhou.me/atom.xml
+
+Host: https://hzhou.me

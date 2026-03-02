@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="<%= config.language && Array.isArray(config.language) ? config.language[0] : (config.language || 'en') %>">
 <head>
   <meta charset="utf-8">
   <%
@@ -18,15 +18,63 @@
   } else if (is_tag()){
     title = 'Tag: ' + page.tag;
   }
+
+  // --- SEO: description fallback chain ---
+  var seoDesc = '';
+  if (page.description) {
+    seoDesc = page.description;
+  } else if (page.excerpt) {
+    seoDesc = strip_html(page.excerpt).replace(/\n/g, ' ').replace(/\s+/g, ' ').trim().substring(0, 200);
+  } else if ((is_post() || is_page()) && page.content) {
+    seoDesc = strip_html(page.content).replace(/\n/g, ' ').replace(/\s+/g, ' ').trim().substring(0, 200);
+  }
+  if (!seoDesc) {
+    seoDesc = config.description || '';
+  }
+
+  // --- SEO: keywords from tags ---
+  var seoKeywords = '';
+  if (page.tags && page.tags.length) {
+    seoKeywords = page.tags.map(function(tag) { return tag.name; }).join(',');
+  } else if (page.keywords) {
+    seoKeywords = page.keywords;
+  } else if (config.keywords) {
+    seoKeywords = Array.isArray(config.keywords) ? config.keywords.join(',') : config.keywords;
+  }
+
+  // --- SEO: Open Graph image ---
+  var ogImage = null;
+  if (page.cover) {
+    ogImage = page.cover;
+  } else if (page.photos && page.photos.length) {
+    ogImage = page.photos[0];
+  } else if (theme.default_og_image) {
+    ogImage = theme.default_og_image;
+  }
   %>
   <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
-  <% if (theme.rss){ %>
-    <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
+
+  <%# --- SEO Meta Tags (description handled by open_graph() below) --- %>
+  <% if (seoKeywords){ %>
+  <meta name="keywords" content="<%= seoKeywords %>">
   <% } %>
+  <meta name="author" content="<%= config.author %>">
+  <link rel="canonical" href="<%- page.permalink || (config.url + url_for(page.path)) %>">
+
+  <%# --- Open Graph Tags --- %>
+  <%- open_graph({
+    fb_admins: theme.fb_admins,
+    fb_app_id: theme.fb_app_id,
+    description: seoDesc,
+    image: ogImage
+  }) %>
+
+  <%# --- RSS / Atom Feed --- %>
+  <link rel="alternate" href="<%- url_for('/atom.xml') %>" title="<%= config.title %>" type="application/atom+xml">
+
   <% if (theme.favicon){ %>
-    <link rel="icon" href="<%- theme.favicon %>">
+    <link rel="icon" href="<%- url_for(theme.favicon) %>">
   <% } %>
 
   <%- css('css/style') %>

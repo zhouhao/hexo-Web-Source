@@ -5,12 +5,19 @@
 # Site
 title: "Salty Egg"
 subtitle: "疯狂de咸蛋"
-description: "Salty Egg = Software Engineer"
+description: "Salty Egg's tech blog - Software engineering, programming, AI, system design and career insights from a Bay Area engineer | 湾区程序员的技术博客"
 author: "Salty Egg"
 #email: i@hzhou.me
 language:
   - en
   - zh-CN
+keywords:
+  - software engineering
+  - programming
+  - tech blog
+  - AI
+  - system design
+  - web development
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

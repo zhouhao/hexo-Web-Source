@@ -1,0 +1,145 @@
+<%# --- JSON-LD Structured Data for SEO --- %>
+<%
+// Build absolute URL helper
+function absUrl(path) {
+  if (!path) return config.url;
+  if (path.startsWith('http://') || path.startsWith('https://')) return path;
+  return config.url + url_for(path);
+}
+
+// Author info
+var authorName = config.author || 'Salty Egg';
+var siteUrl = config.url;
+
+// Social links for Person schema (exclude RSS)
+var socialLinks = [];
+if (theme.social_links) {
+  for (var key in theme.social_links) {
+    if (key !== 'rss' && theme.social_links[key]) {
+      socialLinks.push(theme.social_links[key]);
+    }
+  }
+}
+%>
+
+<%# --- WebSite Schema (all pages) --- %>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "<%- siteUrl %>/#website",
+  "url": "<%- siteUrl %>",
+  "name": "<%- config.title %>",
+  "description": "<%- config.description %>",
+  "publisher": {
+    "@id": "<%- siteUrl %>/#person"
+  },
+  "inLanguage": "<%= config.language && Array.isArray(config.language) ? config.language[0] : (config.language || 'en') %>"
+}
+</script>
+
+<%# --- Person Schema (all pages, establishes author entity) --- %>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "<%- siteUrl %>/#person",
+  "name": "<%- authorName %>",
+  "url": "<%- siteUrl %>/about/",
+  "sameAs": <%- JSON.stringify(socialLinks) %>
+}
+</script>
+
+<% if (is_post()) { %>
+<%# --- BlogPosting Schema (post pages only) --- %>
+<%
+  var postDesc = '';
+  if (page.description) {
+    postDesc = page.description;
+  } else if (page.excerpt) {
+    postDesc = strip_html(page.excerpt).replace(/\n/g, ' ').replace(/\s+/g, ' ').trim().substring(0, 200);
+  } else if (page.content) {
+    postDesc = strip_html(page.content).replace(/\n/g, ' ').replace(/\s+/g, ' ').trim().substring(0, 200);
+  }
+
+  var postImage = '';
+  if (page.cover) {
+    postImage = absUrl(page.cover);
+  } else if (page.photos && page.photos.length) {
+    postImage = absUrl(page.photos[0]);
+  } else if (theme.default_og_image) {
+    postImage = absUrl(theme.default_og_image);
+  } else {
+    postImage = absUrl(theme.logo || '/favicon.png');
+  }
+
+  var postTags = [];
+  if (page.tags && page.tags.length) {
+    page.tags.forEach(function(tag) {
+      postTags.push(tag.name);
+    });
+  }
+%>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "<%- page.permalink %>#article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "<%- page.permalink %>"
+  },
+  "headline": "<%- page.title %>",
+  "description": "<%- postDesc.replace(/"/g, '\\"') %>",
+  <% if (postImage) { %>
+  "image": "<%- postImage %>",
+  <% } %>
+  "datePublished": "<%- page.date.toISOString() %>",
+  "dateModified": "<%- (page.updated || page.date).toISOString() %>",
+  "author": {
+    "@id": "<%- siteUrl %>/#person"
+  },
+  "publisher": {
+    "@id": "<%- siteUrl %>/#person"
+  },
+  "isPartOf": {
+    "@id": "<%- siteUrl %>/#website"
+  }<% if (postTags.length > 0) { %>,
+  "keywords": <%- JSON.stringify(postTags) %>
+  <% } %>
+}
+</script>
+
+<%# --- BreadcrumbList Schema (post pages) --- %>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "<%- siteUrl %>"
+    }<% if (page.categories && page.categories.length) {
+      var pos = 2;
+      page.categories.forEach(function(cat) { %>,
+    {
+      "@type": "ListItem",
+      "position": <%= pos %>,
+      "name": "<%- cat.name %>",
+      "item": "<%- absUrl(cat.path) %>"
+    }<%
+        pos++;
+      });
+    } %>,
+    {
+      "@type": "ListItem",
+      "position": <%= (page.categories && page.categories.length) ? page.categories.length + 2 : 2 %>,
+      "name": "<%- page.title %>",
+      "item": "<%- page.permalink %>"
+    }
+  ]
+}
+</script>
+<% } %>

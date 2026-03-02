@@ -51,3 +51,6 @@ mermaid:
   enable: true  # default true
   options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
   #startOnload: true  // default true
+
+# SEO
+default_og_image: /logo-salty-egg.png
