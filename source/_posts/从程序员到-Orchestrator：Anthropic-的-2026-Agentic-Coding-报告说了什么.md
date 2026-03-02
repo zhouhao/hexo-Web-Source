@@ -7,8 +7,7 @@ tags:
   - Claude Code
   - 智能体编程
   - 职业发展
-categories:
-  - AI
+categories: [ 编程人生, AI ]
 ---
 
 上周，Anthropic 发布了他们的 **《2026 Agentic Coding Trends Report》**，同一时间，Claude Code 的创造者 Boris Cherny 在媒体上大胆预测：**"Software Engineer" 这个职位名称，可能在今年年底前开始消失。**
