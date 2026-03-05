@@ -1,7 +1,7 @@
 ---
 title: 分布式事务处理的常见模式和比较分析
 tags: [ 分布式, distributed, 架构师 ]
-categories: [ 编程人生 ]
+categories: [ 系统设计 ]
 date: 2025-08-16 02:05:05
 ---
 

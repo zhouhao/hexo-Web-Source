@@ -1,7 +1,7 @@
 ---
 title: 分布式锁基础概念与理论
 tags: [ 分布式, distributed lock, 架构师 ]
-categories: [ 编程人生 ]
+categories: [ 系统设计 ]
 date: 2025-08-27 02:05:05
 ---
 

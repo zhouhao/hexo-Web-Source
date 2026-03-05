@@ -1,7 +1,7 @@
 ---
 title: 分布式锁最佳实践
 tags: [ 分布式, distributed lock, 架构师, best practice]
-categories: [ 编程人生 ]
+categories: [ 系统设计 ]
 date: 2025-08-28 02:05:05
 ---
 

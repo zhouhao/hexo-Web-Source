@@ -1,7 +1,7 @@
 ---
 title: 基于etcd和数据库的分布式锁实现方案
 tags: [ 分布式, distributed lock, 架构师, etcd]
-categories: [ 编程人生 ]
+categories: [ 系统设计 ]
 date: 2025-09-01 02:05:05
 ---
 
