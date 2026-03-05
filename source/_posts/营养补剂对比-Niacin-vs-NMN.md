@@ -1,7 +1,7 @@
 ---
 title: '营养补剂对比: Niacin vs NMN'
 tags: [营养补剂, Niacin, NMN, 膳食补充剂]
-categories: [科学养生]
+categories: [人生杂记, 科学养生]
 date: 2025-06-01 00:57:29
 ---
 
