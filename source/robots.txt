@@ -7,6 +7,35 @@ Disallow: /scrollLoading/
 Disallow: /page/
 Disallow: /demo/
 
+# AI Search Crawlers (Allow - drives traffic via AI search results)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# AI Training Crawlers (Block - protects content from training datasets)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
 Sitemap: https://hzhou.me/sitemap.xml
 Sitemap: https://hzhou.me/atom.xml
 

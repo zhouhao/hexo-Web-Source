@@ -1,17 +1,14 @@
-<%# --- JSON-LD Structured Data for SEO --- %>
+<%# --- JSON-LD Structured Data for SEO + GEO --- %>
 <%
-// Build absolute URL helper
 function absUrl(path) {
   if (!path) return config.url;
   if (path.startsWith('http://') || path.startsWith('https://')) return path;
   return config.url + url_for(path);
 }
 
-// Author info
 var authorName = config.author || 'Salty Egg';
 var siteUrl = config.url;
 
-// Social links for Person schema (exclude RSS)
 var socialLinks = [];
 if (theme.social_links) {
   for (var key in theme.social_links) {
@@ -19,6 +16,20 @@ if (theme.social_links) {
       socialLinks.push(theme.social_links[key]);
     }
   }
+}
+
+// GEO: Detect post language from title using charCodeAt
+function detectLang(pg) {
+  function hasChinese(str) {
+    if (!str) return false;
+    for (var i = 0; i < str.length && i < 500; i++) {
+      var code = str.charCodeAt(i);
+      if (code >= 0x4e00 && code <= 0x9fff) return true;
+      if (code >= 0x3400 && code <= 0x4dbf) return true;
+    }
+    return false;
+  }
+  return hasChinese(pg.title) ? 'zh-CN' : 'en';
 }
 %>
 
@@ -38,7 +49,7 @@ if (theme.social_links) {
 }
 </script>
 
-<%# --- Person Schema (all pages, establishes author entity) --- %>
+<%# --- Person Schema (E-E-A-T + GEO entity linking) --- %>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -46,12 +57,14 @@ if (theme.social_links) {
   "@id": "<%- siteUrl %>/#person",
   "name": "<%- authorName %>",
   "url": "<%- siteUrl %>/about/",
+  "jobTitle": "Software Engineer",
+  "knowsAbout": ["Software Engineering", "Web Development", "AI", "System Design", "Java", "JavaScript", "Cloud Computing"],
   "sameAs": <%- JSON.stringify(socialLinks) %>
 }
 </script>
 
 <% if (is_post()) { %>
-<%# --- BlogPosting Schema (post pages only) --- %>
+<%# --- BlogPosting Schema (GEO-enhanced) --- %>
 <%
   var postDesc = '';
   if (page.description) {
@@ -79,6 +92,22 @@ if (theme.social_links) {
       postTags.push(tag.name);
     });
   }
+
+  // GEO: word count for schema
+  var plainContent = strip_html(page.content || '');
+  var wordCount = plainContent.replace(/\s+/g, ' ').trim().split(/\s+/).length;
+
+  // GEO: first category as articleSection
+  var articleSection = '';
+  if (page.categories && page.categories.length) {
+    page.categories.forEach(function(cat) {
+      if (!articleSection) articleSection = cat.name;
+    });
+  }
+
+  // GEO: per-post language
+  // Don't use page.lang — it's Hexo's default, not per-post. Detect from content.
+  var postLang = detectLang(page);
 %>
 <script type="application/ld+json">
 {
@@ -104,13 +133,22 @@ if (theme.social_links) {
   },
   "isPartOf": {
     "@id": "<%- siteUrl %>/#website"
-  }<% if (postTags.length > 0) { %>,
+  },
+  "inLanguage": "<%= postLang %>",
+  "wordCount": <%= wordCount %>,
+  "isAccessibleForFree": true,
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".article-title", ".article-entry p:first-of-type"]
+  }<% if (articleSection) { %>,
+  "articleSection": "<%- articleSection %>"
+  <% } %><% if (postTags.length > 0) { %>,
   "keywords": <%- JSON.stringify(postTags) %>
   <% } %>
 }
 </script>
 
-<%# --- BreadcrumbList Schema (post pages) --- %>
+<%# --- BreadcrumbList Schema --- %>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

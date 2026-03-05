@@ -1,7 +1,39 @@
 <!DOCTYPE html>
-<html lang="<%= config.language && Array.isArray(config.language) ? config.language[0] : (config.language || 'en') %>">
+<%
+// --- GEO: Per-post language detection ---
+// Check for CJK Unified Ideographs using charCodeAt (avoids EJS unicode escape issues)
+function hasChinese(str) {
+  if (!str) return false;
+  for (var i = 0; i < str.length && i < 500; i++) {
+    var code = str.charCodeAt(i);
+    if (code >= 0x4e00 && code <= 0x9fff) return true;
+    if (code >= 0x3400 && code <= 0x4dbf) return true;
+  }
+  return false;
+}
+var pageLang = 'en';
+if (is_post() || is_page()) {
+  // Detect language from title only (raw/content may contain Chinese categories in English posts)
+  if (hasChinese(page.title)) {
+    pageLang = 'zh-CN';
+  }
+} else {
+  pageLang = config.language && Array.isArray(config.language) ? config.language[0] : (config.language || 'en');
+}
+%>
+<html lang="<%= pageLang %>">
 <head>
   <meta charset="utf-8">
+
+  <%# --- Performance: Resource hints (before anything else) --- %>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//cdn.datatables.net">
+  <link rel="dns-prefetch" href="//code.jquery.com">
+  <link rel="dns-prefetch" href="//www.googletagmanager.com">
+  <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+
   <%
   var title = page.title;
 

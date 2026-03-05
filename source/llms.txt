@@ -1,0 +1,71 @@
+# Salty Egg (hzhou.me)
+
+> A bilingual (English/Chinese) tech blog by a Bay Area software engineer covering system design, AI, distributed systems, web development, and career growth.
+
+## Author
+
+Salty Egg (疯狂de咸蛋) — Software Engineer based in the San Francisco Bay Area.
+- Website: https://hzhou.me
+- GitHub: https://github.com/zhouhao
+- LinkedIn: https://www.linkedin.com/in/sbzhouhao/
+- Email: i@hzhou.me
+
+## Topics
+
+- System Design & Distributed Systems
+- AI & Machine Learning (trends, tools, career impact)
+- Backend Engineering (Java, Spring Boot, Go, Python, Node.js)
+- Cloud Native & DevOps (Kubernetes, Docker, observability)
+- Web Development (frontend frameworks, APIs, browser extensions)
+- Career Growth (tech-to-management, programmer survival guides)
+- Security (zero trust, AI-driven security)
+
+## Key Articles — System Design
+
+- [Distributed Transaction Patterns](https://hzhou.me/2025/08/16/distributed_transaction_comprehensive_analysis/): Comprehensive analysis of distributed transaction processing patterns
+- [Distributed Lock Best Practices](https://hzhou.me/2025/08/16/distributed_lock_best_practices/): Best practices for implementing distributed locks
+- [Redis Distributed Lock](https://hzhou.me/2025/08/16/redis_distributed_lock/): Redis-based distributed lock implementation
+- [etcd Distributed Lock](https://hzhou.me/2025/08/16/etcd_database_distributed_lock/): etcd-based distributed lock implementation
+- [Real-time Messaging System Design](https://hzhou.me/2026/03/06/realtime-messaging-system-design/): Designing a WhatsApp-scale real-time messaging system
+- [Database Replication Strategies](https://hzhou.me/2025/08/15/数据库复制策略的优缺点比较/): Comparison of database replication strategies
+- [Cache Update Strategies](https://hzhou.me/2025/08/15/缓存更新策略的列举和比较/): Cache invalidation and update pattern comparison
+- [Outbox Pattern](https://hzhou.me/2025/08/16/Outbox-Pattern：解决分布式系统中数据一致性的利器/): Solving data consistency in distributed systems
+- [Idempotency & Retry Best Practices](https://hzhou.me/2025/08/16/幂等性与重试最佳实践/): Idempotency patterns and retry strategies
+
+## Key Articles — AI & Programming
+
+- [Observability 3.0 in AI Era](https://hzhou.me/2026/03/03/observability-in-ai-era/): Observability challenges when AI Agents run in your system
+- [AI Code Generation Revolution](https://hzhou.me/2025/09/02/ai_code_generation_revolution/): How AI is transforming code generation
+- [AI Era Programmer Guide](https://hzhou.me/2025/09/03/ai_era_programmer_guide/): Surviving and thriving as a programmer in the AI era
+- [AI Optimization Breakthroughs](https://hzhou.me/2025/09/02/ai_optimization_breakthroughs/): Breakthroughs in AI optimization techniques
+- [From Code Completion to Requirements](https://hzhou.me/2026/03/02/从代码补全到需求直述：一个程序员亲历的-AI-编程三级跳/): A programmer's journey through three stages of AI coding
+- [Anthropic Agentic Coding Report](https://hzhou.me/2026/03/04/从程序员到-Orchestrator：Anthropic-的-2026-Agentic-Coding-报告说了什么/): Analysis of Anthropic's 2026 Agentic Coding report
+- [When AI Can Ace LeetCode](https://hzhou.me/2026/03/03/当-AI-能秒杀-LeetCode_程序员面试何去何从/): The future of programmer interviews when AI solves LeetCode
+- [AI Impact on Programmer Careers](https://hzhou.me/2025/09/04/AI与Code-Agent对程序员未来5年就业及职业成长的影响研究报告/): 5-year research report on AI's career impact
+
+## Key Articles — Backend & Cloud
+
+- [Spring Virtual Threads & AI](https://hzhou.me/2025/09/02/spring_virtual_threads_ai/): Spring Boot with virtual threads and AI integration
+- [Go Cloud Native Microservices](https://hzhou.me/2025/09/02/go_cloud_native_microservices/): Go for cloud-native microservice architecture
+- [FastAPI & OpenAI Guide](https://hzhou.me/2025/09/02/fastapi_openai_guide/): Building AI services with FastAPI and OpenAI
+- [Kubernetes MLOps GitOps](https://hzhou.me/2025/09/02/kubernetes_mlops_gitops/): Kubernetes-based MLOps with GitOps patterns
+- [Zero Trust AI Security](https://hzhou.me/2025/09/02/zero_trust_ai_security/): Zero-trust security architecture in the AI era
+- [Next-Gen Databases](https://hzhou.me/2025/09/02/next_gen_databases/): Emerging database technologies and their use cases
+- [Edge Computing IoT Architecture](https://hzhou.me/2025/09/02/edge_computing_iot_architecture/): Edge computing architecture for IoT
+
+## Key Articles — Projects
+
+- [SaltyNote Service](https://hzhou.me/2023/04/22/SaltyNote-Implementation-Service/): Chrome extension for immersive page note-taking (Spring Boot, Redis, MariaDB)
+- [SaltyNote Chrome Extension](https://hzhou.me/2020/12/20/SaltyNote-Implementation-Chrome-Extension/): Frontend implementation of the SaltyNote browser extension
+- [Interactive 3D PLY Viewer](https://hzhou.me/2020/06/14/Interactive-Ply-Viewer-3D/): WebGL-based 3D point cloud viewer
+
+## Key Articles — Career & Life
+
+- [Tech to Management Guide](https://hzhou.me/2025/09/04/tech_to_management_guide/): Complete guide for transitioning from tech expert to manager
+- [Turning Lemons into Growth](https://hzhou.me/2026/03/01/lemons_to_growth/): Personal reflections on growth through adversity
+- [Slow Wisdom](https://hzhou.me/2026/03/02/slow_wisdom/): On the value of patience and deliberate thinking
+
+## Feed
+
+- Atom/RSS: https://hzhou.me/atom.xml
+- Sitemap: https://hzhou.me/sitemap.xml
