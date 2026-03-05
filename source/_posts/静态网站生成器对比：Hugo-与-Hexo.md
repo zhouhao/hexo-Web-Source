@@ -1,6 +1,6 @@
 ---
 title: 静态网站生成器对比：Hugo 与 Hexo
-tags: [static-site-generator, Hugo, Hexo，对比]
+tags: [static-site-generator, Hugo, Hexo, 对比]
 categories: [编程人生]
 date: 2025-05-28 13:31:04
 ---
