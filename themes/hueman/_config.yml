@@ -9,7 +9,6 @@ menu:
   # Delete this row if you don't want categories in your header nav bar
   Categories:
   LeetCode: /leetcode/
-  About: /about/
 
 # Article list grouped by year
 groupByYear: false
@@ -32,6 +31,7 @@ social_links:
   rss: /atom.xml
 widgets:
 - google_translate
+- about
 - recent_posts
 - tagcloud
 - category
@@ -51,6 +51,11 @@ mermaid:
   enable: true  # default true
   options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
   #startOnload: true  // default true
+
+# About Widget
+about_widget:
+  avatar: /logo-salty-egg.png
+  bio: "只是湾区众多程序员中平平无奇的一位<code>靓仔</code> （我老婆封的）"
 
 # SEO
 default_og_image: /logo-salty-egg.png
