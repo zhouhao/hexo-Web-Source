@@ -1,7 +1,7 @@
 ---
 title: When git force pushed before a pull
 tags: [ git, push, recover ]
-categories: [ 编程人生, 操蛋 ]
+categories: [ 编程人生 ]
 date: 2023-07-14 16:13:35
 ---
 
