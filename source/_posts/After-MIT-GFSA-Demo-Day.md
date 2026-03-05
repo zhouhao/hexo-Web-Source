@@ -1,8 +1,8 @@
 ---
 title: After MIT GFSA Demo Day
 date: 2014-09-08 07:49:34
-tags: ["MIT GFSA"]
-categories: [编程人生, 文艺]
+tags: [MIT, GFSA, 创业]
+categories: [人生杂记]
 ---
 MIT GFSA program ended in 6th September with the Demo day, which also means this summer is over to me.
 ![MIT GFSA Demo Day](/img/mit-gfsa/demoday.png "MIT GFSA Demo Day")  
