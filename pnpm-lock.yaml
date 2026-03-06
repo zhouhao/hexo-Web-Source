@@ -17,9 +17,6 @@ importers:
       hexo-filter-mermaid-diagrams:
         specifier: ^1.0.5
         version: 1.0.5
-      hexo-generator-archive:
-        specifier: ^2.0.0
-        version: 2.0.0
       hexo-generator-category:
         specifier: ^2.0.0
         version: 2.0.0
@@ -487,10 +484,6 @@ packages:
 
   hexo-fs@4.1.3:
     resolution: {integrity: sha512-Q92zQ5PlVDouvSWFLXQoFSTLIUIODikUJs2BfAXQglyOEjN1dOQn1Z5Nimk/7GHof17R5h/uObCQLnZAjzI2tg==}
-    engines: {node: '>=14'}
-
-  hexo-generator-archive@2.0.0:
-    resolution: {integrity: sha512-KikJk7dGFbtNHOgqtLFGf5T/S8n1paGp+Gy0KfVDz+HKYhGbXOouyiZkmc3O9KrYt6ja14rmkMhq7KKGtvfehw==}
     engines: {node: '>=14'}
 
   hexo-generator-category@2.0.0:
@@ -1609,10 +1602,6 @@ snapshots:
       chokidar: 3.6.0
       graceful-fs: 4.2.11
       hexo-util: 3.3.0
-
-  hexo-generator-archive@2.0.0:
-    dependencies:
-      hexo-pagination: 3.0.0
 
   hexo-generator-category@2.0.0:
     dependencies:

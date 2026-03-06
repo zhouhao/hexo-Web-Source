@@ -25,7 +25,6 @@ url: https://hzhou.me
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
-archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 
@@ -90,12 +89,6 @@ disqus: zhouhao
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
 theme: hueman
 #exclude_generator:
-
-archive_generator:
-  per_page: 0
-  yearly: false
-  monthly: false
-  daily: false
 
 plugins:
 
