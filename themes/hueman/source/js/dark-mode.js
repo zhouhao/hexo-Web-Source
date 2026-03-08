@@ -15,13 +15,17 @@
     try {
       window.mermaid.initialize({ theme: theme === 'dark' ? 'dark' : 'forest' });
       var els = document.querySelectorAll('pre.mermaid');
+      var hasWork = false;
       for (var i = 0; i < els.length; i++) {
-        if (els[i].getAttribute('data-processed') === 'true') {
+        var source = els[i].getAttribute('data-mermaid-source');
+        if (source) {
           els[i].removeAttribute('data-processed');
+          els[i].innerHTML = source;
+          hasWork = true;
         }
       }
-      if (els.length > 0) {
-        window.mermaid.init(undefined, els);
+      if (hasWork) {
+        window.mermaid.run();
       }
     } catch (e) {}
   }
