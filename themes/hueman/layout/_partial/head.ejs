@@ -109,6 +109,9 @@ if (is_post() || is_page()) {
     <link rel="icon" href="<%- url_for(theme.favicon) %>">
   <% } %>
 
+  <script>
+    (function(){var s=localStorage.getItem('theme-preference');if(s==='dark'||((!s)&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)){document.documentElement.setAttribute('data-theme','dark')}})();
+  </script>
   <%- css('css/style') %>
   <% if (theme.fancybox){ %>
     <%- css('fancybox/jquery.fancybox') %>

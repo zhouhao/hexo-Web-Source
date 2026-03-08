@@ -1,0 +1,368 @@
+// ============================================================================
+// Dark Mode Overrides
+// Uses [data-theme="dark"] on <html> to scope all dark styles.
+// All light-mode styles remain untouched — this file only adds overrides.
+// ============================================================================
+
+[data-theme="dark"]
+  // --- Global ---
+  background: #121212
+  color: #d4d4d4
+
+  // Selection
+  ::selection
+    background: darken(color-link, 20%)
+
+  // --- Body & Main Layout ---
+  .main-body
+    background-color: #1e1e1e
+
+  .main-body-inner
+    box-shadow: none
+    background-image: none
+
+  #main
+    .main-body-header
+      background: #1e1e1e
+      border-bottom-color: #2a2a2a
+      color: #ccc
+
+  // --- Header ---
+  #header-title
+    background: #1a1a1e
+
+  // --- Nav (already dark, minor tweaks) ---
+  .nav-container
+    background: #1f2125
+    box-shadow: none
+
+  // --- Search Overlay ---
+  .search-overlay-inner
+    background: #252525
+    box-shadow: 0 16px 70px rgba(0, 0, 0, 0.6)
+
+  .search-overlay-header
+    border-bottom-color: #333
+
+  .search-overlay-input
+    color: #ddd
+    &::placeholder
+      color: #666
+
+  .search-overlay-close
+    color: #888
+    &:hover
+      color: #ddd
+
+  .search-overlay-hint
+    color: #888
+    border-bottom-color: #333
+    kbd
+      background: #333
+      border-color: #444
+      color: #bbb
+
+  .search-result-link
+    color: #ccc
+    &:hover
+      background: #2a2a2a
+
+  .search-result-title
+    color: #e0e0e0
+
+  .search-result-snippet
+    color: #999
+
+  .search-keyword
+    background: rgba(66, 185, 131, 0.2)
+
+  .search-empty
+    color: #888
+
+  .search-more
+    color: #888
+    border-top-color: #333
+
+  // --- Article List (index page) ---
+  .article-row
+    border-bottom-color: #2a2a2a
+
+  .article-summary
+    .article-summary-inner
+      .thumbnail
+        box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5)
+      .article-title a
+        color: #ddd
+      .article-excerpt
+        color: #999
+
+  .article-meta p
+    color: #666
+
+  .article-category
+    color: #666
+    text-shadow: none
+
+  // --- Single Article ---
+  .article-entry
+    color: #d4d4d4
+    blockquote
+      color: #bbb
+    table
+      th
+        border-bottom-color: #444
+      td
+        border-color: #333
+    // Inline code
+    code
+      background: #2d2d2d
+      color: #e0a060
+      text-shadow: none
+    // Code blocks (keep dark — already dark by default, but unify borders)
+    pre
+      border-color: #333
+    .highlight
+      border-color: #333
+    // Scrolling images
+    .scrollLoading
+      box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5)
+    // Tip/Warn/Error boxes
+    .box-tip
+      color: #6ec98f
+      background-color: rgba(21, 87, 36, 0.3)
+      border-color: rgba(195, 230, 203, 0.2)
+    .box-warn
+      color: #f0a63c
+      background-color: rgba(239, 141, 30, 0.15)
+      border-color: rgba(239, 235, 215, 0.2)
+    .box-error
+      color: #f56068
+      background-color: rgba(243, 13, 39, 0.15)
+      border-color: rgba(229, 111, 178, 0.2)
+    // Mermaid
+    pre.mermaid
+      background-color: #2d2d2d
+      border-color: #333
+
+  .article-title
+    color: #ddd
+
+  .article-more-link a
+    background: #2a2a2a
+    color: #aaa
+    text-shadow: none
+    &:hover
+      background: color-link
+      color: #fff
+
+  .article-footer
+    border-top-color: #333
+    a
+      color: #888
+      &:hover
+        color: #ddd
+
+  .article-share-box
+    background: #252525
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5)
+
+  .article-share-input
+    color: #ddd
+    border-color: #444
+
+  .article-share-links
+    background: #2a2a2a
+
+  // --- Archive ---
+  .archive-year-wrap
+    color: #ccc
+    border-bottom-color: #2a2a2a
+
+  .archive-article-title
+    color: #ddd
+
+  .archive-article-date
+    color: #888
+
+  #page-nav
+    .page-number,
+    .extend
+      border-bottom-color: #444
+      border-top-color: #2a2a2a
+      &:hover,
+      &:active,
+      &.current
+        color: #ddd
+        border-top-color: #2a2a2a
+    .space
+      color: #444
+
+  // --- Sidebar ---
+  #sidebar
+    .sidebar-top
+      background: #2a6a9a
+
+  .widget-wrap
+    background: transparent
+
+  .widget
+    color: #aaa
+    a
+      color: #aaa
+      &:hover
+        color: #ddd
+
+  .widget-list
+    ul, ol
+      li
+        border-bottom-color: #2a2a2a
+        a
+          color: #aaa
+          &:before
+            color: #555
+          &:hover:before
+            color: #ddd
+
+  #recent-post
+    li
+      border-bottom-color: #333
+    .item-inner
+      .item-title a
+        color: #ddd
+      .item-date
+        color: #666
+    li:hover
+      .item-title a
+        color: color-link
+
+  .category-list-count,
+  .tag-list-count,
+  .archive-list-count
+    color: #666
+
+  // Google Translate widget
+  .google-translate-widget .gt-selector
+    background-color: #252525
+    color: #ddd
+    border-color: #444
+
+  // --- Article Nav (prev/next) ---
+  .article-nav-link-wrap
+    color: #888
+    border-bottom-color: #333
+    .icon
+      color: #555
+    &:hover
+      background: rgba(255, 255, 255, 0.03)
+      .icon
+        color: color-link
+
+  .article-nav-title
+    color: #aaa
+
+  // --- Footer (already dark, minor tweaks) ---
+  #footer
+    .credit
+      background: #1a1a1e
+    #back-to-top
+      background: #1a1a1e
+      box-shadow: none
+      &:hover
+        color: #ddd
+
+  // --- Admonition ---
+  .admonition
+    background-color: #1e1e1e
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.2), 0 0 0.05rem rgba(0, 0, 0, 0.3)
+
+  // --- Mobile sidebar toggle ---
+  .sidebar-toggle
+    .toggle
+      color: rgba(255, 255, 255, 0.8)
+
+  // --- Misc ---
+  .caption
+    color: #888
+
+  // DataTables dark override
+  .dataTables_wrapper
+    color: #ccc
+    .dataTables_length,
+    .dataTables_filter,
+    .dataTables_info,
+    .dataTables_paginate
+      color: #aaa
+    input, select
+      background: #2a2a2a
+      color: #ddd
+      border-color: #444
+    table.dataTable
+      border-color: #333
+      thead th, thead td
+        border-bottom-color: #444
+      tbody tr
+        background-color: #1e1e1e
+        &.odd
+          background-color: #232323
+      tbody td
+        border-color: #333
+
+  // Fancybox overlay
+  .fancybox-overlay
+    background: rgba(0, 0, 0, 0.85)
+
+  // --- Dark Mode Toggle Button ---
+  .dark-mode-toggle
+    color: rgba(255, 255, 255, 0.7)
+    &:hover
+      color: #fff
+      background: rgba(255, 255, 255, 0.1)
+
+// ============================================================================
+// Dark Mode Toggle Button Styles (always visible, not scoped to dark)
+// ============================================================================
+.dark-mode-toggle
+  display: inline-block
+  background: none
+  border: none
+  cursor: pointer
+  padding: 14px 12px
+  font-size: 18px
+  line-height: 20px
+  color: rgba(255, 255, 255, 0.7)
+  transition: color 0.2s ease, background 0.2s ease
+  vertical-align: middle
+  &:hover
+    color: #fff
+    background: rgba(0, 0, 0, 0.1)
+  .icon-sun,
+  .icon-moon
+    display: none
+  // Show moon by default (light mode)
+  .icon-moon
+    display: inline
+  // In dark mode, show sun instead
+  [data-theme="dark"] &
+    .icon-moon
+      display: none
+    .icon-sun
+      display: inline
+
+// Smooth transition on theme switch
+body,
+.main-body,
+.main-body-inner,
+#main .main-body-header,
+.article-entry,
+.article-title,
+.article-summary .article-summary-inner .article-title a,
+.widget,
+.widget a,
+#sidebar .sidebar-top,
+#footer .credit,
+#footer #back-to-top,
+.search-overlay-inner,
+.admonition,
+.article-nav-link-wrap,
+.article-footer a
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease
