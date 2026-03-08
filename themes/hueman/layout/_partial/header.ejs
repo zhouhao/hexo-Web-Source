@@ -24,13 +24,13 @@
               <% }} %>
             </ul>
             <nav id="sub-nav">
+              <div id="search-form-wrap">
+                <%- partial('_widget/search') %>
+              </div>
               <button id="dark-mode-toggle" class="dark-mode-toggle" type="button" aria-label="Toggle dark mode">
                 <span class="icon-moon">&#9789;</span>
                 <span class="icon-sun">&#9788;</span>
               </button>
-              <div id="search-form-wrap">
-                <%- partial('_widget/search') %>
-              </div>
             </nav>
           </div>
         </div>

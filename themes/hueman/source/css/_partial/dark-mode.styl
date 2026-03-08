@@ -324,17 +324,19 @@
 // ============================================================================
 // Dark Mode Toggle Button Styles (always visible, not scoped to dark)
 // ============================================================================
+#sub-nav
+  display: flex
+  align-items: center
+
 .dark-mode-toggle
-  display: inline-block
   background: none
   border: none
   cursor: pointer
-  padding: 14px 12px
+  padding: 15px 12px
   font-size: 18px
   line-height: 20px
   color: rgba(255, 255, 255, 0.7)
   transition: color 0.2s ease, background 0.2s ease
-  vertical-align: middle
   &:hover
     color: #fff
     background: rgba(0, 0, 0, 0.1)
