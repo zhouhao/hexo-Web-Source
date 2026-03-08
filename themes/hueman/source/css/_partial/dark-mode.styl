@@ -143,6 +143,21 @@
     pre.mermaid
       background-color: #2d2d2d
       border-color: #333
+      &:hover
+        box-shadow: 0 2px 12px rgba(0,0,0,0.4)
+      &:after
+        color: #888
+
+  // Mermaid maximize overlay (dark)
+  .mermaid-overlay
+    .mermaid-overlay-content
+      background: #1e1e1e
+      box-shadow: 0 8px 40px rgba(0,0,0,0.6)
+    .mermaid-overlay-close
+      background: rgba(255,255,255,0.1)
+      color: #ccc
+      &:hover
+        background: rgba(255,255,255,0.2)
 
   .article-title
     color: #ddd

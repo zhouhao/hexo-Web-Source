@@ -55,6 +55,72 @@
       }
     }
     mermaid.run();
+
+    // Mermaid maximize preview
+    function openMermaidOverlay(sourceEl) {
+      var source = sourceEl.getAttribute('data-mermaid-source');
+      if (!source) return;
+
+      var overlay = document.createElement('div');
+      overlay.className = 'mermaid-overlay';
+
+      var backdrop = document.createElement('div');
+      backdrop.className = 'mermaid-overlay-backdrop';
+
+      var content = document.createElement('div');
+      content.className = 'mermaid-overlay-content';
+
+      var closeBtn = document.createElement('button');
+      closeBtn.className = 'mermaid-overlay-close';
+      closeBtn.innerHTML = '&#x2715;';
+      closeBtn.setAttribute('aria-label', 'Close');
+
+      var pre = document.createElement('pre');
+      pre.className = 'mermaid';
+      pre.textContent = source;
+
+      content.appendChild(closeBtn);
+      content.appendChild(pre);
+      overlay.appendChild(backdrop);
+      overlay.appendChild(content);
+      document.body.appendChild(overlay);
+      document.body.style.overflow = 'hidden';
+
+      var currentTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'forest';
+      mermaid.initialize({ startOnLoad: false, theme: currentTheme });
+      mermaid.run({ nodes: [pre] }).then(function() {
+        var svg = pre.querySelector('svg');
+        if (svg) {
+          svg.removeAttribute('width');
+          svg.removeAttribute('height');
+          svg.style.maxWidth = '100%';
+          svg.style.height = 'auto';
+        }
+      });
+
+      requestAnimationFrame(function() {
+        overlay.classList.add('active');
+      });
+
+      function close() {
+        overlay.classList.remove('active');
+        setTimeout(function() {
+          document.body.removeChild(overlay);
+          document.body.style.overflow = '';
+        }, 250);
+      }
+
+      backdrop.addEventListener('click', close);
+      closeBtn.addEventListener('click', function(e) { e.stopPropagation(); close(); });
+      overlay.addEventListener('keydown', function(e) { if (e.key === 'Escape') close(); });
+      overlay.setAttribute('tabindex', '-1');
+      overlay.focus();
+    }
+
+    els = document.querySelectorAll('.article-entry pre.mermaid');
+    for (var j = 0; j < els.length; j++) {
+      els[j].addEventListener('click', function() { openMermaidOverlay(this); });
+    }
   })();
 </script>
 <% } %>
