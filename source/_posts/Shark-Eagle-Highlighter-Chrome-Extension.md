@@ -4,7 +4,6 @@ tags: [ Chrome Extensio ]
 categories: [ 编程人生, Chrome Extension ]
 date: 2026-02-17 23:19:49
 ---
-# 鲨雕高亮 (Shark Eagle Highlighter)：打造您的网页知识库
 
 在信息爆炸的时代，我们每天都会在浏览器中阅读大量的文章、文档和教程。然而，网页内容往往是瞬态的，关闭标签页后，那些触动我们的文字便难以寻觅。为了解决这一痛点，我开发了 **鲨雕高亮 (Shark Eagle Highlighter)** —— 一款基于 Chrome Manifest V3 架构的开源网页高亮插件，旨在帮助用户持久化记录网页灵感，构建个人知识库。
 <!-- more -->
