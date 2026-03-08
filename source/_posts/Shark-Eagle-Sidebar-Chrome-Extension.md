@@ -5,10 +5,10 @@ categories: [ 编程人生, Chrome Extension ]
 date: 2026-03-08 01:19:49
 ---
 
-浏览器自带的书签管理器臃肿、层级深、操作繁琐。你只是想快速打开几个常用网站，却要经历 "点击书签栏 → 展开文件夹 → 找到目标" 这三步曲。**Shark Eagle Sidebar** 的答案很简单：一个 60px 宽的侧边栏，按住 Alt 键呼出，松手即隐——就像桌面 Dock 一样自然。
+浏览器自带的书签管理器臃肿、层级深、操作繁琐。你只是想快速打开几个常用网站，却要经历 "点击书签栏 → 展开文件夹 → 找到目标" 这三步曲。**[Shark Eagle Sidebar(鲨雕侧边栏)](https://chromewebstore.google.com/detail/shark-eagle-sidebar/afglnkmlbipmcepinaodkjifnajlmmka)** 的答案很简单：一个 60px 宽的侧边栏，按住 Alt 键呼出，松手即隐——就像桌面 Dock 一样自然。
 <!-- more -->
 
-本文将从用户体验、技术架构和核心实现三个维度，带你深入了解这款 Chrome Extension。
+这是我自己开发的一个 Chrome Extension，我讲将从用户体验、技术架构和核心实现三个维度简单介绍一下。
 
 ## 核心功能一览
 
@@ -213,8 +213,8 @@ stateDiagram-v2
 ```mermaid
 quadrantChart
     title 书签管理工具对比
-    x-axis 操作复杂度低 --> 操作复杂度高
-    y-axis 功能简单 --> 功能丰富
+    x-axis "操作复杂度低" --> "操作复杂度高"
+    y-axis "功能简单" --> "功能丰富"
     quadrant-1 "功能过剩"
     quadrant-2 "理想区域"
     quadrant-3 "极简工具"
@@ -251,9 +251,6 @@ pnpm zip          # 打包为可分发的 zip 文件
 整个项目依赖极少（仅 React 18 + WXT），构建产物轻量且快速。
 
 ## 写在最后
-
-Shark Eagle Sidebar 证明了一个观点：**好的工具不在于功能多，而在于摩擦少**。一个 60px 的侧边栏、一个 Alt 键、几个 Favicon 图标——这就是书签管理的全部。没有文件夹层级，没有标签分类，没有搜索框。它不试图取代你的浏览器书签系统，只是在你最常用的那几个网站和你之间，搭了一座最短的桥。
-
 如果你也厌倦了臃肿的书签管理器，不妨试试这个只有 60 像素宽的小工具。
 
 *项目地址: [github.com/SharkEagleUS/shark-eagle-sidebar](https://github.com/SharkEagleUS/shark-eagle-sidebar) | 基于 MIT 协议开源*
