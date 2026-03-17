@@ -96,7 +96,7 @@ flowchart TB
         OSS["对象存储<br/>图片/视频"]
     end
     
-    subgraph RTC["实时通信"]
+    subgraph RTC_Sub["实时通信"]
         RTC["音视频服务<br/>WebRTC"]
     end
     
