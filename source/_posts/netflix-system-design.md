@@ -98,42 +98,52 @@ flowchart TB
 
 ### 2.2 分层架构
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                        客户端层                              │
-│   iOS / Android / Smart TV / Web / 游戏机                  │
-└──────────────────────────┬──────────────────────────────────┘
-                           │
-┌──────────────────────────▼──────────────────────────────────┐
-│                        边缘层 (Edge)                         │
-│   ┌─────────────┐  ┌─────────────┐  ┌─────────────┐        │
-│   │  CDN       │  │  DNS        │  │  API Gateway │        │
-│   │  (Open     │  │  (Route53)  │  │  (Zuul)     │        │
-│   │   Connect) │  │             │  │             │        │
-│   └─────────────┘  └─────────────┘  └─────────────┘        │
-└──────────────────────────┬──────────────────────────────────┘
-                           │
-┌──────────────────────────▼──────────────────────────────────┐
-│                        服务层                                │
-│   ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐           │
-│   │ 播放服务 │  │ 用户服务 │  │ 推荐服务 │  │ 搜索服务 │           │
-│   └────────┘  └────────┘  └────────┘  └────────┘           │
-│   ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐           │
-│   │ 支付服务 │  │ 账单服务 │  │ 消息服务 │  │ 设备服务 │           │
-│   └────────┘  └────────┘  └────────┘  └────────┘           │
-└──────────────────────────┬──────────────────────────────────┘
-                           │
-┌──────────────────────────▼──────────────────────────────────┐
-│                        数据层                                │
-│   ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐           │
-│   │ Video  │  │ User   │  │ Search │  │ Play   │           │
-│   │ Storage│  │ Data   │  │ Index  │  │ History│           │
-│   │ (S3)   │  │(Cassandra)│(Elasticsearch)│(DynamoDB)│   │
-│   └────────┘  └────────┘  └────────┘  └────────┘           │
-│   ┌─────────────────────────────────────────────────┐        │
-│   │              缓存层 (EVCache / Redis)           │        │
-│   └─────────────────────────────────────────────────┘        │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph ClientLayer["客户端层"]
+        App["iOS / Android / Smart TV / Web / 游戏机"]
+    end
+
+    subgraph EdgeLayer["边缘层 (Edge)"]
+        direction LR
+        CDN["CDN (Open Connect)"]
+        DNS["DNS (Route53)"]
+        Gateway["API Gateway (Zuul)"]
+    end
+
+    subgraph ServiceLayer["服务层"]
+        direction TB
+        subgraph S1[" "]
+            direction LR
+            PlaySvc["播放服务"]
+            UserSvc["用户服务"]
+            RecSvc["推荐服务"]
+            SearchSvc["搜索服务"]
+        end
+        subgraph S2[" "]
+            direction LR
+            PaySvc["支付服务"]
+            BillSvc["账单服务"]
+            MsgSvc["消息服务"]
+            DeviceSvc["设备服务"]
+        end
+    end
+
+    subgraph DataLayer["数据层"]
+        direction TB
+        subgraph Storage["存储"]
+            direction LR
+            S3["Video Storage (S3)"]
+            Cassandra["User Data (Cassandra)"]
+            ES["Search Index (Elasticsearch)"]
+            Dynamo["Play History (DynamoDB)"]
+        end
+        Cache["缓存层 (EVCache / Redis)"]
+    end
+
+    ClientLayer --> EdgeLayer
+    EdgeLayer --> ServiceLayer
+    ServiceLayer --> DataLayer
 ```
 
 ## 三、核心模块设计
